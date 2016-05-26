@@ -1,0 +1,6 @@
+@article{zhang2013spatial,
+  title={Spatial-Spectral Boosting Analysis for Stroke Patients' Motor Imagery EEG in Rehabilitation Training},
+  author={Zhang, Hao and Zhang, Liqing},
+  journal={arXiv preprint arXiv:1310.6288},
+  year={2013}
+}

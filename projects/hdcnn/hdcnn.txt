@@ -1,0 +1,7 @@
+@inproceedings{yan2015hd,
+  title={HD-CNN: Hierarchical Deep Convolutional Neural Networks for Large Scale Visual Recognition},
+  author={Yan, Zhicheng and Zhang, Hao and Piramuthu, Robinson and Jagadeesh, Vignesh and DeCoste, Dennis and Di, Wei and Yu, Yizhou},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={2740--2748},
+  year={2015}
+}
