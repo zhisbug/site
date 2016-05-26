@@ -1,6 +1,0 @@
- @article{zhang2015poseidon, 
-  title={Poseidon: A System Architecture for Efficient GPU-based Deep Learning on Multiple Machines}, 
-  author={Zhang, Hao and Hu, Zhiting and Wei, Jinliang and Xie, Pengtao and Kim, Gunhee and Ho, Qirong and Xing, Eric}, 
-  journal={arXiv preprint arXiv:1512.06216}, 
-  year={2015} 
-}
