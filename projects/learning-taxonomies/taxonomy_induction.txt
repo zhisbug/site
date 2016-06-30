@@ -1,0 +1,6 @@
+@inproceedings{zhang2016learning,
+  title={Learning Concept Taxonomies from Multi-modal Data},
+  author={Zhang, Hao and Hu, Zhiting and Deng, Yuntian and Sachan, Mrinmaya and Yan, Zhicheng and Xing, Eric P.},
+  booktitle={The Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year={2016}
+}
