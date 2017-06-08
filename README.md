@@ -1,2 +1,2 @@
-# hao_zhang_site
+# Hao Zhang
 Hao Zhang's personal website
