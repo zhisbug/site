@@ -1,6 +1,0 @@
-@article{yan2016combining,
-  title={Combining the Best of Convolutional Layers and Recurrent Layers: A Hybrid Network for Semantic Segmentation},
-  author={Yan, Zhicheng and Zhang, Hao and Jia, Yangqing and Breuel, Thomas and Yu, Yizhou},
-  journal={arXiv preprint arXiv:1603.04871},
-  year={2016}
-}

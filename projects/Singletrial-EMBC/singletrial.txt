@@ -1,8 +1,0 @@
-@inproceedings{liu2013single,
-  title={Single-trial discrimination of EEG signals for stroke patients: a general multi-way analysis},
-  author={Liu, Ye and Li, Mingfen and Zhang, Hao and Li, Junhua and Jia, Jie and Wu, Yi and Cao, Jianting and Zhang, Liqing},
-  booktitle={Engineering in Medicine and Biology Society (EMBC), 2013 35th Annual International Conference of the IEEE},
-  pages={2204--2207},
-  year={2013},
-  organization={IEEE}
-}

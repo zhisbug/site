@@ -1,6 +1,0 @@
-@article{yan2014automatic,
-  title={Automatic Photo Adjustment Using Deep Learning},
-  author={Yan, Zhicheng and Zhang, Hao and Wang, Baoyuan and Paris, Sylvain and Yu, Yizhou},
-  journal={arXiv preprint arXiv:1412.7725},
-  year={2014}
-}

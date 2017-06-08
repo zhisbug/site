@@ -1,8 +1,0 @@
-@inproceedings{zhang2013gaussian,
-  title={Gaussian mixture modeling in stroke patients' rehabilitation EEG data analysis},
-  author={Zhang, Hao and Liu, Ye and Liang, Jianyi and Cao, Jianting and Zhang, Liqing},
-  booktitle={Engineering in Medicine and Biology Society (EMBC), 2013 35th Annual International Conference of the IEEE},
-  pages={2208--2211},
-  year={2013},
-  organization={IEEE}
-}
