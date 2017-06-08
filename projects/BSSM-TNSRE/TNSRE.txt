@@ -1,7 +1,0 @@
-@article{liu2015boosting,
-  title={A Boosting-Based Spatial-Spectral Model for Stroke Patients' EEG Analysis in Rehabilitation Training},
-  author={Liu, Ye and Zhang, Hao and Chen, Min and Zhang, Liqing},
-  year={2015},
-  publisher={IEEE},
-  journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}
-}

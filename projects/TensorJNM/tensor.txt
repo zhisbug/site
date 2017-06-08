@@ -1,9 +1,0 @@
-@article{liu2014tensor,
-  title={A tensor-based scheme for stroke patients¡¯ motor imagery EEG analysis in BCI-FES rehabilitation training},
-  author={Liu, Ye and Li, Mingfen and Zhang, Hao and Wang, Hang and Li, Junhua and Jia, Jie and Wu, Yi and Zhang, Liqing},
-  journal={Journal of neuroscience methods},
-  volume={222},
-  pages={238--249},
-  year={2014},
-  publisher={Elsevier}
-}
