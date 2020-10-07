@@ -1,4 +1,6 @@
-header{width:100%;height:60px;margin-top:0px;text-align:center;background-color:#8C1515;position:fixed}
+/* header{width:100%;height:60px;margin-top:0px;text-align:center;background-color:#8C1515;position:fixed} */
+header{width:100%;height:60px;margin-top:0px;text-align:center;background-color:#003262;position:fixed}
+/* header{width:100%;height:60px;margin-top:0px;text-align:center;background-color:##0f33b5;position:fixed} */
 body{margin:auto;padding:0;color:#000;-webkit-transition:all;-moz-transition:all;-ms-transition:all;-o-transition:all;transition:all;font-family:"Open Sans",
 Segoe,"Segoe UI",
 "Lucida Sans Unicode","Lucida Grande",
@@ -8,24 +10,26 @@ table{border-collapse:collapse;vertical-align:middle}
 a img{border:none}
 ul,ol,dl{margin:0;padding:5px 10px 30px 30px}
 div.title,h1,h2,h3,h4,h5,h6{font-weight:bolder;}
-img.img_responsive{max-width:100%;height:auto;display:block}
+img.teaser{max-width:100%;height:auto;display:block}
 div.container a:link,
-div.container a:visited{color:#820000;text-decoration:none}
+/* div.container a:visited{color:#820000;text-decoration:none} */
+div.container a:visited{color:#0f33b5;text-decoration:none}
 div.ftheader a:link,
 div.ftheader a:visited,
 div.ftsubheader a:link,
 div.ftsubheader a:visited{color:#FFFFFF;text-decoration:none}
 
 div.authors{color: #4a4a4a;}
-div.authors a:link,
+/* div.authors a:link, */
 div.authors a:visited{color: #4a4a4a;}
 div.content a:hover,
 div.content a:hover div.text,
 div.ftsubheader a:hover{text-decoration:underline}
-div.title{font-weight: bolder;}
+div.title{font-weight: bolder; color: #003262;}
+div.title a:hover
 div.title a:hover{text-decoration:none}
 span.hz{text-decoration:underline}
-div.header,div.container,div.content,div.img,div.text,div.topic{display:inline-block;zoom:1;display*:inline;text-align:justify;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:980px}
+div.header,div.container,div.content,div.img,div.text,div.topic{display:inline-block;zoom:1;text-align:justify;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:980px}
 div.header,div.container{min-width:320px}
 div.topic,div.outercontainer,div.project_headline,div.project_title{text-align:center}
 div.img,div.text{padding-left:10px;padding-right:10px}
@@ -39,19 +43,22 @@ div.body{margin-top:60px}
 div.container,div.content{width:100%}
 div.heading div.img{padding:30px 80px 30px 10px}
 div.heading div.img img{width:500px}
+div.pubtext{padding-left:10px;padding-right:10px}
+
 div.publication{padding-top:0px;padding-bottom:40px}
-div.publication div.img{max-width:350px}
-div.publication div.text{max-width:510px;text-align:left}
+div.publication div.img{max-width:300px;padding-right:0px;padding-top:5px}
+div.publication div.text{max-width:700px;text-align:left;vertical-align:top}
+
 span.venue,span.tag{padding-right:8px}
-span.venue{color: #4a4a4a;}
+span.venue{color: #000000; font-weight: bolder;}
 div.heading span.tag{padding-right:15px}
 div.anchor{border-top:60px solid transparent;margin-top:-80px}
 
-table.publications{width:980px; border-collapse: collapse;}
+/* table.publications{width:980; border-collapse; border-top:60px}
 table.publications td.spotlight{width:400px; padding-top: 1.5em; padding-bottom: 1.5em;}
-table.publications td.content{width:500px; padding-top: 1.5em; padding-bottom: 1.5em;}
+table.publications td.content{width:500px; padding-top: 1.5em; padding-bottom: 1.5em;} */
 
-/*table.publications td.content div.title a:visited{font-size: 18px; color: #900;}*/
+/* table.publications td.content div.title a:visited{font-size: 18px; color: #900;} */
 
 
 @media only screen and (max-width: 599px) {
