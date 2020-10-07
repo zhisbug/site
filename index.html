@@ -30,7 +30,7 @@
         <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#bio">Bio</a></div>         
         <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#publications">Publications</a></div>
         <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#software">Software</a></div>
-        <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#work">Working</a></div>
+        <!-- <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#work">Working</a></div> -->
         <div class="ftsubheader text"><a href="https://cs.cmu.edu/~hzhang2/#teaching">Teaching</a></div>
         </div>
       </header>
@@ -43,7 +43,7 @@
           <div class="img"><img class="img_responsive" src="files/Hao-Petuum.jpg" alt="Photo"></div>
           <div class="text" style="margin-right: 100px">
             <b><span style="font-size:22.0pt;">Hao Zhang</span></b><br /><br />
-            Ph.D. Student <br />
+            Ph.D. <br />
             <a href="http://www.ri.cmu.edu/" target="_blank">The Robotics Institute</a><br />
             <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a><br />
             <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a><br />
@@ -63,23 +63,35 @@
           <div class="text">
             <h3>Bio</h3>
             <p>
-            I am currently a final-year Ph.D. student in the Robotics Institute, Carnegie Mellon University. My advisor is <a href="http://cs.cmu.edu/~epxing/" target="_blank">Prof. Eric Xing</a>.
+            I will be moving to <a href="https://rise.cs.berkeley.edu/" target="_blank">RISE Lab</a> at the University of California, Berkeley as a postdoctoral scholar working with <a href="https://people.eecs.berkeley.edu/~istoica/" target="_blank">
+            Prof. Ion Stoica</a>.
             </p>
             <p>
-            My research interest is majorly in scalable machine learning, deep learning, and large-scale ML applications in computer vision and natural language processing. 
+            My most recent project is building an end-to-end automated compiler stack for large-scale distributed ML.
+            The two most relevant projects are: <a href="https://github.com/petuum/autodist/" target="_blank">AutoDist</a> for automatic ML parallelization, and <a href="https://github.com/petuum/adaptdl" target="_blank">AdaptDL</a> for co-adaptive ML job scheduling.
+            </p>
+            <p>
+            My general research interest is in scalable machine learning, deep learning, and large-scale ML applications in computer vision and natural language processing. 
 
-            I co-design models, algorithms, and systems toscale out ML to larger data, problems and applications, to ease the prototyping of complex ML models and algorithms, and to automate the distribution of ML programs.
+            I co-design models, algorithms, and systems to scale out ML to larger data, problems and applications, to ease the prototyping of complex ML models and algorithms, and to automate the distribution of ML programs.
             </p>
+
             <p>
-            Several of my works including <a href="http://poseidon-release.readthedocs.io/en/latest/" target="_blank">Poseidon</a>, <a href="https://arxiv.org/abs/1712.04048" target="_blank">Cavs</a>, and <a href="https://github.com/cuihenggang/geeps" target="_blank">GeePS</a>, 
-            are parts of the <a href="https://github.com/sailing-pmls" target="_blank">Petuum project</a>, and now being commercialized at the Pittsburgh-based startup <a href="https://petuum.com/platform/" target="_blank">Petuum Inc</a>. 
+              I completed my Ph.D. in the Robotics Institute, Carnegie Mellon University. My advisor was <a href="http://cs.cmu.edu/~epxing/" target="_blank">Prof. Eric Xing</a>.
+              My Ph.D. thesis is <a href="files/hao_zhang_doctoral_dissertation.pdf" target="_blank">Machine Learning Parallelism Could Be Adaptive, Composable and Automated</a>.
+              Several of my Ph.D. works including <a href="http://poseidon-release.readthedocs.io/en/latest/" target="_blank">Poseidon</a>, <a href="https://github.com/zhisbug/Cavs" target="_blank">Cavs</a>, and <a href="https://github.com/cuihenggang/geeps" target="_blank">GeePS</a>, 
+              are parts of the <a href="https://github.com/sailing-pmls" target="_blank">Petuum project</a>, and now being commercialized at the Pittsburgh-based startup <a href="https://petuum.com/platform/" target="_blank">Petuum Inc</a>. 
+              </p>
+
+            <p>
+              <b>News:</b> 
+
+              <li>I defended my Ph.D. on September 2, 2020! Check out my <a href="files/hao_zhang_doctoral_dissertation.pdf" target="_blank">Ph.D. dissertation</a>.</li> 
+              <li>I am recently working on AutoDist (formally Arion). We open-sourced AutoDist this July, checkout the <a href="https://github.com/petuum/autodist/" target="_blank">AutoDist Code</a>!</li>
+              <li>I open-sourced the <a href="https://github.com/zhisbug/Cavs" target="_blank">Cavs Code</a>, check it out!
+
+              <li>My most recent project is Arion. Checkout my <a href="https://icml.cc/ExpoConferences/2019/schedule?talk_id=13" target="_blank">EXPO talk at ICML'19</a>.</li>
             </p>
-            <p>
-              <b>News:</b> My most recent project is Arion. Checkout my recent <a href="https://icml.cc/ExpoConferences/2019/schedule?talk_id=13" target="_blank">EXPO talk at ICML'19</a>.
-            </p>
-            <p>
-            Please check out <a href="files/cv.pdf" target="_blank">my CV</a> for latest information.
-          </p> 
             
           </div>
         </div>
@@ -88,482 +100,414 @@
       <div class="text">
         <h3>
           Publications
+          <!-- (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> / 
+          <a href="" id="select1" onclick="showPubs(1); return false;">By date</a> / 
+          <a href="" id="select2" onclick="showPubs(2); return false;">show all by topic</a>) -->
         </h3>
       </div>
 
-    <table class="publications"> <br/>
-      <tbody>
-          <tr>
+      <div class="publication">
+        <!-- <div class="img"><img class=teaser src=""></div> -->
+        <div class="text">
+          <div class="title">
+            <a href="files/hao_zhang_doctoral_dissertation.pdf" target="_blank">Machine Learning Parallelism Could Be Adaptive, Composable and Automated</a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>
+          </div>
+          <div><span class="venue">CMU Ph.D. Dissertation 2020</span></div>
+          <!-- <a class="pub-buttons" href="https://github.com/petuum/autodist" target="_blank"><i class="fab fa-github"></i>code</a>    -->
+        </div>
+      </div>
 
-          </tr>
-        <tr>
-          <td class="spotlight">
-            <img src="projects/autoloss/autoloss.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">AutoLoss: Learning Discrete Schedules for Alternate Optimization</div>
+
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="" target="_blank">AutoDist: A Composable and Automated Synchronization System for Distributed Deep Learning</a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>, Peng Wu, Christy Li, Zhijie Deng, Aurick Qiao, Zeya Wang, Qirong Ho, Eric P. Xing
+          </div>
+          <div><span class="venue">Preprint 2020, To appear</span></div>
+          <a class="pub-buttons" href="https://github.com/petuum/autodist" target="_blank"><i class="fab fa-github"></i>code</a>   
+        </div>
+      </div>
+
+
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="" target="_blank">AutoSync: Learning to Synchronize for Data-Parallel Distributed Deep Learning</a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>, Christy Li, Zhijie Deng, Xiaodan Liang, Lawrence Carin, Eric P. Xing
+          </div>
+          <div><span class="venue">NeurIPS 2020, To appear</span></div>
+          <a class="pub-buttons" href="https://github.com/petuum/autodist/tree/master/autodist" target="_blank"><i class="fab fa-github"></i>code</a>   
+        </div>
+      </div>
+
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://openreview.net/pdf?id=BJgK6iA5KX" target="_blank">AutoLoss: Learning Discrete Schedules for Alternate Optimization</a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>*, Haowen Xu*, Zhiting Hu, Xiaodan Liang, Qirong Ho, Eric P. Xing (* indicates equal contributions)
+          </div>
+          <div><span class="venue">ICLR 2019</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1810.02442" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+          <a class="pub-buttons" href="https://github.com/safpla/AutoLossRelease" target="_blank"><i class="fab fa-github"></i>code</a>   
+        </div>
+      </div>
+ 
+      <div class="publication">
+        <div class="pubtext">
+          <!-- <img src="projects/staleness/staleness.png" width="400"> -->
+          <div class="title">
+            <a href="https://openreview.net/pdf?id=BylQV305YQ" target="_blank">
+              Toward Understanding the Impact of Staleness in Distributed Machine Learning
+            </a>
+          </div>
+          <div class="authors">Wei Dai, Yi Zhou, Nanqing Dong, <span class="hz">Hao Zhang</span>, Eric P. Xing</div>
+          <div><span class="venue">ICLR 2019</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1810.03264" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        </div>
+      </div>
+
+            <!-- <img src="projects/graph-reasoning/graph-reasoning.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions.pdf" target="_blank">
+              Symbolic Graph Reasoning Meets Convolutions
+            </a>
+          </div>
+          <div class="authors">Xiaodan Liang, Zhiting Hu, <span class="hz">Hao Zhang</span>, Liang Lin</a>, Eric P. Xing</div>
+          <div><span class="venue">NeurIPS 2018</span></div>
+        </div>
+      </div>
+
+            <!-- <img src="projects/cavs/teaser.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf" target="_blank">
+              Cavs: A Vertex-centric Programming Interface for Dynamic Neural Networks
+            </a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>*, Shizhen Xu*, Graham Neubig, Wei Dai, Qirong Ho, Guangwen Yang, Eric P. Xing (* indicates equal contributions)
+          </div>
+          <div><span class="venue">ATC 2018 (Oral), AISys@SOSP 2017, MLSys@NeurIPS 2017</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1712.04048" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
+          <a class="pub-buttons" href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_zhang_1.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a>
+          <a class="pub-buttons" href="https://github.com/zhisbug/Cavs" target="_blank"><i class="fab fa-github"></i>code</a> 
+        </div>
+      </div>
+
+            <!-- <img src="projects/semanticGAN/teaser.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Liang_Generative_Semantic_Manipulation_ECCV_2018_paper.pdf" target="_blank">
+              Generative Semantic Manipulation with Contrasting GAN
+            </a>
+          </div>
+          <div class="authors">Xiaodan Liang, <span class="hz">Hao Zhang</span>, Eric P. Xing</div>
+          <div><span class="venue">ECCV 2018</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1708.00315" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        </div>
+      </div>
+
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://arxiv.org/pdf/1703.08770.pdf" target="_blank">
+              SCAN: Structure Correcting Adversarial Network for Chest X-rays Organ Segmentation
+            </a>
+          </div>
             <div class="authors">
-              <span class="hz">Hao Zhang</span>*,
-              <a href="https://haowenxu.top/" target="_blank">Haowen Xu*</a>,
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <a href="http://www.cs.cmu.edu/~rsalakhu/" target="_blank">Ruslan Salakhutdinov</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a> (* indicates equal contributions)
+              Wei Dai, Joseph Doyle, Xiaodan Liang, <span class="hz">Hao Zhang</span>, Nanqing Dong, Yuan Li, Eric P. Xing
             </div>
-            <div><span class="venue">ICLR 2019</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1810.02442" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://openreview.net/pdf?id=BJgK6iA5KX" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://github.com/safpla/AutoLossRelease" target="_blank"><i class="fab fa-github"></i>code</a></li>    
-            </ul>
-            </td>
-        </tr>
+            <div><span class="venue">DLMIA 2018</span></div>
+            <a class="pub-buttons" href="https://arxiv.org/abs/1703.08770" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        </div>
+      </div>
 
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/staleness/staleness.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Toward Understanding the Impact of Staleness in Distributed Machine Learning</div>
-            <div class="authors">
-              <a href="https://daiwei89.github.io/" target="_blank">Wei Dai</a>,
-              <a href="https://u.osu.edu/yizhou/" target="_blank">Yi Zhou</a>,
-              Nanqing Dong,
+      <!-- <img src="projects/sgan/sgan-teaser.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://papers.nips.cc/paper/6979-structured-generative-adversarial-networks.pdf" target="_blank">Structured Generative Adversarial Networks
+            </a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>*, Zhijie Deng*, Xiaodan Liang, Luona Yang, Shizhen Xu, Jun Zhu, Eric P. Xing (* indicates equal contributions)
+          </div>
+          <div><span class="venue">NeurIPS 2017</span><font color="red">(Nvidia Pioneer Research Award!)</font></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1711.00889" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+          <a class="pub-buttons" href="https://arxiv.org/pdf/1711.00889.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a>
+          <a class="pub-buttons" href="https://github.com/thudzj/StructuredGAN" target="_blank"><i class="fab fa-github"></i>code</a>      
+        </div>
+      </div>
+
+
+            <!-- <img src="projects/Poseidonv2/teaser.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://www.usenix.org/system/files/conference/atc17/atc17-zhang.pdf" target="_blank">
+              Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters
+            </a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>, Zeyu Zheng, Shizhen Xu, Wei Dai, Qirong Ho, Xiaodan Liang, Zhiting Hu, Jinliang Wei, Pengtao Xie, Eric P. Xing
+          </div>
+          <div><span class="venue">ATC 2017 (Oral)</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1706.03292" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+          <a class="pub-buttons" href="https://www.usenix.org/sites/default/files/conference/protected-files/atc17_slides_zhang_hao.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a>    
+          <a class="pub-buttons" href="http://poseidon-release.readthedocs.io/en/latest/" target="_blank"><i class="fas fa-external-link-alt"></i>project</a>
+        </div>
+      </div>
+  
+      <div class="publication">
+        <div class="pubtext">
+          <!-- <img src="projects/rttgan/teaser.jpg" width="400"> -->
+          <div class="title">
+            <a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Liang_Recurrent_Topic-Transition_GAN_ICCV_2017_paper.pdf" target="_blank">
+              Recurrent Topic-Transition GAN for Visual Paragraph Generation
+            </a>
+          </div>
+          <div class="authors">
+            Xiaodan Liang, Zhiting Hu, <span class="hz">Hao Zhang</span>, Chuang Gan, Eric P. Xing
+          </div>
+          <div><span class="venue">ICCV 2017</span></div>
+          <a class="pub-buttons" href="https://arxiv.org/abs/1703.07022" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        </div>
+      </div>
+            <!-- <img src="projects/scan/teaser.png" width="400"> -->
+
+
+            <!-- <img src="projects/zmnet/teaser.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+            <div class="title">
+              <a href="https://arxiv.org/pdf/1703.07255.pdf" target="_blank">
+                ZM-Net: Real-time Zero-shot Image Manipulation Network
+              </a>
+            </div>
+            <div class="authors">Hao Wang, Xiaodan Liang,
               <span class="hz">Hao Zhang</span>, 
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">ICLR 2019</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1810.03264" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://arxiv.org/pdf/1810.03264.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
-
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/graph-reasoning/graph-reasoning.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Symbolic Graph Reasoning Meets Convolutions</div>
-            <div class="authors">
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              <span class="hz">Hao Zhang</span>,
-			  <a href="http://www.linliang.net/" target="_blank">Liang Lin</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">NIPS 2018</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://papers.nips.cc/paper/7456-symbolic-graph-reasoning-meets-convolutions.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/cavs/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Cavs: A Vertex-centric Programming Interface for Dynamic Neural Networks</div>
-            <div class="authors">
-              <span class="hz">Hao Zhang</span>*, 
-              Shizhen Xu*,
-              <a href="http://www.phontron.com/" target="_blank">Graham Neubig</a>,
-              <a href="https://daiwei89.github.io/" target="_blank">Wei Dai</a>,
-              <a href="https://sites.google.com/site/hoqirong/" target="_blank">Qirong Ho</a>,
-              <a href="http://www.tsinghua.edu.cn/publish/csen/4623/2010/20101224195554390212530/20101224195554390212530_.html">Guangwen Yang</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a> (* indicates equal contributions)
-            </div>
-            <div><span class="venue">ATC 2018 (Oral), AISys@SOSP'17, MLSys@NIPS'17</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1712.04048" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_zhang_1.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a></li>    
-              <!--<li><a class="pub-buttons" href="https://github.com/LearningSys/sosp17/blob/master/papers/8%5CCameraReadySubmission%5Ccavs-vertex-centric.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>SOSP'17 workshop</a></li>
-              <li><a class="pub-buttons" href="http://learningsys.org/nips17/assets/papers/paper_37.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>NIPS'17 workshop</a></li>-->
-              <!--<li><a class="pub-buttons" href="" target="_blank"><i class="fa fa-github"></i>code (comming soon)</a></li>-->
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/semanticGAN/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Generative Semantic Manipulation with Contrasting GAN</div>
-            <div class="authors">
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <span class="hz">Hao Zhang</span>, 
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">ECCV 2018</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1708.00315" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Liang_Generative_Semantic_Manipulation_ECCV_2018_paper.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
-
-          <tr>
-          <td class="spotlight">
-            <img src="projects/sgan/sgan-teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Structured Generative Adversarial Networks</div>
-            <div class="authors">
-              <span class="hz">Hao Zhang</span>*, 
-              Zhijie Deng*,
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              Luona Yang,
-              Shizhen Xu,
-              <a href="http://ml.cs.tsinghua.edu.cn/~jun/index.shtml" target="_blank">Jun Zhu</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a> (* indicates equal contributions)
-            </div>
-            <div><span class="venue">NIPS 2017</span><font color="red">(Nvidia Pioneer Research Award!)</font></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1711.00889" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://arxiv.org/pdf/1711.00889.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://github.com/thudzj/StructuredGAN" target="_blank"><i class="fab fa-github"></i>code</a></li>       
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/Poseidonv2/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Poseidon: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters</div>
-            <div class="authors">
-              <span class="hz">Hao Zhang</span>, 
-              <a href="https://hwhitetooth.github.io/" target="_blank">Zeyu Zheng</a>,
-              Shizhen Xu,
-              <a href="https://daiwei89.github.io/" target="_blank">Wei Dai</a>,
-              <a href="https://sites.google.com/site/hoqirong/" target="_blank">Qirong Ho</a>,
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              <a href="http://www.cs.cmu.edu/~jinlianw/" target="_blank">Jinliang Wei</a>, 
-              <a href="http://www.cs.cmu.edu/~pengtaox/" target="_blank">Pengtao Xie</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">ATC 2017 (Oral)</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1706.03292" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://www.usenix.org/system/files/conference/atc17/atc17-zhang.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://www.usenix.org/sites/default/files/conference/protected-files/atc17_slides_zhang_hao.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a></li>    
-              <!--<li><a class="pub-buttons" href="https://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/atc17/zhang.mp3" target="_blank"><i class="far fa-file-audio"></i>lecture audio</a></li>--> 
-              <li><a class="pub-buttons" href="http://poseidon-release.readthedocs.io/en/latest/" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>     
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/rttgan/teaser.jpg" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Recurrent Topic-Transition GAN for Visual Paragraph Generation</div>
-            <div class="authors">
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              <span class="hz">Hao Zhang</span>, 
-              Chuang Gan, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">ICCV 2017</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1703.07022" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://arxiv.org/pdf/1703.07022.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/scan/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">SCAN: Structure Correcting Adversarial Network for Chest X-rays Organ Segmentation</div>
-            <div class="authors">
-              <a href="https://daiwei89.github.io/" target="_blank">Wei Dai</a>,
-              Joseph Doyle,
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <span class="hz">Hao Zhang</span>, 
-              Nanqing Dong,
-              Yuan Li, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
+              Dit-Yan Yeung, Eric P. Xing
             </div>
             <div><span class="venue">arXiv preprint, 2017</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1703.08770" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://arxiv.org/pdf/1703.08770.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
+            <a class="pub-buttons" href="https://arxiv.org/abs/1703.07255" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/zmnet/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">ZM-Net: Real-time Zero-shot Image Manipulation Network</div>
-            <div class="authors">
-              <a href="http://www.cse.ust.hk/~hwangaz/" target="_blank">Hao Wang</a>,
-              <a href="https://www.cs.cmu.edu/~xiaodan1/" target="_blank">Xiaodan Liang</a>,
-              <span class="hz">Hao Zhang</span>, 
-              <a href="https://www.cse.ust.hk/~dyyeung/www/Home.html" target="_blank">Dit-Yan Yeung</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
+
+            <!-- <img src="projects/Poseidonv1/overview.png" width="400"> -->
+      <div class="publication">
+        <div class="pubtext">
+            <div class="title">
+              <a href="http://arxiv.org/pdf/1512.06216v1.pdf">
+                Poseidon: A System Architecture for Efficient GPU-based Deep Learning on Multiple Machines
+              </a>
             </div>
-            <div><span class="venue">arXiv preprint, 2017</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1703.07255" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="https://arxiv.org/pdf/1703.07255.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-            </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/Poseidonv1/overview.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Poseidon: A System Architecture for Efficient GPU-based Deep Learning on Multiple Machines</div>
             <div class="authors">
-              <span class="hz">Hao Zhang</span>, 
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              <a href="http://www.cs.cmu.edu/~jinlianw/" target="_blank">Jinliang Wei</a>, 
-              <a href="http://www.cs.cmu.edu/~pengtaox/" target="_blank">Pengtao Xie</a>, 
-              <a href="http://www.cs.cmu.edu/~gunhee/" target="_blank">Gunhee Kim</a>, 
-              <a href="https://sites.google.com/site/hoqirong/" target="_blank">Qirong Ho</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
+              <span class="hz">Hao Zhang</span>, Zhiting Hu, Jinliang Wei, Pengtao Xie, Gunhee Kim, Qirong Ho, Eric P. Xing
             </div>
-            <div><span class="venue">ATC 2016 (Poster), MLSys Workeshop@ICML 2016 (Spotlight)</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="http://arxiv.org/abs/1512.06216" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://arxiv.org/pdf/1512.06216v1.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtbHN5czIwMTZ8Z3g6NWJlYmJjYzM1ZTA5YmYw" target="_blank"><i class="far fa-file-pdf"></i>workshop pdf</a></li>
-              <li><a class="pub-buttons" href="projects/Poseidonv1/poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>ATC poster</a></li>
-              <li><a class="pub-buttons" href="https://github.com/sailing-pmls/poseidon/wiki" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>
-              <li><a class="pub-buttons" href="https://github.com/sailing-pmls/poseidon" target="_blank"><i class="fab fa-github"></i>code</a></li>       
-            </ul>
-            </td>
-        </tr>
+            <div><span class="venue">ATC 2016 (Poster), MLSys@ICML 2016 (Spotlight)</span></div>
+            <a class="pub-buttons" href="http://arxiv.org/abs/1512.06216" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+            <a class="pub-buttons" href="projects/Poseidonv1/poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a>
+            <a class="pub-buttons" href="https://github.com/sailing-pmls/poseidon" target="_blank"><i class="fab fa-github"></i>code</a>       
+        </div>
+      </div>
+  
+      <!-- <img src="projects/learning-taxonomies/teaser.png" width="400"> -->
+      <!-- </td> -->
+      <div class="publication">
+        <div class="pubtext">
+          <div class="title">
+            <a href="https://www.aclweb.org/anthology/P16-1169.pdf" target="_blank">
+              Learning Concept Taxonomies from Multi-modal Data
+            </a>
+          </div>
+          <div class="authors">
+            <span class="hz">Hao Zhang</span>, Zhiting Hu, Yuntian Deng, Mrinmaya Sachan, Zhicheng Yan, Eric P. Xing
+          </div>
+          <div><span class="venue">ACL 2016 (Oral)</span></div>
+        <a class="pub-buttons" href="http://arxiv.org/abs/1606.09239" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+        <a class="pub-buttons" href="projects/learning-taxonomies/slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a>
+        <a class="pub-buttons" href="http://techtalks.tv/talks/learning-concept-taxonomies-from-multi-modal-data/63212/" target="_blank"><i class="far fa-file-video"></i>video talk</a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/learning-taxonomies/teaser.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Learning Concept Taxonomies from Multi-modal Data</div>
-            <div class="authors">
-              <span class="hz">Hao Zhang</span>, 
-              <a href="http://www.cs.cmu.edu/~zhitingh/" target="_blank">Zhiting Hu</a>, 
-              Yuntian Deng,
-              <a href="https://sites.google.com/site/mrinsachan/" target="_blank">Mrinmaya Sachan</a>,
-              <a href="https://sites.google.com/view/zcyan" target="_blank">Zhicheng Yan</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
+      <div class="publication">
+        <div class="pubtext">
+            <!-- <img src="projects/GeePS/geeps.png" width="400"> -->
+          <div class="title">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/2901318.2901323" target="_blank">
+              GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-specialized Parameter Server
+            </a>
+          </div>
+          <div class="authors">Henggang Cui, <span class="hz">Hao Zhang</span>, Gregory R. Ganger, Phillip B. Gibbons, Eric P. Xing
+          </div>
+          <div><span class="venue">EuroSys 2016</span></div>
+          <a class="pub-buttons" href="projects/GeePS/slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a>
+          <a class="pub-buttons" href="https://github.com/cuihenggang/geeps" target="_blank"><i class="fab fa-github"></i>code</a>
+        </div>
+      </div>
+
+
+
+            <!-- <img src="projects/renet/renet.png" width="400"> -->
+
+      <div class="publication">
+        <div class="pubtext">
+            <div class="title">
+              <a href="http://arxiv.org/pdf/1603.04871v1.pdf" target="_blank">
+                Combining the Best of Convolutional Layers and Recurrent Layers: A Hybrid Network for Semantic Segmentation
+              </a>
             </div>
-            <div><span class="venue">ACL 2016 (Oral)</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="http://arxiv.org/abs/1606.09239" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://arxiv.org/pdf/1606.09239v1.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="projects/learning-taxonomies/taxonomy_induction_supplementary.pdf" target="_blank"><i class="far fa-file-pdf"></i>supplement</a></li>
-              <li><a class="pub-buttons" href="projects/learning-taxonomies/slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a></li>    
-              <li><a class="pub-buttons" href="http://techtalks.tv/talks/learning-concept-taxonomies-from-multi-modal-data/63212/" target="_blank"><i class="far fa-file-video"></i>video lecture</a></li>   
-            </ul>
-          </td>
-        </tr>
-
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/GeePS/geeps.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-specialized Parameter Server</div>
-            <div class="authors">
-              <a href="https://users.ece.cmu.edu/~hengganc/" target="_blank">Henggang Cui</a>, 
-              <span class="hz">Hao Zhang</span>, 
-              <a href="https://www.ece.cmu.edu/~ganger/" target="_blank">Gregory R. Ganger</a>, 
-              <a href="http://www.cs.cmu.edu/~gibbons/" target="_blank">Phillip B. Gibbons</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>
-            </div>
-            <div><span class="venue">EuroSys 2016</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://users.ece.cmu.edu/~hengganc/archive/paper/[eurosys16]geeps.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="projects/GeePS/slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a></li>
-              <li><a class="pub-buttons" href="https://github.com/cuihenggang/geeps" target="_blank"><i class="fab fa-github"></i>code</a></li>
-            </ul>
-            </td>
-        </tr>
-
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/renet/renet.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Combining the Best of Convolutional Layers and Recurrent Layers: A Hybrid Network for Semantic Segmentation</div>
-            <div class="authors">
-              <a href="https://sites.google.com/view/zcyan" target="_blank">Zhicheng Yan</a>,      
-              <span class="hz">Hao Zhang</span>, 
-              <a href="http://daggerfs.com/" target="_blank">Yangqing Jia</a>, 
-              Thomas Breuel,
-              <a href="http://i.cs.hku.hk/~yzyu/" target="_blank">Yizhou Yu</a>
-            </div>
+            <div class="authors">Zhicheng Yan, <span class="hz">Hao Zhang</span>, Yangqing Jia, Thomas Breuel, Yizhou Yu</div>
             <div><span class="venue">arXiv preprint, 2016</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="http://arxiv.org/abs/1603.04871" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://arxiv.org/pdf/1603.04871v1.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hybridnet" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>
-              <li><a class="pub-buttons" href="https://github.com/stephenyan1231/caffe-hybridnet/tree/hybridnet" target="_blank"><i class="fab fa-github"></i>code</a></li>
-            </ul>
-          </td>
-        </tr>
+              <a class="pub-buttons" href="http://arxiv.org/abs/1603.04871" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+              <a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hybridnet" target="_blank"><i class="fas fa-external-link-alt"></i>project</a>
+              <a class="pub-buttons" href="https://github.com/stephenyan1231/caffe-hybridnet/tree/hybridnet" target="_blank"><i class="fab fa-github"></i>code</a>
+          </div>
+        </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/ImageEnhancement/ImageEditing.jpg" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Automatic Photo Adjustment Using Deep Learning</div>
-            <div class="authors">
-              <a href="https://sites.google.com/view/zcyan" target="_blank">Zhicheng Yan</a>,      
-              <span class="hz">Hao Zhang</span>, 
-              <a href="https://sites.google.com/site/zjuwby/" target="_blank">Baoyuan Wang</a>, 
-              <a href="http://people.csail.mit.edu/sparis/" target="_blank">Sylvain Paris</a>, and
-              <a href="http://i.cs.hku.hk/~yzyu/" target="_blank">Yizhou Yu</a>
-            </div>
+      <div class="publication">
+        <div class="pubtext">
+            <!-- <img src="projects/ImageEnhancement/ImageEditing.jpg" width="400"> -->
+          <div class="title">
+            <a href="http://i.cs.hku.hk/~yzyu/publication/DNNphoto-tog2016.pdf" target="_blank">
+              Automatic Photo Adjustment Using Deep Learning
+            </a>
+          </div>
+          <div class="authors">Zhicheng Yan, <span class="hz">Hao Zhang</span>, Baoyuan Wang, Sylvain Paris, Yizhou Yu
+          </div>
             <div><span class="venue">TOG Vol.35 No.2, ICCP 2016 (Invited Poster)</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1412.7725" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://i.cs.hku.hk/~yzyu/publication/DNNphoto-tog2016.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2014-dl-img-enhance/paper_supplement_tog.zip" target="_blank"><i class="far fa-file-archive"></i>supplement</a></li>
-              <li><a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>
-              <li><a class="pub-buttons" href="https://github.com/stephenyan1231/dl-image-enhance" target="_blank"><i class="fab fa-github"></i>code</a></li>
-            </ul>
-          </td>
-        </tr>
+              <a class="pub-buttons" href="https://arxiv.org/abs/1412.7725" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+              <a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2014-dl-img-enhance/paper_supplement_tog.zip" target="_blank"><i class="far fa-file-archive"></i>supplement</a>
+              <a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/dl_img_adjust" target="_blank"><i class="fas fa-external-link-alt"></i>project</a>
+              <a class="pub-buttons" href="https://github.com/stephenyan1231/dl-image-enhance" target="_blank"><i class="fab fa-github"></i>code</a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/submodular/submodular.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">On the Reducibility of Submodular Functions</div>
-            <div class="authors">
-              <a href="https://webdocs.cs.ualberta.ca/~jmei2/" target="_blank">Jincheng Mei</a>,      
-              <span class="hz">Hao Zhang</span>, and
-              <a href="http://bcmi.sjtu.edu.cn/~blu/" target="_blank">Baoliang Lu</a>
+      <div class="publication">
+        <div class="pubtext">
+          <!-- <img src="projects/submodular/submodular.png" width="400"> -->
+          <div class="title">
+            <a href="http://jmlr.org/proceedings/papers/v51/mei16.pdf" target="_blank">
+              On the Reducibility of Submodular Functions
+            </a>
+          </div>
+          <div class="authors">Jincheng Mei, <span class="hz">Hao Zhang</span>, Baoliang Lu</div>
+          <div><span class="venue">AISTATS 2016</span></div>
+          <a class="pub-buttons" href="http://arxiv.org/abs/1601.00393" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+          <a class="pub-buttons" href="http://jmlr.org/proceedings/papers/v51/mei16.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a>
+          <a class="pub-buttons" href="http://jmlr.org/proceedings/papers/v51/mei16-supp.pdf" target="_blank"><i class="far fa-file-pdf"></i>supplement</a>
+          <a class="pub-buttons" href="projects/submodular/aistats2016_80_poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a>
+        </div>
+      </div>
+
+
+            <!-- <img src="projects/hdcnn/hdcnn.png" width="400"> -->
+
+      <div class="publication">
+        <div class="pubtext">
+            <div class="title">
+              <a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.pdf" target="_blank">
+                HD-CNN: Hierarchical Deep Convolutional Neural Network for Large Scale Visual Recognition
+              </a>
             </div>
-            <div><span class="venue">AISTATS 2016</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="http://arxiv.org/abs/1601.00393" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://jmlr.org/proceedings/papers/v51/mei16.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="http://jmlr.org/proceedings/papers/v51/mei16-supp.pdf" target="_blank"><i class="far fa-file-pdf"></i>supplement</a></li>
-              <li><a class="pub-buttons" href="projects/submodular/aistats2016_80_poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a></li>
-            </ul>
-          </td>
-        </tr>
-
-        <tr>
-          <td class="spotlight">
-            <img src="projects/hdcnn/hdcnn.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">HD-CNN: Hierarchical Deep Convolutional Neural Network for Large Scale Visual Recognition</div>
             <div class="authors">
-              <a href="https://sites.google.com/view/zcyan" target="_blank">Zhicheng Yan</a>,      
+              Zhicheng Yan</a>,      
               <span class="hz">Hao Zhang</span>, 
               Robinson Piramuthu,
               Vignesh Jagadeesh,
               Dennis DeCoste,
-              Wei Di, and
-              <a href="http://i.cs.hku.hk/~yzyu/" target="_blank">Yizhou Yu</a>
+              Wei Di,
+              Yizhou Yu
             </div>
             <div><span class="venue">ICCV 2015</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="https://arxiv.org/abs/1410.0736" target="_blank"><i class="fa fa-link"></i>arXiv</a></li>
-              <li><a class="pub-buttons" href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yan_HD-CNN_Hierarchical_Deep_ICCV_2015_paper.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2015-HDCNN/hdcnn-iccv15-supplement.pdf" target="_blank"><i class="far fa-file-pdf"></i>supplement</a></li>
-              <li><a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2015-HDCNN/poster-hdcnn.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a></li>
-              <li><a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hdcnn" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>
-              <li><a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hdcnn/code" target="_blank"><i class="fab fa-github"></i>code</a></li>
-            </ul>
-          </td>
-        </tr>
+            <a class="pub-buttons" href="https://arxiv.org/abs/1410.0736" target="_blank"><i class="fa fa-link"></i>arXiv</a>
+            <a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2015-HDCNN/hdcnn-iccv15-supplement.pdf" target="_blank"><i class="far fa-file-pdf"></i>supplement</a>
+            <a class="pub-buttons" href="https://dl.dropboxusercontent.com/u/44884434/2015-HDCNN/poster-hdcnn.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a>
+            <a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hdcnn" target="_blank"><i class="fas fa-external-link-alt"></i>project</a>
+            <a class="pub-buttons" href="https://sites.google.com/site/homepagezhichengyan/home/hdcnn/code" target="_blank"><i class="fab fa-github"></i>code</a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/BrandCompetition/brandcompetition.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Dynamic Topic Modeling for Monitoring Market Competition from Online Text and Image Data</div>
-            <div class="authors">    
-              <span class="hz">Hao Zhang</span>,
-              <a href="http://www.cs.cmu.edu/~gunhee/" target="_blank">Gunhee Kim</a>, and
-              <a href="http://www.cs.cmu.edu/~epxing/" target="_blank">Eric P. Xing</a>     
-            </div>
-            <div><span class="venue">KDD 2015 (Oral)</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="projects/BrandCompetition/projectpage/kdd15_topic_marketcomp.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-              <li><a class="pub-buttons" href="projects/BrandCompetition/projectpage/kdd15_brand_competition_slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a></li>
-              <li><a class="pub-buttons" href="projects/BrandCompetition/projectpage/kdd15_brand_competition_poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a></li>
-              <li><a class="pub-buttons" href="projects/BrandCompetition/brandcompetition.html" target="_blank"><i class="fas fa-external-link-alt"></i>project</a></li>
-            </ul>
-          </td>
-        </tr>
+      <div class="publication">
+        <div class="pubtext">
+          <!-- <img src="projects/BrandCompetition/brandcompetition.png" width="400"> -->
+          <div class="title">
+            <a href="projects/BrandCompetition/projectpage/kdd15_topic_marketcomp.pdf" target="_blank">
+              Dynamic Topic Modeling for Monitoring Market Competition from Online Text and Image Data
+            </a>
+          </div>
+          <div class="authors">    
+            <span class="hz">Hao Zhang</span>, Gunhee Kim, Eric P. Xing 
+          </div>
+          <div><span class="venue">KDD 2015 (Oral)</span></div>
+            <a class="pub-buttons" href="projects/BrandCompetition/projectpage/kdd15_brand_competition_slides.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>slides</a>
+            <a class="pub-buttons" href="projects/BrandCompetition/projectpage/kdd15_brand_competition_poster.pdf" target="_blank"><i class="far fa-file-powerpoint"></i>poster</a>
+            <a class="pub-buttons" href="projects/BrandCompetition/brandcompetition.html" target="_blank"><i class="fas fa-external-link-alt"></i>project</a>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/BSSM-TNSRE/TNSRE.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">A Boosting-based Spatial-Spectral Model for Stroke Patients' EEG Analysis in Rehabilitation Training</div>
-            <div class="authors">
-              Ye Liu*,     
+      <div class="publication">
+        <div class="pubtext">
+            <!-- <img src="projects/BSSM-TNSRE/TNSRE.png" width="400"> -->
+          <div class="title">
+            <a href="projects/BSSM-TNSRE/FAIA263-0537.pdf" target="_blank">
+              A Boosting-based Spatial-Spectral Model for Stroke Patients' EEG Analysis in Rehabilitation Training
+            </a>
+          </div>
+            <div class="authors">Ye Liu*,     
               <span class="hz">Hao Zhang</span>*, and
-              <a href="http://bcmi.sjtu.edu.cn/~zhangliqing/" target="_blank">Liqing Zhang</a>     
+              Liqing Zhang
             </div>
             (* indicates equal contribution)
             <div><span class="venue">ECAI 2014, IEEE TNSRE 2015</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="projects/BSSM-TNSRE/07214285.pdf" target="_blank"><i class="far fa-file-pdf"></i>journal pdf</a></li>
-              <li><a class="pub-buttons" href="projects/BSSM-TNSRE/FAIA263-0537.pdf" target="_blank"><i class="far fa-file-pdf"></i>conference pdf</a></li>
-            </ul>
-          </td>
-        </tr>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/Gaussian-EMBC13/gmm.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">Gaussian Mixture Modeling in Stroke Patients' Rehabilitation EEG Data Analysis</div>
+              <a class="pub-buttons" href="projects/BSSM-TNSRE/07214285.pdf" target="_blank"><i class="far fa-file-pdf"></i>Extended journal version</a>
+              <!-- <li><a class="pub-buttons" href="projects/BSSM-TNSRE/FAIA263-0537.pdf" target="_blank"><i class="far fa-file-pdf"></i>conference pdf</a></li> -->
+        </div>
+      </div>
+
+      <div class="publication">
+        <div class="pubtext">
+            <!-- <img src="projects/Gaussian-EMBC13/gmm.png" width="400"> -->
+            <div class="title">
+              <a href="projects/Gaussian-EMBC13/EMBC2013-EEG-GaussianMixture-05861329.pdf" target="_blank">
+                Gaussian Mixture Modeling in Stroke Patients' Rehabilitation EEG Data Analysis
+              </a>
+            </div>
             <div class="authors">  
               <span class="hz">Hao Zhang</span>,
               Ye Liu,
               Jianyi Liang,
-              Jianting Cao, and
-              <a href="http://bcmi.sjtu.edu.cn/~zhangliqing/" target="_blank">Liqing Zhang</a>     
+              Jianting Cao, Liqing Zhang
             </div>
             <div><span class="venue">EMBC 2013</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="projects/Gaussian-EMBC13/EMBC2013-EEG-GaussianMixture-05861329.pdf" target="_blank"><i class="far fa-file-pdf"></i>pdf</a></li>
-            </ul>
-          </td>
-        </tr>
+        </div>
+      </div>
 
-        <tr>
-          <td class="spotlight">
-            <img src="projects/TensorJNM/GTNFL.png" width="400">
-          </td>
-          <td class="content">
-            <div class="title">A Tensor-Based Scheme for Stroke Patients' Motor Imagery EEG Analysis in BCI-FES Rehabilitation Training</div>
+      <div class="publication">
+        <div class="pubtext">
+            <!-- <img src="projects/TensorJNM/GTNFL.png" width="400"> -->
+          <div class="title">
+            <a href="projects/TensorJNM/06609973.pdf" target="_blank">
+              A Tensor-Based Scheme for Stroke Patients' Motor Imagery EEG Analysis in BCI-FES Rehabilitation Training
+            </a>
+          </div>
             <div class="authors">  
               Ye Liu,
               Mingfen Li,
@@ -575,48 +519,57 @@
               <a href="http://bcmi.sjtu.edu.cn/~zhangliqing/" target="_blank">Liqing Zhang</a>     
             </div>
             <div><span class="venue">EMBC 2013, JNM 2013</span></div>
-            <ul>
-              <li><a class="pub-buttons" href="projects/TensorJNM/1-s2.0-S0165027013003853-main.pdf" target="_blank"><i class="far fa-file-pdf"></i>journal pdf</a></li>
-              <li><a class="pub-buttons" href="projects/TensorJNM/06609973.pdf" target="_blank"><i class="far fa-file-pdf"></i>conference pdf</a></li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+              <a class="pub-buttons" href="projects/TensorJNM/1-s2.0-S0165027013003853-main.pdf" target="_blank"><i class="far fa-file-pdf"></i>Extended journal version</a>
+        </div>
+      </div>
+
   </div>
 
     <div class="content anchor" id="software">
       <div class="text">
         <h3>Software</h3>
-        I have built or contributed to many projects for large-scale machine learning, some of them are open sourced.
+        I have built or contributed to many open source projects for large-scale machine learning.
           <ul class="software">
             <li>
-              <div class="name"><a href="https://arxiv.org/pdf/1712.04048.pdf" target="_blank">Cavs: An Efficient Programming Interface for Dynamic Neural Networks</a> (Coming Soon!).</div>
-              <div class="desc"></div>
+              <div class="name"><a href="https://github.com/petuum/autodist" target="_blank">AutoDist: A Composable and Automated Synchronization System for Distributed Deep Learning</a></div>
+              <iframe src="https://ghbtns.com/github-btn.html?user=petuum&repo=autodist&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+              <!-- <div class="name"><iframe src="https://ghbtns.com/github-btn.html?user=petuum&repo=autodist&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></div> -->
+            </li>
+            <li>
+              <div class="name"><a href="https://github.com/petuum/adaptdl" target="_blank">AdaptDL: Resource-adaptive cluster scheduler for deep learning training.</a></div>
+              <iframe src="https://ghbtns.com/github-btn.html?user=petuum&repo=adaptdl&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+            </li> 
+            <li>
+              <div class="name"><a href="https://github.com/zhisbug/Cavs" target="_blank">Cavs: An Efficient Programming Interface for Dynamic Neural Networks</a></div>
+              <iframe src="https://ghbtns.com/github-btn.html?user=zhisbug&repo=Cavs&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
             </li>
             <li>
               <div class="name"><a href="http://poseidon-release.readthedocs.io/en/latest/" target="_blank">Poseidon v2.0: An Efficient Communication Architecture for Distributed Deep Learning on GPU Clusters</a></div>
-              <div class="desc">We have significatnly improved Poseidon to v2.0, a general-purpose communication architecture for distributed deep learning. Poseidon v2.0 supports both TensorFlow and Caffe programs. It delivers linear scalability with addtional GPU nodes on up to 32 nodes, even under limited Ethernet bandwidth.</div>
+              <iframe src="https://ghbtns.com/github-btn.html?user=petuum-inc&repo=poseidon-release&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+              <!-- <div class="desc">We have significatnly improved Poseidon to v2.0, a general-purpose communication architecture for distributed deep learning. Poseidon v2.0 supports both TensorFlow and Caffe programs. It delivers linear scalability with addtional GPU nodes on up to 32 nodes, even under limited Ethernet bandwidth.</div> -->
             </li>
             <li>
               <div class="name"><a href="http://dynet.io/" target="_blank">DyNet: The Dynamic Neural Network Toolkit</a></div>
-              <div class="desc">DyNet is a neural network library developed by Carnegie Mellon University and many others. It is written in C++ (with bindings in Python) and is designed to be efficient when run on either CPU or GPU, and to work well with networks that have dynamic structures that change for every training instance.</div>
+              <iframe src="https://ghbtns.com/github-btn.html?user=clab&repo=dynet&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+              <!-- <div class="desc">DyNet is a neural network library developed by Carnegie Mellon University and many others. It is written in C++ (with bindings in Python) and is designed to be efficient when run on either CPU or GPU, and to work well with networks that have dynamic structures that change for every training instance.</div> -->
             </li>
 
             <li>
                 <div class="name"><a href="https://github.com/cuihenggang/geeps" target="_blank">GeePS: a GPU-specialized Parameter Server</a></div>
-                <div class="desc">GeePS is a new parameter server for data-parallel deep learning on GPUs. GeePS addresses the problem of limited GPU memory: GeePS's explicit GPU memory management support enables
-                GPU-based training of neural networks that are much larger than the GPU memory.</div>
+                <iframe src="https://ghbtns.com/github-btn.html?user=cuihenggang&repo=geeps&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                <!-- <div class="desc">GeePS is a new parameter server for data-parallel deep learning on GPUs. GeePS addresses the problem of limited GPU memory: GeePS's explicit GPU memory management support enables -->
+                <!-- GPU-based training of neural networks that are much larger than the GPU memory.</div> -->
             </li>
             <li>
                 <div class="name"><a href="https://github.com/petuum/poseidon/wiki" target="_blank">Poseidon v1.0: Distributed Deep Learning on CPU/GPU Clusters</a></div>
-                <div class="desc">Poseidon is a system architecture for distributed deep learning on GPU clusters. Poseidon v1.0 includes a <a href="https://github.com/sailing-pmls/bosen" target="_blank">Bosen</a>-based implementation to provide distributed acceleartion for Caffe.</div>
+                <iframe src="https://ghbtns.com/github-btn.html?user=sailing-pmls&repo=pmls-caffe&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                <!-- <div class="desc">Poseidon is a system architecture for distributed deep learning on GPU clusters. Poseidon v1.0 includes a <a href="https://github.com/sailing-pmls/bosen" target="_blank">Bosen</a>-based implementation to provide distributed acceleartion for Caffe.</div> -->
             </li>
           </ul>
       </div>
     </div>
 
-    <div class="content anchor" id="work">
+    <!-- <div class="content anchor" id="work">
       <div class="text">
         <h3>Working Experience</h3>
         <ul>
@@ -626,7 +579,7 @@
           <li>Software Engineer Intern, Microsoft Shanghai, 2011 - 2012</li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div class="content anchor" id="teaching">
       <div class="text">
