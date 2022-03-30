@@ -9,7 +9,7 @@ table{border-collapse:collapse;vertical-align:middle}
 a img{border:none}
 ul,ol,dl{margin:0;padding:5px 10px 30px 30px}
 div.title,h1,h2,h3,h4,h5,h6{font-weight:bolder;}
-img.teaser{max-width:100%;height:auto;display:block}
+img.teaser{max-width:90%;height:auto;display:block}
 div.container a:link,
 /* div.container a:visited{color:#820000;text-decoration:none} */
 div.container a:visited{color:#0f33b5;text-decoration:none}
