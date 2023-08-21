@@ -1,0 +1,93 @@
+[
+
+    {
+        "type": "Tutorial",
+        "venue": "ODSC West",
+        "date": "11/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "I-X Seminar Series at Imperial College London",
+        "date": "10/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "USC and FedML.ai",
+        "date": "08/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "SRG Seminar, Google",
+        "date": "08/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "Generative AI Summit, ODSC ",
+        "date": "07/2023",
+        "link": "https://youtu.be/yJ0ywuG_yv4?t=10786"
+    },
+    {
+        "type": "Talk",
+        "venue": "Chinese Googler Networks Talk Series, Google",
+        "date": "06/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "THU, PKU, SJTU, SYSU, FDU",
+        "date": "06/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "Apple",
+        "date": "05/2023",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "ML Guild Seminar, Spotify",
+        "date": "11/2022",
+        "link": ""
+    },
+    {
+        "type": "Tutorial",
+        "venue": "Sky Camp, UC Berkeley",
+        "date": "10/2022",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "1st CASL Workshop, MBZUAI",
+        "date": "10/2022",
+        "link": "https://sites.google.com/casl-project.ai/archive-2022-casl-workshop/industry-session?authuser=0"
+    },
+    {
+        "type": "Talk",
+        "venue": "Ray Summit",
+        "date": "08/2022",
+        "link": "https://www.youtube.com/watch?v=HRo90WL4Znc"
+    },
+    {
+        "type": "Tutorial",
+        "venue": "ICML 2022",
+        "date": "07/2022",
+        "link": "https://icml.cc/virtual/2022/tutorial/18440"
+    },
+    {
+        "type": "Tutorial",
+        "venue": "KDD 2021",
+        "date": "07/2022",
+        "link": "https://kdd21-tutorial-distml.github.io/"
+    },
+    {
+        "type": "Tutorial",
+        "venue": "AAAI 2021",
+        "date": "01/2021",
+        "link": "https://sites.google.com/view/aaai-2021-tutorial-ah9/home"
+    }
+]

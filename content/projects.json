@@ -1,0 +1,42 @@
+[
+    {
+        "name": "FastChat",
+        "description": "An open platform for training, serving, and evaluating Large Language Models",
+        "link": "https://github.com/lm-sys/FastChat"
+    },
+    {
+        "name": "vLLM",
+        "description": "A high-throughput and memory-efficient inference engine for LLMs",
+        "link": "https://github.com/vllm-project/vllm"
+    },
+    {
+        "name": "Vicuna",
+        "description": "A series of popular open-source LLM chatbots available in 7B/13B/33B sizes",
+        "link": "https://huggingface.co/lmsys/vicuna-13b-v1.5"
+    },
+    {
+      "name": "Alpa",
+      "description": "Training large-scale neural networks with auto parallelization. Scales to 1000+ GPUs",
+      "link": "https://github.com/alpa-projects/alpa"
+    },
+    {
+      "name": "Ray Collective",
+      "description": "CPU/GPU collective communication primitives on Ray",
+      "link": "https://docs.ray.io/en/latest/ray-more-libs/ray-collective.html"
+    },
+    {
+      "name": "AutoDist",
+      "description": "Automatic data-parallel training on TensorFlow",
+      "link": "https://github.com/petuum/autodist"
+    },
+    {
+      "name": "DyNet",
+      "description": "The Dynamic Neural Network Toolkit",
+      "link": "https://github.com/clab/dynet"
+    },
+    {
+      "name": "Poseidon",
+      "description": "Parameter server on distributed GPUs",
+      "link": "https://poseidon-release.readthedocs.io/en/v1.0.1/"
+    }
+]

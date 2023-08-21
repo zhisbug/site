@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Machine Learning Systems",
+        "code": "DSC291",
+        "institute": "UC San Diego",
+        "link": "",
+        "date": " Spring 2024",
+        "role": "Instructor"
+    },
+    {
+        "name": "Data Systems for Machine Learning",
+        "code": "CSE234",
+        "institute": "UC San Diego",
+        "link": "",
+        "date": " Spring 2024",
+        "role": "Instructor"
+    },
+    {
+        "name": "Scalable Data Systems",
+        "code": "DSC204A",
+        "institute": "UC San Diego",
+        "link": "",
+        "date": "Winter 2024",
+        "role": "Instructor"
+    },
+    {
+        "name": "Probabilistic Graphical Models",
+        "code": "10-708",
+        "institute": "Carnegie Mellon University",
+        "link": "https://sailinglab.github.io/pgm-spring-2019/",
+        "date": "Spring 2019",
+        "role": "Teaching Assistant"
+    },
+    {
+        "name": "Applied Data Science",
+        "code": "16-791",
+        "institute": "Carnegie Mellon University",
+        "link": "https://cmucourses.com/course/16-791",
+        "date": "Spring 2019",
+        "role": "Teaching Assistant"
+    },
+    {
+        "name": "Introduction to Machine Learning",
+        "code": "10-701",
+        "institute": "Carnegie Mellon University",
+        "link": "http://www.cs.cmu.edu/~epxing/Class/10701/",
+        "date": "Fall 2015",
+        "role": "Teaching Assistant"
+    }
+]

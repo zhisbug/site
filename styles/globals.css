@@ -1,0 +1,110 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "~academicons/css/academicons.min.css";
+
+
+.content-container {
+    font-size: 18px;
+}
+
+body {
+    font-weight: normal;
+}
+
+::selection {
+  color: #f6f6f6;
+  background: #003262;
+}
+
+h1 {
+    @apply text-4xl font-semibold mb-4;
+}
+
+h2 {
+    @apply text-2xl font-semibold;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+}
+
+/*  styles/globals.css */
+a {
+    color: #0f33b5;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.fa-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+div > p{
+    line-height: 150%;
+    text-align: justify;
+}
+
+.list-no-bullet {
+    @apply list-none pl-8;
+}
+
+.list-bullet{
+    @apply list-disc pl-8;
+}
+
+.list-no-bullet > li {
+    line-height: 150%;
+    text-align: justify;
+}
+
+.list-bullet > li {
+    line-height: 150%;
+    text-align: justify;
+}
+
+b {
+    font-weight: 600;
+}
+
+.publication {
+    @apply mb-4;
+}
+
+.publication-title {
+    text-align: justify;
+    @apply font-normal
+}
+
+.publication-author {
+    text-align: justify;
+    color: #777777;
+}
+
+.publication-venue {
+    text-align: justify;
+    @apply font-semibold;
+}
+
+.publication-links {
+    @apply flex space-x-2;
+}
+
+.publication-link {
+    @apply flex items-center
+}
+
+.pub-fa-icon {
+    @apply mt-1 mr-1;
+    font-size: larger;
+}
+
+.pub-button {
+    color: #0f33b5;
+}
+
+.pub-button-selected {
+    @apply font-semibold;
+}

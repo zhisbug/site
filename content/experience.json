@@ -1,0 +1,26 @@
+[
+    {
+        "job": "Assistant Professor",
+        "institute": "UC San Diego",
+        "start": "2023",
+        "end": "Present"
+    },
+    {
+        "job": "Postdoc",
+        "institute": "UC Berkeley",
+        "start": "2020",
+        "end": "2023"
+    },
+    {
+        "job": "Director of Scalable Machine Learning",
+        "institute": "Petuum Inc",
+        "start": "2016",
+        "end": "2021"
+    },
+    {
+        "job": "Ph.D. Student",
+        "institute": "Carnegie Mellon University",
+        "start": "2014",
+        "end": "2020 (on leave 2016 - 2020)"
+    }
+]
