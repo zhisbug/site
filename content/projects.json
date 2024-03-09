@@ -1,5 +1,10 @@
 [
     {
+        "name": "Lookahead Decoding",
+        "description": "A parallel LLM decoding method that trades FLOPs for fewer decoding steps",
+        "link": "https://github.com/hao-ai-lab/LookaheadDecoding"
+    },
+    {
         "name": "FastChat",
         "description": "An open platform for training, serving, and evaluating Large Language Models",
         "link": "https://github.com/lm-sys/FastChat"

@@ -10,12 +10,12 @@ export default function prospective_student() {
             <p>Thank you for your interest in my research and my group at UC San Diego.
                 I am actively looking for self-motivated students and postdocs.
             I normally recruit 2-3 new PhD students every admission cycle. I actively take MS and undergrad research interns (UCSD or external) with
-                strong or relevant research background throughput the academic year.
+                strong or relevant research background throughout the academic year.
             </p>
 
             <p>
                 👉If you are interested in joining my group, I'd recommend that you first <a
-                    href="https://forms.office.com/r/AeDYXgDGc6" target="_blank"><b>*fill out this form*</b></a>.
+                    href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a>.
                 After submitting the form, please drop me an email (haozhang@ucsd.edu).
             </p>
             <p>
@@ -30,12 +30,12 @@ export default function prospective_student() {
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
-                    href="https://forms.office.com/r/AeDYXgDGc6" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
+                    href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
             </p>
 
             <h2>Prospective PhD Students</h2>
                 <p>
-                    I take PhD students from <a href="https://datascience.ucsd.edu/" target="_blank" rel="noopener noreferrer">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank" rel="noopener noreferrer">CSE</a>, <a href="https://www.ece.ucsd.edu/" target="_blank" rel="noopener noreferrer">ECE</a> or other related departments at UCSD.
+                    I take PhD students from <a href="https://datascience.ucsd.edu/" target="_blank" rel="noopener noreferrer">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank" rel="noopener noreferrer">CSE</a>, <a href="https://www.ece.ucsd.edu/" target="_blank" rel="noopener noreferrer">ECE</a>, or other related departments at UCSD.
                 </p>
                 <ul className="list-bullet">
                     <li>To make sure I see your application, select my name as one of potential advisors in your application.</li>
@@ -53,7 +53,7 @@ export default function prospective_student() {
                 </ul>
                 <p>
                     I am happy to receive emails from prospective PhD students, though I am unable to respond to them all.
-                    It'd be good if you could <a href="https://forms.office.com/r/AeDYXgDGc6" target="_blank"><b>*fill out this form*</b></a> when dropping me an email,
+                    It'd be good if you could <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a> when dropping me an email,
                     so I can get to know you better and see if we are a good match. Thank you!
                 </p>
 
@@ -62,21 +62,21 @@ export default function prospective_student() {
             <p>
                 I am happy to advise research projects in large-scale machine learning, distributed systems,
                 Large Language Models, ML applications, or other related areas. I also welcome open-source enthusiasts
-                to join my group and contribute to ongoing open-source development. If you are:
+                to join my group and contribute to ongoing open-source development. If you:
             </p>
                 <ul className="list-bullet">
                     <li>
-                        have a clear research objective and some initial ideas,
+                        have a clear research objective and some initial ideas, and
                     </li>
                     <li>
-                        have relevant research or programming experiences in machine learning or systems, or strong math/ML background,
+                        have relevant research or programming experiences in machine learning or systems, or strong math/ML background, and
                     </li>
                     <li>
                         can devote significant time on the projects.
                     </li>
                 </ul>
             <p>
-                Please get in touch with me by <a href="https://forms.office.com/r/AeDYXgDGc6" target="_blank"><b>*filling out this form*</b></a> and sending me an email.
+                Please get in touch with me by <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*filling out this form*</b></a> and sending me an email.
             </p>
 
 
@@ -84,7 +84,7 @@ export default function prospective_student() {
             <p>
                 I regularly take external, self-funded visiting scholars (graduate/undergrad students, etc) and research interns.
                 Visitors are expected to stay for <b>at least 6 months</b>.
-                Please contact me and <a href="https://forms.office.com/r/AeDYXgDGc6" target="_blank"><b>*fill out this form*</b></a>.
+                Please contact me and <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a>.
                 Make sure you indicate the anticipated start and end time (Q8 and Q9).
             </p>
         </div>

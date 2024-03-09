@@ -1,8 +1,20 @@
 [
     {
+        "title": "LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset",
+        "authors": "Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Tianle Li, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zhuohan Li, Zi Lin, Eric Xing, Joseph E Gonzalez, Ion Stoica, Hao Zhang",
+        "venue": "Preprint 2023",
+        "pdf": "https://arxiv.org/pdf/2309.11998",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "tag": "Selected, Large Language Models",
+        "date": "09/2023"
+    },
+    {
         "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
         "authors": "Lianmin Zheng*, Wei-Lin Chiang*, Ying Sheng*, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, Hao Zhang, Joseph E Gonzalez, Ion Stoica",
-        "venue": "Preprint 2023",
+        "venue": "NeurIPS 2023",
         "pdf": "https://arxiv.org/pdf/2306.05685",
         "code": "https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge",
         "presentation": "",

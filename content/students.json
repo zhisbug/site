@@ -1,0 +1,110 @@
+[
+    {
+      "name": "Lanxiang Hu",
+      "url": "",
+      "category": "PhD",
+      "start": "09/2023",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Yichao Fu",
+      "url": "",
+      "category": "PhD",
+      "start": "09/2024",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Junda Chen",
+      "url": "",
+      "category": "PhD",
+      "start": "01/2024",
+      "end": "present",
+      "rotation": "True",
+      "placement": ""
+    },
+    {
+      "name": "Will Lin",
+      "url": "",
+      "category": "PhD",
+      "start": "09/2023",
+      "end": "present",
+      "rotation": "True",
+      "placement": ""
+    },
+    {
+      "name": "Anze Xie",
+      "url": "",
+      "category": "MS",
+      "start": "08/2023",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Longfei Yun",
+      "url": "",
+      "category": "MS",
+      "start": "08/2023",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Siqi Zhu",
+      "url": "",
+      "category": "Intern",
+      "start": "03/2024",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Hexu Zhao",
+      "url": "",
+      "category": "Intern",
+      "start": "07/2022",
+      "end": "01/2023",
+      "rotation": "False",
+      "placement": "PhD @ NYU"
+    },
+    {
+      "name": "Jiangfei Duan",
+      "url": "",
+      "category": "Visitor",
+      "start": "09/2023",
+      "end": "present",
+      "rotation": "False",
+      "placement": ""
+    },
+    {
+      "name": "Runyu Lu",
+      "url": "",
+      "category": "Intern",
+      "start": "05/2023",
+      "end": "01/2024",
+      "rotation": "False",
+      "placement": "PhD @ UMich"
+    },
+    {
+      "name": "Dacheng Li",
+      "url": "",
+      "category": "MS",
+      "start": "09/2020",
+      "end": "09/2023",
+      "rotation": "False",
+      "placement": "PhD @ UC Berkeley"
+    },
+    {
+      "name": "Yonghao Zhuang",
+      "url": "",
+      "category": "Intern",
+      "start": "09/2021",
+      "end": "09/2022",
+      "rotation": "False",
+      "placement": "PhD @ CMU"
+    }
+]

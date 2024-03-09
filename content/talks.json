@@ -1,16 +1,45 @@
 [
-
+    {
+        "type": "Talk",
+        "venue": "CMU LTI Colloquium",
+        "date": "04/2024",
+        "link": "https://lti.cmu.edu/misc-pages/lti-colloquium.html"
+    },
+    {
+        "type": "Talk",
+        "venue": "NSF Open-Source Generative AI (OSGAI) Workshop",
+        "date": "03/2024",
+        "link": "https://srush.github.io/osgai/"
+    },
+    {
+        "type": "Talk",
+        "venue": "Essence VC Q1 Virtual Conference: LLM Inference",
+        "date": "03/2024",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "PKU Alumni Association of Northern California (PKUAANC)",
+        "date": "02/2024",
+        "link": "https://www.youtube.com/watch?v=i02jaFA5tV4"
+    },
+    {
+        "type": "Panel",
+        "venue": "Instruction Workshop @ NeurIPS 2023",
+        "date": "12/2023",
+        "link": "https://an-instructive-workshop.github.io/"
+    },
     {
         "type": "Tutorial",
         "venue": "ODSC West",
         "date": "11/2023",
-        "link": ""
+        "link": "https://www.youtube.com/watch?v=DtUIospAXig&pp=ygUYb2RzYyB3ZXN0IGhhbyB6aGFuZyB0YWxr"
     },
     {
         "type": "Talk",
         "venue": "I-X Seminar Series at Imperial College London",
         "date": "10/2023",
-        "link": ""
+        "link": "https://www.youtube.com/watch?v=6FsLFnYh33w&list=PL2-Jnkrqr78qPW9acTH5RjFeJWKg9Ac02&index=2"
     },
     {
         "type": "Talk",

@@ -5,6 +5,7 @@ import projects from "../content/projects.json";
 import Link from "next/link";
 import experiences from "@/content/experience.json";
 import talks from "@/content/talks.json"
+import students from "@/content/students.json"
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <Layout>
         <div className="max-w-6xl mx-auto px-4 mt-4 flex flex-col sm:flex-row justify-center items-center">
             <div className="mb-6 sm:mb-6 sm:mr-24">
-                <img src="/~haozhang/hao-2022.png" alt="Hao Zhang" className="w-64 md:w-72"/>
+                <img src="/hao-2022.png" alt="Hao Zhang" className="w-64 md:w-72"/>
             </div>
             <div className="leading-snug sm:ml-24">
                 <h1 className="text-4xl font-bold mb-4">Hao Zhang</h1>
@@ -47,6 +48,7 @@ export default function Home() {
         <div className="mt-8 text-xl space-y-2">
             <p>
               I am an Assistant Professor at <a href="https://datascience.ucsd.edu/" target="_blank">Halıcıoğlu Data Science Institute</a> and <a href="https://cse.ucsd.edu/" target="_blank">Department of Computer Science and Engineering</a> (affiliate) at <a href="https://ucsd.edu/" target="_blank">UC San Diego</a>.
+              I also cofounded <a href="https://lmnet.ai/" target="_blank">LMNet.ai</a> (2023) and we have joined force with <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> in November 2023. I worked for the ML platform startup <a href="https://www.petuum.com/" target="_blank">Petuum Inc</a> during 2016 - 2021.
               Here is <Link href="/bio"> a short Bio.</Link>
             </p>
             <p>
@@ -62,19 +64,27 @@ export default function Home() {
               I am equally interested in designing strong, efficient, and secure machine learning models and algorithms, and in building scalable, practical distributed systems that can support real-world machine learning workloads.
             </p>
             <p>
-              Recently I develop open models and systems to democratize the access of Large Language Models (LLMs).
-                I co-founded <b>LMSYS Org</b> and some of our latest results are updated at <a href="https://lmsys.org/" target="_blank">lmsys.org</a> (<a href="https://twitter.com/lmsysorg" title="twitter" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block'}}><FaTwitter style={{display: 'inline-block'}}></FaTwitter><span>@lmsysorg</span></a>).
+              I direct the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD. We develop open models, algorithms, and systems to democratize the access of large models. I also co-founded and run the non-profit <b>LMSYS Org</b>. We maintain the popular LLM evaluation <a href="https://arena.lmsys.org/" target="_blank">Chatbot Arena</a> and the widely adopted LLM serving framework <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>.
+                Some of our new research results are updated at <a href="https://lmsys.org/" target="_blank">lmsys.org</a> (<a href="https://twitter.com/lmsysorg" title="twitter" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block'}}><FaTwitter style={{display: 'inline-block'}}></FaTwitter><span>@lmsysorg</span></a>).
             </p>
             <h2>Current Projects</h2>
-                <ul className="list-no-bullet">
-                    <li><b>LLM inference and serving systems</b>: <a href="https://github.com/alpa-projects/mms" target="_blank">AlpaServe</a>  [<a href="https://arxiv.org/abs/2302.11665" target="_blank">OSDI'23</a>], <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a> [SOSP'23]</li>
-                    <li><b>Model-parallel ML Systems</b>: <a href="https://github.com/alpa-projects/alpa" target="_blank">Alpa</a> [<a href="https://arxiv.org/abs/2201.12023" target="_blank">OSDI'22</a>, <a href="https://arxiv.org/abs/2211.05322" target="_blank">MLSys'23</a>],  <a href="https://github.com/DachengLi1/AMP" target="_blank">AMP</a> [<a href="https://arxiv.org/abs/2210.07297" target="_blank">NeurIPS'22</a>], <a href="https://github.com/zhuohan123/terapipe" target="_blank">Terapipe</a> [<a href="https://arxiv.org/abs/2102.07988" target="_blank">ICML'22</a>]</li>
-                    <li><b>Open-source LLMs and evaluation</b>: <a href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna</a>, <a href="https://lmsys.org/blog/2023-06-29-longchat/" target="_blank">LongChat</a>, <a href="https://huggingface.co/spaces/lmsys/mt-bench" target="_blank">MT-bench</a>, <a href="https://lmsys.org/blog/2023-05-03-arena/" target="_blank">Chatbot Arena</a> [<a href="https://arxiv.org/abs/2306.05685" target="_blank">Preprint'23</a>]</li>
-                    <li><b>Secure inference</b>: <a href="https://github.com/DachengLi1/MPCFormer" target="_blank">MPCFormer</a> <a href="https://arxiv.org/abs/2211.01452" target="_blank">[ICLR'23]</a></li>
-                </ul>
-             {/*<h2 className="text-2xl font-semibold mb-4">Previous Projects</h2>*/}
-             {/*   <ul className="list-no-bullet">*/}
-             {/*       <li><b>Automatic ML parallelization and scheduling</b>: <a href="https://github.com/petuum/autodist" target="_blank">AutoSync</a> [<a href="https://proceedings.neurips.cc/paper/2020/file/0a2298a72858d90d5c4b4fee954b6896-Paper.pdf" target="_blank">NeurIPS'20</a>], <a href="https://github.com/petuum/adaptdl" target="_blank">Pollux</a> [<a href="https://arxiv.org/abs/2008.12260" target="_blank">OSDI'21</a>]</li>*/}
+            <ul className="list-no-bullet">
+                <li><b>LLM inference and serving systems</b>:
+                    DistServe [<a href="https://arxiv.org/pdf/2401.09670.pdf" target="_blank">Preprint'24</a>], <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a> [<a href="https://arxiv.org/pdf/2309.06180.pdf" target="_blank">SOSP'23</a>], <a href="https://github.com/hao-ai-lab/LookaheadDecoding" target="_blank">Lookahead Decoding</a> [<a href="https://arxiv.org/pdf/2402.02057.pdf" target="_blank">Preprint'23</a>]
+                </li>
+                <li><b>Efficient ML architectures and algorithms</b>: <a href="https://github.com/hao-ai-lab/Consistency_LLM" target="_blank">Consistency LLM</a> [<a href="https://arxiv.org/pdf/2403.00835.pdf" target="_blank">Preprint'24</a>], OSD [<a href="https://arxiv.org/pdf/2310.07177.pdf" target="_blank">Preprint'23</a>]
+                </li>
+                <li><b>Open data, model, and evals</b>: <a href="https://arena.lmsys.org/" target="_blank">Chatbot Arena</a> [<a href="https://arxiv.org/pdf/2403.04132.pdf" target="_blank">Preprint'24</a>], <a href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m" target="_blank">LMSYS-Chat-1M</a> [<a href="https://arxiv.org/pdf/2309.11998.pdf" target="_blank">ICLR'24</a>], <a href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna</a>, <a href="https://huggingface.co/spaces/lmsys/mt-bench" target="_blank">MT-bench</a> [<a href="https://arxiv.org/pdf/2306.05685.pdf" target="_blank">NeurIPS'23</a>]
+                </li>
+                {/*<li><b>Secure inference</b>:*/}
+                {/*    <a href="https://github.com/DachengLi1/MPCFormer" target="_blank">MPCFormer</a> <a href="https://arxiv.org/abs/2211.01452" target="_blank">[ICLR'23]</a>*/}
+                {/*</li>*/}
+                <li><b>Model-parallel ML Systems</b>: <a href="https://github.com/RulinShao/LightSeq" target="_blank">LightSeq</a> [<a href="https://arxiv.org/pdf/2310.03294.pdf" target="_blank">Preprint'23</a>], <a href="https://github.com/alpa-projects/alpa" target="_blank">Alpa</a> [<a href="https://arxiv.org/abs/2201.12023" target="_blank">OSDI'22</a>, <a href="https://arxiv.org/abs/2211.05322" target="_blank">MLSys'23</a>]
+                </li>
+            </ul>
+            {/*<h2 className="text-2xl font-semibold mb-4">Previous Projects</h2>*/}
+            {/*   <ul className="list-no-bullet">*/}
+            {/*       <li><b>Automatic ML parallelization and scheduling</b>: <a href="https://github.com/petuum/autodist" target="_blank">AutoSync</a> [<a href="https://proceedings.neurips.cc/paper/2020/file/0a2298a72858d90d5c4b4fee954b6896-Paper.pdf" target="_blank">NeurIPS'20</a>], <a href="https://github.com/petuum/adaptdl" target="_blank">Pollux</a> [<a href="https://arxiv.org/abs/2008.12260" target="_blank">OSDI'21</a>]</li>*/}
              {/*       <li><b>Systems for dynamic NNs</b>: <a href="https://github.com/zhisbug/Cavs" target="_blank">Cavs</a> [<a href="https://www.usenix.org/conference/atc18/presentation/xu-shizen" target="_blank">ATC'17</a>]</li>*/}
              {/*       <li><b>Data-parallel training systems</b>: <a href="https://github.com/sailing-pmls/pmls-caffe" target="_blank">Poseidon</a> [<a href="https://www.usenix.org/system/files/conference/atc17/atc17-zhang.pdf" target="_blank">ATC'17</a>], <a href="https://github.com/cuihenggang/geeps" target="_blank">GeePS</a> [<a href="https://cuihenggang.github.io/archive/paper/%5Beurosys16%5Dgeeps.pdf" target="_blank">EuroSys'16</a>], Staleness [<a href="https://arxiv.org/abs/1810.03264" target="_blank">ICLR'18</a>]</li>*/}
              {/*   </ul>*/}
@@ -84,6 +94,7 @@ export default function Home() {
 
         </div>
 
+        <Students />
         {/*/!* Recent Talks *!/*/}
         {/*<div className="mt-12">*/}
         {/*    <h2>Recent Talks</h2>*/}
@@ -168,4 +179,77 @@ function Talks() {
       </ul>
     </div>
   );
+}
+
+function Students() {
+    const sortByLastName = (a, b) => {
+      const lastNameA = a.name.split(' ').pop().toLowerCase();
+      const lastNameB = b.name.split(' ').pop().toLowerCase();
+      return lastNameA < lastNameB ? -1 : lastNameA > lastNameB ? 1 : 0;
+    };
+
+    // Filtering and sorting PhD and Postdoc students
+    const current_phd_postdocs = students.filter(student =>
+      student.category === "PhD" || student.category === "Postdoc"
+    ).sort(sortByLastName);
+
+    // Filtering and sorting students who are not PhD or Postdoc
+    const otherStudents = students.filter(student =>
+      student.category !== "PhD" && student.category !== "Postdoc"
+    ).sort(sortByLastName);
+
+    return (
+
+        // do some processing to filter current_phd_postdocs, current_ms_undergrad
+        // do some processing to filter past_students
+
+        <div className="mt-6 text-xl space-y-2">
+            <h1>Students</h1>
+            <h2>PhD and postdocs</h2>
+            <ul className="list-no-bullet">
+                {students.map((student) => (
+                    <li key={student.name}>
+                        <span className="mr-4">{student.name}</span>
+                        {student.url ? (
+                            <a href={student.url} target="_blank" rel="noopener noreferrer">
+                                {student.name}
+                            </a>
+                        ) : (
+                            `${student.name} at ${student.name}`
+                        )}
+                    </li>
+                ))}
+            </ul>
+            <h2>MS, undergrads, and visiting students</h2>
+            <ul className="list-no-bullet">
+                {students.map((student) => (
+                    <li key={student.name}>
+                        <span className="mr-4">{student.name}</span>
+                        {student.url ? (
+                            <a href={student.url} target="_blank" rel="noopener noreferrer">
+                                {student.name}
+                            </a>
+                        ) : (
+                            `${student.name} at ${student.name}`
+                        )}
+                    </li>
+                ))}
+            </ul>
+            <h2>Former students and postdocs</h2>
+            <ul className="list-no-bullet">
+                {students.map((student) => (
+                    <li key={student.name}>
+                        <span className="mr-4">{student.name}</span>
+                        {student.url ? (
+                            <a href={student.url} target="_blank" rel="noopener noreferrer">
+                                {student.name}
+                            </a>
+                        ) : (
+                            `${student.name} at ${student.name}`
+                        )}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 }

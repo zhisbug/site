@@ -4,22 +4,14 @@
         "code": "DSC291",
         "institute": "UC San Diego",
         "link": "",
-        "date": " Spring 2024",
-        "role": "Instructor"
-    },
-    {
-        "name": "Data Systems for Machine Learning",
-        "code": "CSE234",
-        "institute": "UC San Diego",
-        "link": "",
-        "date": " Spring 2024",
+        "date": "Spring 2024",
         "role": "Instructor"
     },
     {
         "name": "Scalable Data Systems",
         "code": "DSC204A",
         "institute": "UC San Diego",
-        "link": "",
+        "link": "https://hao-ai-lab.github.io/dsc204a-w24/",
         "date": "Winter 2024",
         "role": "Instructor"
     },
