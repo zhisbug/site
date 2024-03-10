@@ -48,7 +48,8 @@ export default function Home() {
         <div className="mt-8 text-xl space-y-2">
             <p>
               I am an Assistant Professor at <a href="https://datascience.ucsd.edu/" target="_blank">Halıcıoğlu Data Science Institute</a> and <a href="https://cse.ucsd.edu/" target="_blank">Department of Computer Science and Engineering</a> (affiliate) at <a href="https://ucsd.edu/" target="_blank">UC San Diego</a>.
-              I also cofounded <a href="https://lmnet.ai/" target="_blank">LMNet.ai</a> (2023) and we have joined force with <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> in November 2023. I worked for the ML platform startup <a href="https://www.petuum.com/" target="_blank">Petuum Inc</a> during 2016 - 2021.
+              I lead the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD. I cofounded <a href="https://lmnet.ai/" target="_blank">LMNet.ai</a> (2023), and we have joined force with <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> since November 2023.
+              During 2016 - 2021, I worked for the ML platform startup <a href="https://www.petuum.com/" target="_blank">Petuum Inc</a>.
               Here is <Link href="/bio"> a short Bio.</Link>
             </p>
             <p>
@@ -64,7 +65,7 @@ export default function Home() {
               I am equally interested in designing strong, efficient, and secure machine learning models and algorithms, and in building scalable, practical distributed systems that can support real-world machine learning workloads.
             </p>
             <p>
-              I direct the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD. We develop open models, algorithms, and systems to democratize the access of large models. I also co-founded and run the non-profit <b>LMSYS Org</b>. We maintain the popular LLM evaluation <a href="https://arena.lmsys.org/" target="_blank">Chatbot Arena</a> and the widely adopted LLM serving framework <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>.
+               <a href="https://hao-ai-lab.github.io/home/" target="_blank">Our Lab</a> develop open models, algorithms, and systems to democratize the access of large models. I also co-founded and run the non-profit <b>LMSYS Org</b>. We maintain the popular LLM evaluation <a href="https://arena.lmsys.org/" target="_blank">Chatbot Arena</a> and the widely adopted LLM serving framework <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>.
                 Some of our new research results are updated at <a href="https://lmsys.org/" target="_blank">lmsys.org</a> (<a href="https://twitter.com/lmsysorg" title="twitter" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block'}}><FaTwitter style={{display: 'inline-block'}}></FaTwitter><span>@lmsysorg</span></a>).
             </p>
             <h2>Current Projects</h2>
@@ -187,66 +188,64 @@ function Students() {
       const lastNameB = b.name.split(' ').pop().toLowerCase();
       return lastNameA < lastNameB ? -1 : lastNameA > lastNameB ? 1 : 0;
     };
+    const sortByEndDate = (a, b) => {
+      const endDateA = new Date(a.end.split('/').reverse().join('-'));
+      const endDateB = new Date(b.end.split('/').reverse().join('-'));
+      return endDateA - endDateB; // Sort in ascending order
+    };
 
-    // Filtering and sorting PhD and Postdoc students
-    const current_phd_postdocs = students.filter(student =>
-      student.category === "PhD" || student.category === "Postdoc"
-    ).sort(sortByLastName);
+    const current_students = students.filter(student =>
+      student.end.toLowerCase() === 'present'
+    ).sort(sortByLastName)
 
-    // Filtering and sorting students who are not PhD or Postdoc
-    const otherStudents = students.filter(student =>
-      student.category !== "PhD" && student.category !== "Postdoc"
-    ).sort(sortByLastName);
+    // Get today's date, reset hours to start of the day for accurate comparison
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    // Filtering former students
+    const former_students = students.filter(student => {
+      if (student.end.toLowerCase() === 'present') {
+        return false; // Exclude students who are currently active
+      }
+      // Convert end date string to Date object for comparison
+      const endDate = new Date(student.end.split('/').reverse().join('-'));
+      return endDate < today; // Include if end date is before today
+    }).sort(sortByEndDate);
 
     return (
 
         // do some processing to filter current_phd_postdocs, current_ms_undergrad
         // do some processing to filter past_students
-
         <div className="mt-6 text-xl space-y-2">
-            <h1>Students</h1>
-            <h2>PhD and postdocs</h2>
+            <h1>Students and Postdocs</h1>
+            <h2>Current Members</h2>
             <ul className="list-no-bullet">
-                {students.map((student) => (
+                {current_students.map((student) => (
                     <li key={student.name}>
-                        <span className="mr-4">{student.name}</span>
                         {student.url ? (
                             <a href={student.url} target="_blank" rel="noopener noreferrer">
                                 {student.name}
                             </a>
                         ) : (
-                            `${student.name} at ${student.name}`
-                        )}
+                            `${student.name}`
+                        )}, {student.category}
+                        {student.rotation && " (Rotation)"}
                     </li>
                 ))}
             </ul>
-            <h2>MS, undergrads, and visiting students</h2>
+
+            <h2>Alumni</h2>
             <ul className="list-no-bullet">
-                {students.map((student) => (
+                {former_students.map((student) => (
                     <li key={student.name}>
-                        <span className="mr-4">{student.name}</span>
                         {student.url ? (
                             <a href={student.url} target="_blank" rel="noopener noreferrer">
                                 {student.name}
                             </a>
                         ) : (
-                            `${student.name} at ${student.name}`
-                        )}
-                    </li>
-                ))}
-            </ul>
-            <h2>Former students and postdocs</h2>
-            <ul className="list-no-bullet">
-                {students.map((student) => (
-                    <li key={student.name}>
-                        <span className="mr-4">{student.name}</span>
-                        {student.url ? (
-                            <a href={student.url} target="_blank" rel="noopener noreferrer">
-                                {student.name}
-                            </a>
-                        ) : (
-                            `${student.name} at ${student.name}`
-                        )}
+                            `${student.name}`
+                        )}, {student.category}
+                        {student.rotation && " (Rotation)"}
+                        ({student.start.split('/')[1]}) {"->"} {student.placement}
                     </li>
                 ))}
             </ul>
