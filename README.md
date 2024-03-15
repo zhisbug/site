@@ -32,4 +32,6 @@ module.exports = {
 npm run build
 ```
 
-3. Copy the files in `out` to the server root address.
+3. Change the path to read my photo shot from `/xx.png` to `xx.png`.
+
+4. Copy the files in `out` to the server root address.
