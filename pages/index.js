@@ -243,9 +243,9 @@ function Students() {
                             </a>
                         ) : (
                             `${student.name}`
-                        )}, {student.category}
+                        )}, {student.category}{" "}
                         {student.rotation && " (Rotation)"}
-                        ({student.start.split('/')[1]}) {"->"} {student.placement}
+                         ({student.start.split('/')[1]}) {"->"} {student.placement}
                     </li>
                 ))}
             </ul>
