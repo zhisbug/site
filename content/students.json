@@ -86,5 +86,53 @@
       "start": "09/2021",
       "end": "09/2022",
       "placement": "PhD @ CMU"
+    },
+    {
+      "name": "Runlong Su",
+      "url": "https://github.com/rlsu9",
+      "category": "Master",
+      "start": "05/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Siqi Zhu",
+      "url": "",
+      "category": "Undergrad Intern",
+      "start": "03/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Hangliang Ding",
+      "url": "https://scholar.google.com/citations?user=LxPRowMAAAAJ&hl=en",
+      "category": "Undergrad Intern",
+      "start": "03/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Anirudha Agrawal",
+      "url": "https://www.linkedin.com/in/anirudha-agrawal/",
+      "category": "Master",
+      "start": "06/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Atharva Kshirsagar",
+      "url": "https://www.linkedin.com/in/akshirsagar1/",
+      "category": "Master",
+      "start": "01/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Peiyuan Zhang",
+      "url": "https://veiled-texture-20c.notion.site/Peiyuan-Zhang-ab24b48621c9491db767a76df860873a",
+      "category": "PhD",
+      "start": "09/2024",
+      "end": "present",
+      "placement": ""
     }
 ]

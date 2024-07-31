@@ -1,15 +1,27 @@
 [
     {
         "type": "Talk",
-        "venue": "CMU LTI Colloquium",
+        "venue": "Faster LLM Inference Seminar @ Weizmann Institute of Science",
+        "date": "01/2025",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "Microsoft GenAI AIMS Talk",
+        "date": "09/2024",
+        "link": "https://www.microsoft.com/en-us/research/people/shuowa/aims-invited-talk/"
+    },
+    {
+        "type": "Talk",
+        "venue": "UChicago AI+System Seminar",
         "date": "04/2024",
-        "link": "https://lti.cmu.edu/misc-pages/lti-colloquium.html"
+        "link": "https://uchi-jcl.github.io/seminar"
     },
     {
         "type": "Talk",
         "venue": "NSF Open-Source Generative AI (OSGAI) Workshop",
         "date": "03/2024",
-        "link": "https://srush.github.io/osgai/"
+        "link": "https://www.youtube.com/watch?v=7njmta3SlxE&pp=ygUdb3NhZ2kgaGFvIHpoYW5nIGNoYXRib3QgYXJlbmE%3D"
     },
     {
         "type": "Talk",

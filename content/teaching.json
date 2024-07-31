@@ -1,9 +1,17 @@
 [
     {
+        "name": "Data Systems for Machine Learning",
+        "code": "CSE234",
+        "institute": "UC San Diego",
+        "link": "",
+        "date": "Winter 2025",
+        "role": "Instructor"
+    },
+    {
         "name": "Machine Learning Systems",
         "code": "DSC291",
         "institute": "UC San Diego",
-        "link": "",
+        "link": "https://hao-ai-lab.github.io/dsc291-s24/",
         "date": "Spring 2024",
         "role": "Instructor"
     },

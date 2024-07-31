@@ -26,7 +26,7 @@ export default function prospective_student() {
 
             <h2>Prospective postdocs</h2>
             <p>
-                I am seeking 1-2 postdocs in the 2023-2024 cycle. Applicants are expected to have a prior publication record in top-tier venues
+                I am seeking 1-2 postdocs in the 2024-2025 cycle. Applicants are expected to have a prior publication record in top-tier venues
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
@@ -72,7 +72,7 @@ export default function prospective_student() {
                         have relevant research or programming experiences in machine learning or systems, or strong math/ML background, and
                     </li>
                     <li>
-                        can devote significant time on the projects.
+                        can devote significant time (at least 20 hours per week) on the projects.
                     </li>
                 </ul>
             <p>
