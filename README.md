@@ -30,6 +30,7 @@ module.exports = {
 2. Build deployment version:
 ```bash
 npm run build
+npm run export
 ```
 
 3. Change the path to read my photo shot from `/xx.png` to `xx.png`.
