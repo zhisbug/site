@@ -146,7 +146,7 @@
     {
         "title": "How Long Can Context Length of Open-Source LLMs truly Promise?",
         "authors": "Dacheng Li*, Rulin Shao*, Anze Xie, Ying Sheng, Lianmin Zheng, Joseph Gonzalez, Ion Stoica, Xuezhe Ma, Hao Zhang",
-        "venue": "Instruction Tuning and Instruction Following Workshop @ NeurIPS 2023 ",
+        "venue": "Instruction Tuning and Instruction Following Workshop @ NeurIPS 2023",
         "pdf": "https://openreview.net/pdf?id=LywifFNXV5",
         "code": "",
         "presentation": "",
