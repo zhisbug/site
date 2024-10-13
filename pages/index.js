@@ -94,8 +94,8 @@ export default function Home() {
                 {/*    papers.*/}
                 {/*</p>*/}
                 <ul className="list-no-bullet">
-                    <li><b>LLM inference and serving systems</b>: <a href="https://github.com/LLMServe/DistServe"
-                                                                     target="_blank">DistServe</a> [<a
+                    <li><b>LLM inference and serving systems</b>: <a href="https://github.com/hao-ai-lab/vllm-ltr" target="_blank">LLM-LTR</a> [<a
+                        href="https://arxiv.org/pdf/2408.15792" target="_blank">NeurIPS'24</a>], <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a> [<a
                         href="https://arxiv.org/pdf/2401.09670.pdf" target="_blank">OSDI'24</a>], <a
                         href="https://github.com/hao-ai-lab/MuxServe" target="_blank">MuxServe</a> [<a
                         href="https://arxiv.org/pdf/2404.02015" target="_blank">ICML'24</a>], <a

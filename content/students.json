@@ -25,7 +25,7 @@
     },
     {
       "name": "Will Lin",
-      "url": "",
+      "url": "https://scholar.google.com/citations?user=GqbjYtoAAAAJ&hl=en",
       "category": "PhD (Rotation)",
       "start": "09/2023",
       "end": "present",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Siqi Zhu",
-      "url": "",
+      "url": "https://scholar.google.com/citations?user=eYBAyoIAAAAJ&hl=zh-CN",
       "category": "Undergrad Intern",
       "start": "03/2024",
       "end": "present",
@@ -105,17 +105,9 @@
     },
     {
       "name": "Hangliang Ding",
-      "url": "https://scholar.google.com/citations?user=LxPRowMAAAAJ&hl=en",
+      "url": "https://foreverpiano.github.io/",
       "category": "Undergrad Intern",
       "start": "03/2024",
-      "end": "present",
-      "placement": ""
-    },
-    {
-      "name": "Anirudha Agrawal",
-      "url": "https://www.linkedin.com/in/anirudha-agrawal/",
-      "category": "Master",
-      "start": "06/2024",
       "end": "present",
       "placement": ""
     },
@@ -131,6 +123,30 @@
       "name": "Peiyuan Zhang",
       "url": "https://veiled-texture-20c.notion.site/Peiyuan-Zhang-ab24b48621c9491db767a76df860873a",
       "category": "PhD",
+      "start": "09/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Haoyang Yu",
+      "url": "https://www.linkedin.com/in/haoyang-yu-8b1997257/",
+      "category": "Undergrad Intern",
+      "start": "09/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Yuxuan Zhang",
+      "url": "https://www.linkedin.com/in/yuxuan-zhang-dexter/",
+      "category": "Undergrad Intern",
+      "start": "07/2024",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Zhongdongming Dai",
+      "url": "https://www.linkedin.com/in/andy-dai-says-hi/",
+      "category": "Undergrad Intern",
       "start": "09/2024",
       "end": "present",
       "placement": ""

@@ -7,6 +7,12 @@
     },
     {
         "type": "Talk",
+        "venue": "PyTorch Webinar",
+        "date": "10/2024",
+        "link": "https://www.linkedin.com/events/7250649916526489600/comments/"
+    },
+    {
+        "type": "Talk",
         "venue": "Microsoft GenAI AIMS Talk",
         "date": "09/2024",
         "link": "https://www.microsoft.com/en-us/research/people/shuowa/aims-invited-talk/"

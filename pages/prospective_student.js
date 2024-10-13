@@ -15,11 +15,10 @@ export default function prospective_student() {
 
             <p>
                 👉If you are interested in joining my group, I'd recommend that you first <a
-                    href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a>.
-                After submitting the form, please drop me an email (haozhang@ucsd.edu).
+                    href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a>.
             </p>
             <p>
-                Below are some helpful instructions on how to apply to the related PhD programs at UCSD and how to
+                Please read the following instructions on how to apply to the related PhD programs at UCSD and how to
                 get in touch with me.
             </p>
 
@@ -30,30 +29,20 @@ export default function prospective_student() {
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
-                    href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
+                    href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
             </p>
 
             <h2>Prospective PhD Students</h2>
                 <p>
-                    I take PhD students from <a href="https://datascience.ucsd.edu/" target="_blank" rel="noopener noreferrer">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank" rel="noopener noreferrer">CSE</a>, <a href="https://www.ece.ucsd.edu/" target="_blank" rel="noopener noreferrer">ECE</a>, or other related departments at UCSD.
+                    I mainly take PhD students from <a href="https://datascience.ucsd.edu/" target="_blank" rel="noopener noreferrer">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank" rel="noopener noreferrer">CSE</a>, or other related departments at UCSD.
                 </p>
                 <ul className="list-bullet">
-                    <li>To make sure I see your application, select my name as one of potential advisors in your application.</li>
-                    <li>For PhD applicants of CSE, ECE, and other departments, you may mark your preference on your UCSD Graduate Application by:
-                        <ul className="list-bullet m-2">
-                            <li>Marking "YES" to the question: "Are you interested in pursuing graduate work in a
-                                Data Science-related subject?"
-                            </li>
-                            <li>Clicking the YES option pushes your application to HDSI faculty for consideration as
-                                an applicant.
-                            </li>
-                        </ul>
-                    </li>
+                    <li>To make sure I see your application, it is <u>important to select my name as one of potential advisors</u> in your application.</li>
                     <li>Please express your interest in working with me in your personal statement.</li>
                 </ul>
                 <p>
-                    I am happy to receive emails from prospective PhD students, though I am unable to respond to them all.
-                    It'd be good if you could <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a> when dropping me an email,
+                    I am happy to receive emails from prospective PhD students, but I am unable to respond to them all due to the high volume.
+                    It's better to <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a> than dropping me an email,
                     so I can get to know you better and see if we are a good match. Thank you!
                 </p>
 
@@ -61,8 +50,8 @@ export default function prospective_student() {
             <h2>Current or admitted UCSD undergrad/MS students</h2>
             <p>
                 I am happy to advise research projects in large-scale machine learning, distributed systems,
-                Large Language Models, ML applications, or other related areas. I also welcome open-source enthusiasts
-                to join my group and contribute to ongoing open-source development. If you:
+                large language models, diffusion models, world models, ML applications, evaluations, or other related areas. I also welcome open-source enthusiasts
+                to join my group and contribute to ongoing open-source development. However, I only take students who
             </p>
                 <ul className="list-bullet">
                     <li>
@@ -76,7 +65,7 @@ export default function prospective_student() {
                     </li>
                 </ul>
             <p>
-                Please get in touch with me by <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*filling out this form*</b></a> and sending me an email.
+                If you think you are a good match, please get in touch with me by <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*filling out this form*</b></a> and sending me an email *highlighting your project and commitment plan*.
             </p>
 
 
@@ -84,7 +73,7 @@ export default function prospective_student() {
             <p>
                 I regularly take external, self-funded visiting scholars (graduate/undergrad students, etc) and research interns.
                 Visitors are expected to stay for <b>at least 6 months</b>.
-                Please contact me and <a href="https://forms.office.com/r/BszvFi5X3A" target="_blank"><b>*fill out this form*</b></a>.
+                Please contact me and <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a>.
                 Make sure you indicate the anticipated start and end time (Q8 and Q9).
             </p>
         </div>
