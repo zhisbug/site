@@ -1,5 +1,10 @@
 [
     {
+        "name": "FastVideo",
+        "description": "A lightweight framework for accelerating large video diffusion models",
+        "link": "https://github.com/hao-ai-lab/FastVideo"
+    },
+    {
         "name": "Lookahead Decoding",
         "description": "A parallel LLM decoding method that trades FLOPs for fewer decoding steps",
         "link": "https://github.com/hao-ai-lab/LookaheadDecoding"

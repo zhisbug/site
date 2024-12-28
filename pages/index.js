@@ -109,13 +109,12 @@ export default function Home() {
                         href="https://github.com/hao-ai-lab/LookaheadDecoding" target="_blank">Lookahead
                         Decoding</a> [<a href="https://arxiv.org/pdf/2402.02057.pdf" target="_blank">ICML'24</a>]
                     </li>
-                    <li><b>Open data, model, and evals</b>: <a href="https://arena.lmsys.org/" target="_blank">Chatbot
+                    <li><b>Open data, model, and evals</b>: <a href="https://arxiv.org/abs/2412.06394" target="_blank">Game
+                        Arena</a>, <a href="https://arena.lmsys.org/" target="_blank">Chatbot
                         Arena</a> [<a href="https://arxiv.org/pdf/2403.04132.pdf" target="_blank">ICML'24</a>], <a
                         href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m" target="_blank">LMSYS-Chat-1M</a> [<a
                         href="https://arxiv.org/pdf/2309.11998.pdf" target="_blank">ICLR'24</a>], <a
-                        href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna</a>, <a
-                        href="https://huggingface.co/spaces/lmsys/mt-bench" target="_blank">MT-bench</a> [<a
-                        href="https://arxiv.org/pdf/2306.05685.pdf" target="_blank">NeurIPS'23</a>]
+                        href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna</a>
                     </li>
                     {/*<li><b>Secure inference</b>:*/}
                     {/*    <a href="https://github.com/DachengLi1/MPCFormer" target="_blank">MPCFormer</a> <a href="https://arxiv.org/abs/2211.01452" target="_blank">[ICLR'23]</a>*/}
@@ -278,7 +277,7 @@ function Students() {
                 ))}
             </ul>
 
-            <h2>Alumni</h2>
+            <h2>Past Students</h2>
             <ul className="list-no-bullet">
                 {former_students.map((student) => (
                     <li key={student.name}>

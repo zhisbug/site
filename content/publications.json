@@ -1,5 +1,29 @@
 [
     {
+        "title": "GameArena: Evaluating LLM Reasoning through Live Computer Games",
+        "authors": "Lanxiang Hu*, Qiyu Li*, Anze Xie*, Nan Jiang, Ion Stoica, Haojian Jin, Hao Zhang",
+        "venue": "Preprint 2024",
+        "pdf": "https://arxiv.org/pdf/2412.06394",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models",
+        "date": "08/2024"
+    },
+    {
+        "title": "Specifications: The Missing Link to Making the Development of LLM Systems an Engineering Discipline",
+        "authors": "Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Koushik Sen, Hao Zhang, Anastasios N. Angelopoulos, Shishir G. Patil, Lingjiao Chen, Wei-Lin Chiang, Jared Q. Davis",
+        "venue": "Preprint 2024",
+        "pdf": "https://arxiv.org/pdf/2412.05299",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models, Scalable ML, ML Systems",
+        "date": "08/2024"
+    },
+    {
         "title": "Efficient LLM Scheduling by Learning to Rank",
         "authors": "Yichao Fu, Siqi Zhu, Runlong Su, Aurick Qiao, Ion Stoica, Hao Zhang",
         "venue": "NeurIPS 2024",

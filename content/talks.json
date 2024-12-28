@@ -7,6 +7,18 @@
     },
     {
         "type": "Talk",
+        "venue": "UWaterloo Invited Talk",
+        "date": "11/2024",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "LinkedIn AI Seminar",
+        "date": "10/2024",
+        "link": ""
+    },
+    {
+        "type": "Talk",
         "venue": "PyTorch Webinar",
         "date": "10/2024",
         "link": "https://www.linkedin.com/events/7250649916526489600/comments/"
