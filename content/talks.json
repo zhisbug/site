@@ -1,8 +1,26 @@
 [
     {
         "type": "Talk",
+        "venue": "Microsoft Research Aisa ACE Talk Series",
+        "date": "04/2025",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "CMU 11868 LLM Systems",
+        "date": "04/2025",
+        "link": ""
+    },
+    {
+        "type": "Talk",
+        "venue": "Bytedance AIP Spearhead Tech Talk Series",
+        "date": "03/2025",
+        "link": ""
+    },
+    {
+        "type": "Talk",
         "venue": "Faster LLM Inference Seminar @ Weizmann Institute of Science",
-        "date": "01/2025",
+        "date": "02/2025",
         "link": "https://faster-llms.vercel.app/"
     },
     {

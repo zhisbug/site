@@ -94,23 +94,24 @@ export default function Home() {
                 {/*    papers.*/}
                 {/*</p>*/}
                 <ul className="list-no-bullet">
-                    <li><b>LLM inference and serving systems</b>: <a href="https://github.com/hao-ai-lab/vllm-ltr" target="_blank">LLM-LTR</a> [<a
+                    <li><b>LLM inference and serving systems</b>: <a
+                        href="https://github.com/hao-ai-lab/Dynasor" target="_blank">Dynasor</a> [<a
+                        href="https://arxiv.org/pdf/2412.20993" target="_blank">Preprint'25</a>], <a href="https://github.com/hao-ai-lab/vllm-ltr" target="_blank">LLM-LTR</a> [<a
                         href="https://arxiv.org/pdf/2408.15792" target="_blank">NeurIPS'24</a>], <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a> [<a
                         href="https://arxiv.org/pdf/2401.09670.pdf" target="_blank">OSDI'24</a>], <a
-                        href="https://github.com/hao-ai-lab/MuxServe" target="_blank">MuxServe</a> [<a
-                        href="https://arxiv.org/pdf/2404.02015" target="_blank">ICML'24</a>], <a
                         href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a> [<a
                         href="https://arxiv.org/pdf/2309.06180.pdf" target="_blank">SOSP'23</a>]
                     </li>
                     <li><b>Efficient ML architectures and algorithms</b>: <a
-                        href="https://github.com/hao-ai-lab/Consistency_LLM" target="_blank">Consistency LLM</a> [<a
-                        href="https://arxiv.org/pdf/2403.00835.pdf" target="_blank">ICML'24</a>], OSD [<a
-                        href="https://arxiv.org/pdf/2310.07177.pdf" target="_blank">ICML'24</a>], <a
-                        href="https://github.com/hao-ai-lab/LookaheadDecoding" target="_blank">Lookahead
-                        Decoding</a> [<a href="https://arxiv.org/pdf/2402.02057.pdf" target="_blank">ICML'24</a>]
+                            href="https://github.com/hao-ai-lab/FastVideo" target="_blank">STA</a> [<a
+                        href="https://arxiv.org/pdf/2502.04507" target="_blank">Preprint'25</a>], <a
+                            href="https://github.com/hao-ai-lab/Consistency_LLM" target="_blank">Consistency LLM</a> [<a
+                            href="https://arxiv.org/pdf/2403.00835.pdf" target="_blank">ICML'24</a>], <a
+                            href="https://github.com/hao-ai-lab/LookaheadDecoding" target="_blank">Lookahead
+                            Decoding</a> [<a href="https://arxiv.org/pdf/2402.02057.pdf" target="_blank">ICML'24</a>]
                     </li>
-                    <li><b>Open data, model, and evals</b>: <a href="https://arxiv.org/abs/2412.06394" target="_blank">Game
-                        Arena</a>, <a href="https://arena.lmsys.org/" target="_blank">Chatbot
+                    <li><b>Open data, model, and evals</b>: <a href="https://lmgame.org/#/" target="_blank">Game
+                        Arena</a> [<a href="https://arxiv.org/pdf/2412.06394" target="_blank">ICLR'25</a>], <a href="https://arena.lmsys.org/" target="_blank">Chatbot
                         Arena</a> [<a href="https://arxiv.org/pdf/2403.04132.pdf" target="_blank">ICML'24</a>], <a
                         href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m" target="_blank">LMSYS-Chat-1M</a> [<a
                         href="https://arxiv.org/pdf/2309.11998.pdf" target="_blank">ICLR'24</a>], <a

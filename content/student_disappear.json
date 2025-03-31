@@ -1,4 +1,37 @@
 [
+   {
+      "name": "Tony Meng",
+      "url": "https://tonyqm.github.io/#/",
+      "category": "Undergrad Intern",
+      "start": "09/2024",
+      "end": "01/2025",
+      "placement": ""
+  },
+  {
+      "name": "Jason Kong",
+      "url": "https://www.jasonkongie.com/",
+      "category": "Undergrad Intern",
+      "start": "09/2024",
+      "end": "02/2025",
+      "placement": ""
+  },
+  {
+      "name": "Anze Xie",
+      "url": "https://github.com/AnzeXie",
+      "category": "Master",
+      "start": "08/2023",
+      "end": "01/2025",
+      "placement": ""
+    },
+  {
+      "name": "Andy Dai",
+      "url": "https://www.linkedin.com/in/andy-dai-says-hi/",
+      "category": "Master",
+      "start": "09/2024",
+      "end": "01/2025",
+      "placement": "Nvidia"
+    },
+
   {
       "name": "Longfei Yun",
       "url": "",

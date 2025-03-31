@@ -1,15 +1,93 @@
 [
+
     {
-        "title": "GameArena: Evaluating LLM Reasoning through Live Computer Games",
-        "authors": "Lanxiang Hu*, Qiyu Li*, Anze Xie*, Nan Jiang, Ion Stoica, Haojian Jin, Hao Zhang",
-        "venue": "Preprint 2024",
-        "pdf": "https://arxiv.org/pdf/2412.06394",
+        "title": "Efficiently Serving LLM Reasoning Programs with Certaindex",
+        "authors": "Yichao Fu*, Junda Chen*, Siqi Zhu, Zheyu Fu, Zhongdongming Dai, Aurick Qiao, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2412.20993",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/hao-ai-lab/Dynasor",
+        "tag": "Selected, Large Language Models, ML Systems",
+        "date": "01/2025"
+    },
+
+    {
+        "title": "Fast Video Generation with Sliding Tile Attention",
+        "authors": "Peiyuan Zhang, Yongqi Chen*, Runlong Su*, Hangliang Ding, Ion Stoica, Zhengzhong Liu, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2502.04507",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/hao-ai-lab/FastVideo",
+        "tag": "Selected, ML Systems, Scalable ML",
+        "date": "01/2025"
+    },
+
+   {
+        "title": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Format Restriction, and Column Exploration",
+        "authors": "Minghang Deng, Ashwin Ramachandran, Canwen Xu, Lanxiang Hu, Zhewei Yao, Anupam Datta, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2502.00675",
         "code": "",
         "presentation": "",
         "award": "",
         "project": "",
         "tag": "Selected, Large Language Models",
-        "date": "08/2024"
+        "date": "01/2025"
+    },
+
+    {
+        "title": "Efficient-vDiT: Efficient Video Diffusion Transformers With Attention Tile",
+        "authors": "Hangliang Ding*, Dacheng Li*, Runlong Su, Peiyuan Zhang, Zhijie Deng, Ion Stoica, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2502.06155",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/hao-ai-lab/FastVideo",
+        "tag": "Selected, ML Systems, Scalable ML",
+        "date": "01/2025"
+    },
+
+
+    {
+        "title": "Scaling Long Context Training Data by Long-Distance Referrals",
+        "authors": "Yonghao Zhuang, Lanxiang Hu, Longfei Yun, Souvik Kundu, Zhengzhong Liu, Eric P. Xing, Hao Zhang",
+        "venue": "ICLR 2025",
+        "pdf": "https://openreview.net/pdf?id=tePFpDgyqg",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models",
+        "date": "09/2024"
+    },
+    {
+        "title": "MatryoshkaKV: Adaptive KV Compression via Trainable Orthogonal Projection",
+        "authors": "Bokai Lin, Zihao Zeng, Zipeng Xiao, Siqi Kou, TianQi Hou, Xiaofeng Gao, Hao Zhang, Zhijie Deng",
+        "venue": "ICLR 2025",
+        "pdf": "https://arxiv.org/pdf/2410.14731",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Large Language Models, ML Systems",
+        "date": "09/2024"
+    },
+    {
+        "title": "GameArena: Evaluating LLM Reasoning through Live Computer Games",
+        "authors": "Lanxiang Hu*, Qiyu Li*, Anze Xie*, Nan Jiang, Ion Stoica, Haojian Jin, Hao Zhang",
+        "venue": "ICLR 2025",
+        "pdf": "https://arxiv.org/pdf/2412.06394",
+        "code": "https://github.com/lmgame-org",
+        "presentation": "",
+        "award": "",
+        "project": "https://lmgame.org/#/blog/ai_space_escape",
+        "tag": "Selected, Large Language Models",
+        "date": "09/2024"
     },
     {
         "title": "Specifications: The Missing Link to Making the Development of LLM Systems an Engineering Discipline",

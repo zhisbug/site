@@ -1,8 +1,24 @@
 [
     {
+      "name": "Mingjia Huo",
+      "url": "https://mignonjia.github.io/",
+      "category": "PhD (rotation)",
+      "start": "03/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Wei Zhou",
+      "url": "https://www.linkedin.com/in/wei-zhou3/",
+      "category": "Master",
+      "start": "02/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
       "name": "Lanxiang Hu",
       "url": "https://www.linkedin.com/in/hu-lanxiang/",
-      "category": "PhD",
+      "category": "PhD (w/ Tajana Rosing)",
       "start": "09/2023",
       "end": "present",
       "placement": ""
@@ -18,7 +34,7 @@
     {
       "name": "Junda Chen",
       "url": "https://github.com/GindaChen",
-      "category": "PhD (Rotation)",
+      "category": "PhD (w/ Tajana Rosing)",
       "start": "01/2024",
       "end": "present",
       "placement": ""
@@ -28,14 +44,6 @@
       "url": "https://scholar.google.com/citations?user=GqbjYtoAAAAJ&hl=en",
       "category": "PhD (Rotation)",
       "start": "09/2023",
-      "end": "present",
-      "placement": ""
-    },
-    {
-      "name": "Anze Xie",
-      "url": "https://github.com/AnzeXie",
-      "category": "Master",
-      "start": "08/2023",
       "end": "present",
       "placement": ""
     },
@@ -93,7 +101,7 @@
       "category": "Undergrad Intern",
       "start": "03/2024",
       "end": "present",
-      "placement": ""
+      "placement": "PhD @ UIUC"
     },
     {
       "name": "Hangliang Ding",
@@ -128,14 +136,6 @@
       "placement": ""
     },
     {
-      "name": "Andy Dai",
-      "url": "https://www.linkedin.com/in/andy-dai-says-hi/",
-      "category": "Master",
-      "start": "09/2024",
-      "end": "present",
-      "placement": ""
-    },
-    {
       "name": "Zheyu Fu",
       "url": "",
       "category": "Master",
@@ -144,16 +144,8 @@
       "placement": ""
     },
     {
-      "name": "Jason Kong",
-      "url": "https://www.jasonkongie.com/",
-      "category": "Undergrad Intern",
-      "start": "09/2024",
-      "end": "present",
-      "placement": ""
-    },
-    {
       "name": "Yonqqi Chen",
-      "url": "",
+      "url": "https://github.com/BrianChen1129",
       "category": "Master",
       "start": "09/2024",
       "end": "present",
@@ -171,14 +163,6 @@
       "name": "Ashwin Ramachandran",
       "url": "https://www.linkedin.com/in/ashwinram2002/",
       "category": "Master",
-      "start": "09/2024",
-      "end": "present",
-      "placement": ""
-    },
-    {
-      "name": "Tony Meng",
-      "url": "https://tonyqm.github.io/#/",
-      "category": "Undergrad Intern",
       "start": "09/2024",
       "end": "present",
       "placement": ""
