@@ -1,4 +1,19 @@
 [
+
+    {
+        "type": "Talk",
+        "venue": "MBZUAI IFM Launching Event",
+        "date": "05/2025",
+        "link": ""
+    },
+
+    {
+        "type": "Talk",
+        "venue": "Rugters Efficient AI Seminar",
+        "date": "04/2025",
+        "link": "https://www.youtube.com/watch?v=1KwVSEGt8bA"
+    },
+
     {
         "type": "Talk",
         "venue": "Microsoft Research Aisa ACE Talk Series",

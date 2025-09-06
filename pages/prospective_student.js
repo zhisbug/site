@@ -15,7 +15,7 @@ export default function prospective_student() {
 
             <p>
                 👉If you are interested in joining my group, I'd recommend that you first <a
-                    href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a>.
+                    href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a>.
             </p>
             <p>
                 Please read the following instructions on how to apply to the related PhD programs at UCSD and how to
@@ -29,7 +29,7 @@ export default function prospective_student() {
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
-                    href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
+                    href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> and drop me an email.
             </p>
 
             <h2>Prospective PhD Students</h2>
@@ -42,7 +42,7 @@ export default function prospective_student() {
                 </ul>
                 <p>
                     I am happy to receive emails from prospective PhD students, but I am unable to respond to them all due to the high volume.
-                    It's better to <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a> than dropping me an email,
+                    It's better to <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> than dropping me an email,
                     so I can get to know you better and see if we are a good match. Thank you!
                 </p>
 
@@ -65,7 +65,7 @@ export default function prospective_student() {
                     </li>
                 </ul>
             <p>
-                If you think you are a good match, please get in touch with me by <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*filling out this form*</b></a> and sending me an email *highlighting your project and commitment plan*.
+                If you think you are a good match, please get in touch with me by <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*filling out this form*</b></a> and sending me an email *highlighting your project and commitment plan*.
             </p>
 
 
@@ -73,7 +73,7 @@ export default function prospective_student() {
             <p>
                 I regularly take external, self-funded visiting scholars (graduate/undergrad students, etc) and research interns.
                 Visitors are expected to stay for <b>at least 6 months</b>.
-                Please contact me and <a href="https://forms.office.com/r/b9mBUG9yML" target="_blank"><b>*fill out this form*</b></a>.
+                Please contact me and <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a>.
                 Make sure you indicate the anticipated start and end time (Q8 and Q9).
             </p>
         </div>

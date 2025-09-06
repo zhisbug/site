@@ -9,9 +9,9 @@ function Layout({ children }) {
         <title>Hao Zhang</title>
       </Head>
       <header className="bg-nav-blue p-4 shadow sticky top-0 z-50">
-        <div className="container max-w-6xl mx-auto px-4 flex justify-between items-center text-xl sm:text-2xl">
+        <div className="container max-w-6xl mx-auto px-2 sm:px-4 flex justify-center items-center text-base sm:text-xl md:text-2xl">
           <nav>
-              <ul className="flex space-x-16">
+              <ul className="flex space-x-4 sm:space-x-8 md:space-x-16">
                   <li><Link href="/" className="text-white hover:underline">Home</Link></li>
                   <li><Link href="/publication" className="text-white hover:underline">Publications</Link></li>
                   <li><Link href="/teaching" className="text-white hover:underline">Teaching</Link></li>
@@ -21,8 +21,8 @@ function Layout({ children }) {
           </nav>
         </div>
       </header>
-        <main className="flex-1 items-center justify-center p-4 pb-12">
-        <div className="container max-w-6xl mx-auto px-4">
+        <main className="flex-1 items-center justify-center p-2 sm:p-4 pb-12">
+        <div className="container max-w-6xl mx-auto px-2 sm:px-4">
           {children}
         </div>
       </main>

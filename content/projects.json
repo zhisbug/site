@@ -2,51 +2,67 @@
     {
         "name": "FastVideo",
         "description": "A lightweight framework for accelerating large video diffusion models",
-        "link": "https://github.com/hao-ai-lab/FastVideo"
+        "link": "https://github.com/hao-ai-lab/FastVideo",
+        "active": true
+    },
+    {
+        "name": "LMGame",
+        "description": "Evaluate and improve AI by repurposing computer games",
+        "link": "https://github.com/lmgame-org/GamingAgent",
+        "active": true
     },
     {
         "name": "Lookahead Decoding",
         "description": "A parallel LLM decoding method that trades FLOPs for fewer decoding steps",
-        "link": "https://github.com/hao-ai-lab/LookaheadDecoding"
+        "link": "https://github.com/hao-ai-lab/LookaheadDecoding",
+        "active": true
     },
     {
         "name": "FastChat",
         "description": "An open platform for training, serving, and evaluating Large Language Models",
-        "link": "https://github.com/lm-sys/FastChat"
+        "link": "https://github.com/lm-sys/FastChat",
+        "active": true
     },
     {
         "name": "vLLM",
         "description": "A high-throughput and memory-efficient inference engine for LLMs",
-        "link": "https://github.com/vllm-project/vllm"
+        "link": "https://github.com/vllm-project/vllm",
+        "active": true
     },
     {
         "name": "Vicuna",
         "description": "A series of popular open-source LLM chatbots available in 7B/13B/33B sizes",
-        "link": "https://huggingface.co/lmsys/vicuna-13b-v1.5"
+        "link": "https://huggingface.co/lmsys/vicuna-13b-v1.5",
+        "active": false
     },
     {
       "name": "Alpa",
       "description": "Training large-scale neural networks with auto parallelization. Scales to 1000+ GPUs",
-      "link": "https://github.com/alpa-projects/alpa"
+      "link": "https://github.com/alpa-projects/alpa",
+      "active": false
     },
     {
       "name": "Ray Collective",
       "description": "CPU/GPU collective communication primitives on Ray",
-      "link": "https://docs.ray.io/en/latest/ray-more-libs/ray-collective.html"
+      "link": "https://docs.ray.io/en/latest/ray-more-libs/ray-collective.html",
+      "active": true
     },
     {
       "name": "AutoDist",
       "description": "Automatic data-parallel training on TensorFlow",
-      "link": "https://github.com/petuum/autodist"
+      "link": "https://github.com/petuum/autodist",
+      "active": false
     },
     {
       "name": "DyNet",
       "description": "The Dynamic Neural Network Toolkit",
-      "link": "https://github.com/clab/dynet"
+      "link": "https://github.com/clab/dynet",
+      "active": false
     },
     {
       "name": "Poseidon",
       "description": "Parameter server on distributed GPUs",
-      "link": "https://poseidon-release.readthedocs.io/en/v1.0.1/"
+      "link": "https://poseidon-release.readthedocs.io/en/v1.0.1/",
+      "active": false
     }
 ]

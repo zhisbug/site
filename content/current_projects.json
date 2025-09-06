@@ -1,0 +1,161 @@
+[
+  {
+    "category": "LLM inference and serving systems",
+    "projects": [
+      {
+        "name": "Dynasor",
+        "project_url": "https://github.com/hao-ai-lab/Dynasor",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2412.20993",
+            "venue": "Preprint'25"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "name": "LLM-LTR",
+        "project_url": "https://github.com/hao-ai-lab/vllm-ltr",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2408.15792",
+            "venue": "NeurIPS'24"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "name": "DistServe",
+        "project_url": "https://github.com/LLMServe/DistServe",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2401.09670.pdf",
+            "venue": "OSDI'24"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "name": "vLLM",
+        "project_url": "https://github.com/vllm-project/vllm",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2309.06180.pdf",
+            "venue": "SOSP'23"
+          }
+        ],
+        "visible": true
+      }
+    ]
+  },
+  {
+    "category": "Efficient ML architectures and algorithms",
+    "projects": [
+      {
+        "name": "VSA/STA",
+        "project_url": "https://github.com/hao-ai-lab/FastVideo",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/abs/2505.13389",
+            "venue": "Preprint'25"
+          },
+          {
+            "paper_url": "https://arxiv.org/pdf/2502.04507",
+            "venue": "ICML'25"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "name": "Lookahead Reasoning",
+        "project_url": "",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/abs/2506.19830",
+            "venue": "Preprint'25"
+          },
+          {
+            "paper_url": "https://arxiv.org/pdf/2402.02057.pdf",
+            "venue": "ICML'24"
+          }
+        ],
+        "visible": true
+      }
+    ]
+  },
+  {
+    "category": "Open data, models, and evals",
+    "projects": [
+
+        {
+            "name": "LMGame Bench",
+            "project_url": "https://huggingface.co/spaces/lmgame/lmgame_bench",
+            "papers": [
+                {
+                "paper_url": "https://arxiv.org/abs/2505.15146",
+                "venue": "Preprint'25"
+                },
+                {
+                    "paper_url": "https://arxiv.org/pdf/2412.06394",
+                    "venue": "ICLR'25"
+                    }
+            ],
+            "visible": true
+        },
+        {
+            "name": "FastWan",
+            "project_url": "https://hao-ai-lab.github.io/blogs/fastvideo_post_training/",
+            "papers": [],
+            "visible": true
+        },
+        {
+        "name": "Chatbot Arena",
+        "project_url": "https://arena.lmsys.org/",
+        "papers": [
+            {
+            "paper_url": "https://arxiv.org/pdf/2403.04132.pdf",
+            "venue": "ICML'24"
+            }
+        ],
+        "visible": true
+        },
+        {
+        "name": "Vicuna",
+        "project_url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+        "papers": [],
+        "visible": true
+        }
+    ]
+  },
+  {
+    "category": "Model-parallel ML Systems",
+    "projects": [
+      {
+        "name": "LightSeq",
+        "project_url": "https://github.com/RulinShao/LightSeq",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2310.03294.pdf",
+            "venue": "COLM'24"
+          }
+        ],
+        "visible": true
+      },
+      {
+        "name": "Alpa",
+        "project_url": "https://github.com/alpa-projects/alpa",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/abs/2201.12023",
+            "venue": "OSDI'22"
+          },
+          {
+            "paper_url": "https://arxiv.org/abs/2211.05322",
+            "venue": "MLSys'23"
+          }
+        ],
+        "visible": true
+      }
+    ]
+  }
+]

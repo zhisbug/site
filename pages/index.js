@@ -7,21 +7,22 @@ import Link from "next/link";
 import experiences from "@/content/experience.json";
 import talks from "@/content/talks.json"
 import students from "@/content/students.json"
+import currentProjects from "@/content/current_projects.json"
 
 
 export default function Home() {
     return (
         <Layout>
-        <div className="max-w-6xl mx-auto px-4 mt-4 flex flex-col sm:flex-row justify-center items-center">
-            <div className="mb-6 sm:mb-6 sm:mr-24">
+        <div className="max-w-6xl mx-auto px-2 sm:px-4 mt-4 flex flex-col sm:flex-row justify-center items-center">
+            <div className="mb-6 sm:mb-6 sm:mr-12 lg:mr-24">
                 <img src="/hao-2022.png" alt="Hao Zhang" className="w-64 md:w-72"/>
             </div>
-            <div className="leading-snug sm:ml-24">
-                <h1 className="text-4xl font-bold mb-4">Hao Zhang</h1>
-                <p className="text-xl mt-2">Assistant Professor</p>
-                <p className="text-xl mt-2"><a href="https://datascience.ucsd.edu/" target="_blank">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank">CSE</a> (affiliate)</p>
-                <p className="text-xl mt-2 mb-4"><a href="https://ucsd.edu/" target="_blank">UC San Diego</a> </p>
-                <p className="text-xl mt-2 inline-block mb-4">Email: haozhang AT ucsd.edu</p>
+            <div className="leading-snug sm:ml-12 lg:ml-24">
+                <h1 className="text-3xl sm:text-4xl font-bold mb-4">Hao Zhang</h1>
+                <p className="text-lg sm:text-xl mt-2">Assistant Professor</p>
+                <p className="text-lg sm:text-xl mt-2"><a href="https://datascience.ucsd.edu/" target="_blank">HDSI</a>, <a href="https://cse.ucsd.edu/" target="_blank">CSE</a> (affiliate)</p>
+                <p className="text-lg sm:text-xl mt-2 mb-4"><a href="https://ucsd.edu/" target="_blank">UC San Diego</a> </p>
+                <p className="text-lg sm:text-xl mt-2 inline-block mb-4">Email: haozhang AT ucsd.edu</p>
 
                 <div className="flex space-x-4">
                     <Link href="/cv.pdf">
@@ -39,14 +40,14 @@ export default function Home() {
                     <a href="https://x.com/haozhangml" title="Twitter" target="_blank" rel="noopener noreferrer">
                         <FaXTwitter  className="fa-icon"></FaXTwitter>
                     </a>
-                    <a href="https://www.linkedin.com/in/hao-zhang-05728576/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/haozhangml/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="fa-icon"></FaLinkedin>
                     </a>
                 </div>
             </div>
         </div>
 
-            <div className="mt-8 text-xl space-y-2">
+            <div className="mt-8 text-lg sm:text-xl space-y-2">
                 <p>
                     I am an Assistant Professor at <a href="https://datascience.ucsd.edu/" target="_blank">Halıcıoğlu
                     Data Science Institute</a> and <a href="https://cse.ucsd.edu/" target="_blank">Department of
@@ -66,7 +67,7 @@ export default function Home() {
                 </p>
             </div>
 
-            <div className="mt-4 text-xl space-y-2">
+            <div className="mt-4 text-lg sm:text-xl space-y-2">
                 <h1>Research</h1>
                 <p>
                     I study the intersection area of <b>machine learning</b> and <b>systems</b>.
@@ -89,78 +90,18 @@ export default function Home() {
                                                             target="_blank">vLLM</a>.
                 </p>
                 <h2>Current Projects</h2>
-                {/*<p>*/}
-                {/*    <span style={{color: 'red'}}>News:</span> In 2024, we have 1 ICLR, 6 ICML, 1 OSDI, 1 COLM, 1 ACL*/}
-                {/*    papers.*/}
-                {/*</p>*/}
-                <ul className="list-no-bullet">
-                    <li><b>LLM inference and serving systems</b>: <a
-                        href="https://github.com/hao-ai-lab/Dynasor" target="_blank">Dynasor</a> [<a
-                        href="https://arxiv.org/pdf/2412.20993" target="_blank">Preprint'25</a>], <a href="https://github.com/hao-ai-lab/vllm-ltr" target="_blank">LLM-LTR</a> [<a
-                        href="https://arxiv.org/pdf/2408.15792" target="_blank">NeurIPS'24</a>], <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a> [<a
-                        href="https://arxiv.org/pdf/2401.09670.pdf" target="_blank">OSDI'24</a>], <a
-                        href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a> [<a
-                        href="https://arxiv.org/pdf/2309.06180.pdf" target="_blank">SOSP'23</a>]
-                    </li>
-                    <li><b>Efficient ML architectures and algorithms</b>: <a
-                            href="https://github.com/hao-ai-lab/FastVideo" target="_blank">STA</a> [<a
-                        href="https://arxiv.org/pdf/2502.04507" target="_blank">Preprint'25</a>], <a
-                            href="https://github.com/hao-ai-lab/Consistency_LLM" target="_blank">Consistency LLM</a> [<a
-                            href="https://arxiv.org/pdf/2403.00835.pdf" target="_blank">ICML'24</a>], <a
-                            href="https://github.com/hao-ai-lab/LookaheadDecoding" target="_blank">Lookahead
-                            Decoding</a> [<a href="https://arxiv.org/pdf/2402.02057.pdf" target="_blank">ICML'24</a>]
-                    </li>
-                    <li><b>Open data, model, and evals</b>: <a href="https://lmgame.org/#/" target="_blank">Game
-                        Arena</a> [<a href="https://arxiv.org/pdf/2412.06394" target="_blank">ICLR'25</a>], <a href="https://arena.lmsys.org/" target="_blank">Chatbot
-                        Arena</a> [<a href="https://arxiv.org/pdf/2403.04132.pdf" target="_blank">ICML'24</a>], <a
-                        href="https://huggingface.co/datasets/lmsys/lmsys-chat-1m" target="_blank">LMSYS-Chat-1M</a> [<a
-                        href="https://arxiv.org/pdf/2309.11998.pdf" target="_blank">ICLR'24</a>], <a
-                        href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna</a>
-                    </li>
-                    {/*<li><b>Secure inference</b>:*/}
-                    {/*    <a href="https://github.com/DachengLi1/MPCFormer" target="_blank">MPCFormer</a> <a href="https://arxiv.org/abs/2211.01452" target="_blank">[ICLR'23]</a>*/}
-                    {/*</li>*/}
-                    <li><b>Model-parallel ML Systems</b>: <a href="https://github.com/RulinShao/LightSeq"
-                                                             target="_blank">LightSeq</a> [<a
-                        href="https://arxiv.org/pdf/2310.03294.pdf" target="_blank">COLM'24</a>], <a
-                        href="https://github.com/alpa-projects/alpa" target="_blank">Alpa</a> [<a
-                        href="https://arxiv.org/abs/2201.12023" target="_blank">OSDI'22</a>, <a
-                        href="https://arxiv.org/abs/2211.05322" target="_blank">MLSys'23</a>]
-                    </li>
-                </ul>
-                {/*<h2 className="text-2xl font-semibold mb-4">Previous Projects</h2>*/}
-                {/*   <ul className="list-no-bullet">*/}
-                {/*       <li><b>Automatic ML parallelization and scheduling</b>: <a href="https://github.com/petuum/autodist" target="_blank">AutoSync</a> [<a href="https://proceedings.neurips.cc/paper/2020/file/0a2298a72858d90d5c4b4fee954b6896-Paper.pdf" target="_blank">NeurIPS'20</a>], <a href="https://github.com/petuum/adaptdl" target="_blank">Pollux</a> [<a href="https://arxiv.org/abs/2008.12260" target="_blank">OSDI'21</a>]</li>*/}
-                {/*       <li><b>Systems for dynamic NNs</b>: <a href="https://github.com/zhisbug/Cavs" target="_blank">Cavs</a> [<a href="https://www.usenix.org/conference/atc18/presentation/xu-shizen" target="_blank">ATC'17</a>]</li>*/}
-                {/*       <li><b>Data-parallel training systems</b>: <a href="https://github.com/sailing-pmls/pmls-caffe" target="_blank">Poseidon</a> [<a href="https://www.usenix.org/system/files/conference/atc17/atc17-zhang.pdf" target="_blank">ATC'17</a>], <a href="https://github.com/cuihenggang/geeps" target="_blank">GeePS</a> [<a href="https://cuihenggang.github.io/archive/paper/%5Beurosys16%5Dgeeps.pdf" target="_blank">EuroSys'16</a>], Staleness [<a href="https://arxiv.org/abs/1810.03264" target="_blank">ICLR'18</a>]</li>*/}
-                {/*   </ul>*/}
+                <CurrentProjects />
 
-                <p>Some of my research have been developed and maintained as open source software:</p>
+                <p>Some of my research have been actively developed and maintained as open source software:</p>
                 <ProjectList/>
 
             </div>
 
             <Students/>
-            {/*/!* Recent Talks *!/*/}
-            {/*<div className="mt-12">*/}
-        {/*    <h2>Recent Talks</h2>*/}
-        {/*    <ul className="list-disc pl-5">*/}
-        {/*        <li>Talk 1: Description or link to slides/resources.</li>*/}
-        {/*        <li>Talk 2: Description or link to slides/resources.</li>*/}
-        {/*        /!* ... *!/*/}
-        {/*    </ul>*/}
-        {/*</div>*/}
+
+
         <Talks />
 
-        {/*/!* Recent Services *!/*/}
-        {/*<div className="mt-12">*/}
-        {/*    <h2>Recent Services</h2>*/}
-        {/*    <ul className="list-disc pl-5">*/}
-        {/*        <li>Service 1: Description or the nature of the service.</li>*/}
-        {/*        <li>Service 2: Description or the nature of the service.</li>*/}
-        {/*        /!* ... *!/*/}
-        {/*    </ul>*/}
-        {/*</div>*/}
 
         <Experience />
 
@@ -169,20 +110,38 @@ export default function Home() {
 }
 
 function ProjectList() {
+    const activeProjects = projects.filter(project => project.active);
+    const previousProjects = projects.filter(project => !project.active);
+
     return (
-        <ul className="list-no-bullet">
-            {projects.map((project) => (
-                <li key={project.name}>
-                    <b><a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a></b>: {project.description}.
-                </li>
-            ))}
-        </ul>
+        <div>
+            <ul className="list-no-bullet">
+                {activeProjects.map((project) => (
+                    <li key={project.name}>
+                        <b><a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a></b>: {project.description}.
+                    </li>
+                ))}
+            </ul>
+            
+            {previousProjects.length > 0 && (
+                <div className="mt-2">
+                    <p className="mb-2">Some previous projects:</p>
+                    <ul className="list-no-bullet">
+                        {previousProjects.map((project) => (
+                            <li key={project.name}>
+                                <b><a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a></b>: {project.description}.
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
+        </div>
     );
 }
 
 function Experience() {
     return (
-        <div className="mt-6 text-xl space-y-2">
+        <div className="mt-6 text-lg sm:text-xl space-y-2">
             <h1>Experience</h1>
             <ul className="list-no-bullet">
             {experiences.map((experience) => (
@@ -210,16 +169,18 @@ function Talks() {
     <div className="mt-6 text-xl space-y-2">
       <h1>Recent Talks</h1>
       <ul className="list-no-bullet">
-        {talks.map((talk, index) => (
-          <li key={index}>
-             <span className="mr-4">{talk.date}</span>
-            {talk.link ? (
-              <a href={talk.link} target="_blank" rel="noopener noreferrer">
-                {talk.type} at {talk.venue}
-              </a>
-            ) : (
-              `${talk.type} at ${talk.venue}`
-            )}
+        {latestTalks.map((talk, index) => (
+          <li key={index} className="grid grid-cols-[auto_1fr] gap-4 items-start">
+            <span className="text-right min-w-[80px]">{talk.date}</span>
+            <span>
+              {talk.link ? (
+                <a href={talk.link} target="_blank" rel="noopener noreferrer">
+                  {talk.type} at {talk.venue}
+                </a>
+              ) : (
+                `${talk.type} at ${talk.venue}`
+              )}
+            </span>
           </li>
         ))}
       </ul>
@@ -236,7 +197,7 @@ function Students() {
     const sortByEndDate = (a, b) => {
       const endDateA = new Date(a.end.split('/').reverse().join('-'));
       const endDateB = new Date(b.end.split('/').reverse().join('-'));
-      return endDateA - endDateB; // Sort in ascending order
+      return endDateB - endDateA; // Sort in descending order (latest first)
     };
 
     const current_students = students.filter(student =>
@@ -260,7 +221,7 @@ function Students() {
 
         // do some processing to filter current_phd_postdocs, current_ms_undergrad
         // do some processing to filter past_students
-        <div className="mt-6 text-xl space-y-2">
+        <div className="mt-6 text-lg sm:text-xl space-y-2">
             <h1>Students and Postdocs</h1>
             <h2>Current Members</h2>
             <ul className="list-no-bullet">
@@ -295,5 +256,39 @@ function Students() {
                 ))}
             </ul>
         </div>
+    );
+}
+
+function CurrentProjects() {
+    return (
+        <ul className="list-no-bullet">
+            {currentProjects.map((category, categoryIndex) => (
+                <li key={categoryIndex}>
+                    <b>{category.category}</b>: {category.projects
+                        .filter(project => project.visible)
+                        .map((project, projectIndex, visibleProjects) => (
+                            <span key={projectIndex}>
+                                <a href={project.project_url} target="_blank" rel="noopener noreferrer">
+                                    {project.name}
+                                </a>
+                                {project.papers && project.papers.length > 0 && (
+                                    <span> [
+                                        {project.papers.map((paper, paperIndex) => (
+                                            <span key={paperIndex}>
+                                                <a href={paper.paper_url} target="_blank" rel="noopener noreferrer">
+                                                    {paper.venue}
+                                                </a>
+                                                {paperIndex < project.papers.length - 1 && ', '}
+                                            </span>
+                                        ))}
+                                    ]</span>
+                                )}
+                                {projectIndex < visibleProjects.length - 1 && ', '}
+                            </span>
+                        ))
+                    }
+                </li>
+            ))}
+        </ul>
     );
 }

@@ -1,8 +1,67 @@
 [
-
     {
-        "title": "Efficiently Serving LLM Reasoning Programs with Certaindex",
-        "authors": "Yichao Fu*, Junda Chen*, Siqi Zhu, Zheyu Fu, Zhongdongming Dai, Aurick Qiao, Hao Zhang",
+        "title": "Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing",
+        "authors": "Xu Wang, Chenkai Xu, Yijie Jin, Jiachun Jin, Hao Zhang, Zhijie Deng",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2508.09192",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/zhijie-group/Discrete-Diffusion-Forcing",
+        "tag": "Selected, Large Language Models",
+        "date": "08/2025"
+    },
+    {
+        "title": "Scaling Speculative Decoding with Lookahead Reasoning",
+        "authors": "Yichao Fu, Rui Ge, Zelei Shao, Zhijie Deng, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2506.19830",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models",
+        "date": "06/2025"
+    },
+    {
+        "title": "Arctic-Text2SQL-R1: Simple Rewards, Strong Reasoning in Text-to-SQL",
+        "authors": "Zhewei Yao, Guoheng Sun, Lukasz Borchmann, Zheyu Shen, Minghang Deng, Bohan Zhai, Hao Zhang, Ang Li, Yuxiong He",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2505.20315",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://huggingface.co/Snowflake/Arctic-Text2SQL-R1-7B",
+        "tag": "Large Language Models",
+        "date": "05/2025"
+    },
+    {
+        "title": "VSA: Faster Video Diffusion with Trainable Sparse Attention",
+        "authors": "Peiyuan Zhang*, Yongqi Chen*, Haofeng Huang, Will Lin, Zhengzhong Liu, Ion Stoica, Eric P Xing, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2505.13389",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/hao-ai-lab/FastVideo",
+        "tag": "Selected, ML Systems, Scalable ML",
+        "date": "05/2025"
+    },
+    {
+        "title": "LMGame-Bench: How Good are LLMs at Playing Games?",
+        "authors": "Lanxiang Hu*, Mingjia Huo*, Yuxuan Zhang, Haoyang Yu, Eric P Xing, Ion Stoica, Tajana Rosing, Haojian Jin, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2505.15146?",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/lmgame-org/GamingAgent/tree/main/lmgame-bench",
+        "tag": "Selected, Large Language Models",
+        "date": "05/2025"
+    },
+    {
+        "title": "Efficiently Scaling LLM Reasoning with Certaindex",
+        "authors": "Yichao Fu*, Junda Chen*, Siqi Zhu, Zheyu Fu, Zhongdongming Dai, Yonghao Zhuang, Yian Ma, Aurick Qiao, Tajana Rosing, Ion Stoica, Hao Zhang",
         "venue": "Preprint 2025",
         "pdf": "https://arxiv.org/pdf/2412.20993",
         "code": "",
@@ -12,11 +71,22 @@
         "tag": "Selected, Large Language Models, ML Systems",
         "date": "01/2025"
     },
-
+    {
+        "title": "Reasoning without Self-doubt: More Efficient Chain-of-thought through Certainty Probing",
+        "authors": "Yichao Fu, Junda Chen, Yonghao Zhuang, Zheyu Fu, Ion Stoica, Hao Zhang",
+        "venue": "Foundation Models in the Wild Workshop @ ICML 2025",
+        "pdf": "https://openreview.net/pdf?id=wpK4IMJfdX",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "https://github.com/hao-ai-lab/Dynasor",
+        "tag": "Selected, Large Language Models, ML Systems",
+        "date": "03/2025"
+    },
     {
         "title": "Fast Video Generation with Sliding Tile Attention",
         "authors": "Peiyuan Zhang, Yongqi Chen*, Runlong Su*, Hangliang Ding, Ion Stoica, Zhengzhong Liu, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "ICML 2025",
         "pdf": "https://arxiv.org/pdf/2502.04507",
         "code": "",
         "presentation": "",
@@ -25,7 +95,6 @@
         "tag": "Selected, ML Systems, Scalable ML",
         "date": "01/2025"
     },
-
    {
         "title": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Format Restriction, and Column Exploration",
         "authors": "Minghang Deng, Ashwin Ramachandran, Canwen Xu, Lanxiang Hu, Zhewei Yao, Anupam Datta, Hao Zhang",
@@ -38,11 +107,10 @@
         "tag": "Selected, Large Language Models",
         "date": "01/2025"
     },
-
     {
         "title": "Efficient-vDiT: Efficient Video Diffusion Transformers With Attention Tile",
         "authors": "Hangliang Ding*, Dacheng Li*, Runlong Su, Peiyuan Zhang, Zhijie Deng, Ion Stoica, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "ES-FOMO Workshop @ ICML 2025",
         "pdf": "https://arxiv.org/pdf/2502.06155",
         "code": "",
         "presentation": "",

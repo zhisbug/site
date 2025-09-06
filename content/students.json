@@ -1,8 +1,48 @@
 [
     {
+      "name": "Susan Li",
+      "url": "",
+      "category": "Undergrad Intern",
+      "start": "04/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Yiming Zhao",
+      "url": "https://www.linkedin.com/in/yiming-zhao-zym2002/",
+      "category": "Master",
+      "start": "07/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Matthew Noto",
+      "url": "https://www.linkedin.com/in/notomatthew/",
+      "category": "Undergrad Intern",
+      "start": "07/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Abhilash Shankarampeta",
+      "url": "https://www.linkedin.com/in/abhilashreddys/",
+      "category": "Master",
+      "start": "02/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "David Su",
+      "url": "",
+      "category": "PhD",
+      "start": "09/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
       "name": "Mingjia Huo",
       "url": "https://mignonjia.github.io/",
-      "category": "PhD (rotation)",
+      "category": "PhD (w/ Tajana Rosing)",
       "start": "03/2025",
       "end": "present",
       "placement": ""
@@ -17,7 +57,7 @@
     },
     {
       "name": "Lanxiang Hu",
-      "url": "https://www.linkedin.com/in/hu-lanxiang/",
+      "url": "https://snyhlxde1.github.io/",
       "category": "PhD (w/ Tajana Rosing)",
       "start": "09/2023",
       "end": "present",
@@ -42,7 +82,7 @@
     {
       "name": "Will Lin",
       "url": "https://scholar.google.com/citations?user=GqbjYtoAAAAJ&hl=en",
-      "category": "PhD (Rotation)",
+      "category": "PhD",
       "start": "09/2023",
       "end": "present",
       "placement": ""
@@ -60,8 +100,8 @@
       "url": "https://jf-d.github.io/",
       "category": "Visiting PhD",
       "start": "09/2023",
-      "end": "present",
-      "placement": ""
+      "end": "09/2024",
+      "placement": "Alibaba Group"
     },
     {
       "name": "Runyu Lu",
@@ -92,15 +132,15 @@
       "url": "https://github.com/rlsu9",
       "category": "Master",
       "start": "05/2024",
-      "end": "present",
-      "placement": ""
+      "end": "05/2025",
+      "placement": "Bytedance"
     },
     {
       "name": "Siqi Zhu",
       "url": "https://scholar.google.com/citations?user=eYBAyoIAAAAJ&hl=zh-CN",
       "category": "Undergrad Intern",
       "start": "03/2024",
-      "end": "present",
+      "end": "03/2025",
       "placement": "PhD @ UIUC"
     },
     {
@@ -108,8 +148,8 @@
       "url": "https://foreverpiano.github.io/",
       "category": "Undergrad Intern",
       "start": "03/2024",
-      "end": "present",
-      "placement": ""
+      "end": "12/2024",
+      "placement": "Bytedance"
     },
     {
       "name": "Peiyuan Zhang",
@@ -130,26 +170,26 @@
     {
       "name": "Yuxuan Zhang",
       "url": "https://www.linkedin.com/in/yuxuan-zhang-dexter/",
-      "category": "Undergrad Intern",
+      "category": "Master",
       "start": "07/2024",
       "end": "present",
       "placement": ""
     },
     {
       "name": "Zheyu Fu",
-      "url": "",
+      "url": "https://www.linkedin.com/in/zheyu-fu-1b4667231/",
       "category": "Master",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "05/2025",
+      "placement": "NVIDIA"
     },
     {
       "name": "Yonqqi Chen",
       "url": "https://github.com/BrianChen1129",
       "category": "Master",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "09/2025",
+      "placement": "Stealth startup"
     },
     {
       "name": "Minghang Deng",
@@ -164,8 +204,16 @@
       "url": "https://www.linkedin.com/in/ashwinram2002/",
       "category": "Master",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "05/2025",
+      "placement": "ContextFort (co-founder)"
+    },
+    {
+      "name": "Anze Xie",
+      "url": "https://github.com/AnzeXie",
+      "category": "Master",
+      "start": "08/2023",
+      "end": "01/2025",
+      "placement": "MBZUAI IFM Lab"
     }
 ]
 

@@ -1,5 +1,13 @@
 [
     {
+        "name": "Scalable Data Systems",
+        "code": "DSC204A",
+        "institute": "UC San Diego",
+        "link": "https://hao-ai-lab.github.io/dsc204a-f25/",
+        "date": "Fall 2025",
+        "role": "Instructor"
+    },
+    {
         "name": "Data Systems for Machine Learning",
         "code": "CSE234 / DSC 291",
         "institute": "UC San Diego",
