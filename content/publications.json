@@ -14,12 +14,12 @@
     {
         "title": "Scaling Speculative Decoding with Lookahead Reasoning",
         "authors": "Yichao Fu, Rui Ge, Zelei Shao, Zhijie Deng, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "NeurIPS 2025",
         "pdf": "https://arxiv.org/pdf/2506.19830",
         "code": "",
         "presentation": "",
         "award": "",
-        "project": "",
+        "project": "https://github.com/hao-ai-lab/LookaheadReasoning",
         "tag": "Selected, Large Language Models",
         "date": "06/2025"
     },
@@ -38,7 +38,7 @@
     {
         "title": "VSA: Faster Video Diffusion with Trainable Sparse Attention",
         "authors": "Peiyuan Zhang*, Yongqi Chen*, Haofeng Huang, Will Lin, Zhengzhong Liu, Ion Stoica, Eric P Xing, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "NeurIPS 2025",
         "pdf": "https://arxiv.org/pdf/2505.13389",
         "code": "",
         "presentation": "",
@@ -62,7 +62,7 @@
     {
         "title": "Efficiently Scaling LLM Reasoning with Certaindex",
         "authors": "Yichao Fu*, Junda Chen*, Siqi Zhu, Zheyu Fu, Zhongdongming Dai, Yonghao Zhuang, Yian Ma, Aurick Qiao, Tajana Rosing, Ion Stoica, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "NeurIPS 2025",
         "pdf": "https://arxiv.org/pdf/2412.20993",
         "code": "",
         "presentation": "",
@@ -119,8 +119,6 @@
         "tag": "Selected, ML Systems, Scalable ML",
         "date": "01/2025"
     },
-
-
     {
         "title": "Scaling Long Context Training Data by Long-Distance Referrals",
         "authors": "Yonghao Zhuang, Lanxiang Hu, Longfei Yun, Souvik Kundu, Zhengzhong Liu, Eric P. Xing, Hao Zhang",
