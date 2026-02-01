@@ -80,14 +80,16 @@ export default function Home() {
                     href="https://x.com/haoailab" title="twitter" target="_blank" rel="noopener noreferrer"
                     style={{display: 'inline-block'}}><FaXTwitter
                     style={{display: 'inline-block'}}></FaXTwitter><span>@haoailab</span></a>) develops open models,
-                    algorithms, and systems to democratize the access of large models. I also co-founded and run the
+                    algorithms, and systems to democratize the access of large models. 
+                    
+                    {/* I also co-founded and run the
                     non-profit <a href="https://lmsys.org/" target="_blank">LMSYS
                     Org</a> (<a href="https://twitter.com/lmsysorg" title="twitter" target="_blank"
                                 rel="noopener noreferrer" style={{display: 'inline-block'}}><FaXTwitter
                     style={{display: 'inline-block'}}></FaXTwitter><span>@lmsysorg</span></a>) which maintains the
                     popular LLM evaluation <a href="https://arena.lmsys.org/" target="_blank">Chatbot Arena</a> and the
                     widely adopted LLM serving framework <a href="https://github.com/vllm-project/vllm"
-                                                            target="_blank">vLLM</a>.
+                                                            target="_blank">vLLM</a>. */}
                 </p>
                 <h2>Current Projects</h2>
                 <CurrentProjects />

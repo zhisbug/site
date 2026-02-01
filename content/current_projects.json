@@ -2,13 +2,26 @@
   {
     "category": "LLM inference and serving systems",
     "projects": [
+
+      {
+        "name": "DeepConf",
+        "project_url": "https://github.com/facebookresearch/deepconf",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2508.15260",
+            "venue": "ICLR'26"
+          }
+        ],
+        "visible": true
+      },
+
       {
         "name": "Dynasor",
         "project_url": "https://github.com/hao-ai-lab/Dynasor",
         "papers": [
           {
             "paper_url": "https://arxiv.org/pdf/2412.20993",
-            "venue": "Preprint'25"
+            "venue": "NeurIPS'25"
           }
         ],
         "visible": true
@@ -22,7 +35,7 @@
             "venue": "NeurIPS'24"
           }
         ],
-        "visible": true
+        "visible": false
       },
       {
         "name": "DistServe",
@@ -49,15 +62,41 @@
     ]
   },
   {
-    "category": "Efficient ML architectures and algorithms",
+    "category": "Efficient ML architectures/algorithms",
     "projects": [
+
+      {
+        "name": "d3LLM",
+        "project_url": "https://github.com/hao-ai-lab/d3LLM",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2601.07568",
+            "venue": "Preprint'26"
+          }
+        ],
+        "visible": true
+      },
+
+      {
+        "name": "Jacobi Forcing",
+        "project_url": "https://github.com/hao-ai-lab/JacobiForcing",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2512.14681",
+            "venue": "Preprint'25"
+          }
+        ],
+        "visible": true
+      },
+
+
       {
         "name": "VSA/STA",
         "project_url": "https://github.com/hao-ai-lab/FastVideo",
         "papers": [
           {
             "paper_url": "https://arxiv.org/abs/2505.13389",
-            "venue": "Preprint'25"
+            "venue": "NeurIPS'25"
           },
           {
             "paper_url": "https://arxiv.org/pdf/2502.04507",
@@ -72,14 +111,14 @@
         "papers": [
           {
             "paper_url": "https://arxiv.org/abs/2506.19830",
-            "venue": "Preprint'25"
+            "venue": "NeurIPS'25"
           },
           {
             "paper_url": "https://arxiv.org/pdf/2402.02057.pdf",
             "venue": "ICML'24"
           }
         ],
-        "visible": true
+        "visible": false
       }
     ]
   },
@@ -87,25 +126,38 @@
     "category": "Open data, models, and evals",
     "projects": [
 
+      {
+        "name": "VideoScience-Bench",
+        "project_url": "",
+        "papers": [
+            {
+            "paper_url": "https://arxiv.org/pdf/2512.02942",
+            "venue": "Preprint'26"
+            }
+        ],
+        "visible": true
+    },
+
+        {
+          "name": "FastWan Series",
+          "project_url": "https://hao-ai-lab.github.io/blogs/fastvideo_post_training/",
+          "papers": [],
+          "visible": true
+        },
+
         {
             "name": "LMGame Bench",
             "project_url": "https://huggingface.co/spaces/lmgame/lmgame_bench",
             "papers": [
                 {
                 "paper_url": "https://arxiv.org/abs/2505.15146",
-                "venue": "Preprint'25"
+                "venue": "ICLR'26"
                 },
                 {
                     "paper_url": "https://arxiv.org/pdf/2412.06394",
                     "venue": "ICLR'25"
                     }
             ],
-            "visible": true
-        },
-        {
-            "name": "FastWan",
-            "project_url": "https://hao-ai-lab.github.io/blogs/fastvideo_post_training/",
-            "papers": [],
             "visible": true
         },
         {
@@ -117,19 +169,32 @@
             "venue": "ICML'24"
             }
         ],
-        "visible": true
+        "visible": false
         },
         {
         "name": "Vicuna",
         "project_url": "https://lmsys.org/blog/2023-03-30-vicuna/",
         "papers": [],
-        "visible": true
+        "visible": false
         }
     ]
   },
   {
     "category": "Model-parallel ML Systems",
     "projects": [
+
+      {
+        "name": "DistCA",
+        "project_url": "https://github.com/hao-ai-lab/DistCA",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/pdf/2510.18121",
+            "venue": "MLSys'26"
+          }
+        ],
+        "visible": true
+      },
+
       {
         "name": "LightSeq",
         "project_url": "https://github.com/RulinShao/LightSeq",
@@ -139,7 +204,7 @@
             "venue": "COLM'24"
           }
         ],
-        "visible": true
+        "visible": false
       },
       {
         "name": "Alpa",

@@ -1,5 +1,13 @@
 [
     {
+        "name": "Deep Learning Systems",
+        "code": "DSC 291 / CSE 291",
+        "institute": "UC San Diego",
+        "link": "",
+        "date": "Spring 2026",
+        "role": "Instructor"
+    },
+    {
         "name": "Scalable Data Systems",
         "code": "DSC204A",
         "institute": "UC San Diego",

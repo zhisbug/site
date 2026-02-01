@@ -21,7 +21,7 @@
         "name": "FastChat",
         "description": "An open platform for training, serving, and evaluating Large Language Models",
         "link": "https://github.com/lm-sys/FastChat",
-        "active": true
+        "active": false
     },
     {
         "name": "vLLM",
@@ -29,6 +29,12 @@
         "link": "https://github.com/vllm-project/vllm",
         "active": true
     },
+    {
+      "name": "Chatbot Arena",
+      "description": "Benchmarking LLMs in the Wild with Elo Ratings",
+      "link": "https://arena.ai/",
+      "active": false
+  },
     {
         "name": "Vicuna",
         "description": "A series of popular open-source LLM chatbots available in 7B/13B/33B sizes",

@@ -34,8 +34,7 @@ function DisplayPublication() {
           return monthB - monthA; // Compare months if years are the same
         });
 
-  const buttonOrder = ["ML Systems", "Large Language Models", "Scalable ML", "ML Security", "Large-scale ML Applications",
-      "AutoML", "Healthcare"];
+  const buttonOrder = ["ML Systems", "Large Language Models", "Evals", "Diffusion Models", "Scalable ML", "Agents", "ML Security", "Large-scale ML Applications"];
 
   return (
     <div>

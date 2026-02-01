@@ -1,5 +1,29 @@
 [
     {
+      "name": "Yu-Yang Qian",
+      "url": "https://www.lamda.nju.edu.cn/qianyy/",
+      "category": "Visiting PhD",
+      "start": "09/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Rui Ge",
+      "url": "https://motigrez.github.io/",
+      "category": "Undergrad Intern",
+      "start": "08/2025",
+      "end": "present",
+      "placement": ""
+    },
+    {
+      "name": "Junli Wang",
+      "url": "https://junliwang.tech/",
+      "category": "PhD (w/ Prithviraj Ammanabrolu)",
+      "start": "01/2026",
+      "end": "present",
+      "placement": ""
+    },
+    {
       "name": "Susan Li",
       "url": "",
       "category": "Undergrad Intern",
@@ -33,7 +57,7 @@
     },
     {
       "name": "David Su",
-      "url": "",
+      "url": "https://davids048.github.io/",
       "category": "PhD",
       "start": "09/2025",
       "end": "present",
@@ -196,8 +220,8 @@
       "url": "https://www.linkedin.com/in/minghang-deng/",
       "category": "Master",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "01/2026",
+      "placement": "Ant Group"
     },
     {
       "name": "Ashwin Ramachandran",

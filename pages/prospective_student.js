@@ -25,7 +25,7 @@ export default function prospective_student() {
 
             <h2>Prospective postdocs</h2>
             <p>
-                I am seeking 1-2 postdocs in the 2024-2025 cycle. Applicants are expected to have a prior publication record in top-tier venues
+                I am seeking 1-2 postdocs in the 2025-2026 cycle. Applicants are expected to have a prior publication record in top-tier venues
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
@@ -49,16 +49,15 @@ export default function prospective_student() {
 
             <h2>Current or admitted UCSD undergrad/MS students</h2>
             <p>
-                I am happy to advise research projects in large-scale machine learning, distributed systems,
-                large language models, diffusion models, world models, ML applications, evaluations, or other related areas. I also welcome open-source enthusiasts
-                to join my group and contribute to ongoing open-source development. However, I only take students who
+                If you are a UCSD MS/undergrad student, the best way to work with me is to start with some open-source projects in my lab.
+                I only take students who:
             </p>
                 <ul className="list-bullet">
                     <li>
                         have a clear research objective and some initial ideas, and
                     </li>
                     <li>
-                        have relevant research or programming experiences in machine learning or systems, or strong math/ML background, and
+                        are interested and have experience in contributing to our open-source projects, and
                     </li>
                     <li>
                         can devote significant time (at least 20 hours per week) on the projects.

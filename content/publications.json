@@ -1,14 +1,98 @@
 [
     {
+        "title": "d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation",
+        "authors": "Yu-Yang Qian, Junda Su, Lanxiang Hu, Peiyuan Zhang, Zhijie Deng, Peng Zhao, Hao Zhang",
+        "venue": "Preprint 2026",
+        "pdf": "https://arxiv.org/pdf/2601.07568",
+        "code": "https://github.com/hao-ai-lab/d3LLM",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Diffusion Models",
+        "date": "01/2026"
+    },
+    {
+        "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+        "authors": "Lanxiang Hu, Siqi Kou, Yichao Fu, Samyam Rajbhandari, Tajana Rosing, Yuxiong He, Zhijie Deng, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2512.14681",
+        "code": "https://github.com/hao-ai-lab/JacobiForcing",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models, Diffusion Models",
+        "date": "12/2025"
+    },
+    {
+        "title": "Benchmarking Scientific Understanding and Reasoning for Video Generation using VideoScience-Bench",
+        "authors": "Lanxiang Hu, Abhilash Shankarampeta, Yixin Huang, Zilin Dai, Haoyang Yu, Yujie Zhao, Haoqiang Kang, Daniel Zhao, Tajana Rosing, Hao Zhang",
+        "venue": "Preprint 2025",
+        "pdf": "https://arxiv.org/pdf/2512.02942",
+        "code": "",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Diffusion Models, Evals",
+        "date": "10/2025"
+    },
+    {
+        "title": "Efficient Long-context Language Model Training by Core Attention Disaggregation",
+        "authors": "Yonghao Zhuang*, Junda Chen*, Bo Pang, Yi Gu, Yibo Zhu, Yimin Jiang, Ion Stoica, Eric Xing, Hao Zhang",
+        "venue": "MLSYS 2026",
+        "pdf": "https://arxiv.org/pdf/2510.18121",
+        "code": "https://github.com/hao-ai-lab/DistCA",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, ML Systems, Large Language Models",
+        "date": "10/2025"
+    },
+    {
+        "title": "Stronger Together: On-Policy Reinforcement Learning for Collaborative LLMs",
+        "authors": "Yujie Zhao, Lanxiang Hu, Yang Wang, Minmin Hou, Hao Zhang, Ke Ding, Jishen Zhao",
+        "venue": "ICLR 2026",
+        "pdf": "https://arxiv.org/pdf/2510.11062",
+        "code": "https://github.com/pettingllms-ai/PettingLLMs",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Large Language Models, Agents",
+        "date": "12/2025"
+    },
+    {
+        "title": "Deep Think with Confidence",
+        "authors": "Yichao Fu, Xuewei Wang, Hao Zhang, Yuandong Tian, Jiawei Zhao",
+        "venue": "ICLR 2026",
+        "pdf": "https://arxiv.org/pdf/2508.15260",
+        "code": "https://github.com/facebookresearch/deepconf",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Selected, Large Language Models",
+        "date": "09/2025"
+    },
+    {
+        "title": "TrimLLM: Progressive Layer Dropping for Domain-Specific LLMs",
+        "authors": "Lanxiang Hu, Tajana Rosing, Hao Zhang",
+        "venue": "ACL 2025",
+        "pdf": "https://aclanthology.org/2025.acl-long.33.pdf",
+        "code": "https://github.com/snyhlxde1/TrimLLM",
+        "presentation": "",
+        "award": "",
+        "project": "",
+        "tag": "Large Language Models",
+        "date": "08/2025"
+    },
+    {
         "title": "Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion Forcing",
         "authors": "Xu Wang, Chenkai Xu, Yijie Jin, Jiachun Jin, Hao Zhang, Zhijie Deng",
-        "venue": "Preprint 2025",
+        "venue": "ICLR 2026",
         "pdf": "https://arxiv.org/pdf/2508.09192",
         "code": "",
         "presentation": "",
         "award": "",
         "project": "https://github.com/zhijie-group/Discrete-Diffusion-Forcing",
-        "tag": "Selected, Large Language Models",
+        "tag": "Selected, Large Language Models, Diffusion Models",
         "date": "08/2025"
     },
     {
@@ -37,26 +121,26 @@
     },
     {
         "title": "VSA: Faster Video Diffusion with Trainable Sparse Attention",
-        "authors": "Peiyuan Zhang*, Yongqi Chen*, Haofeng Huang, Will Lin, Zhengzhong Liu, Ion Stoica, Eric P Xing, Hao Zhang",
+        "authors": "Peiyuan Zhang*, Yongqi Chen*, Haofeng Huang*, Will Lin, Zhengzhong Liu, Ion Stoica, Eric P Xing, Hao Zhang",
         "venue": "NeurIPS 2025",
         "pdf": "https://arxiv.org/pdf/2505.13389",
         "code": "",
         "presentation": "",
         "award": "",
         "project": "https://github.com/hao-ai-lab/FastVideo",
-        "tag": "Selected, ML Systems, Scalable ML",
+        "tag": "Selected, Diffusion Models",
         "date": "05/2025"
     },
     {
         "title": "LMGame-Bench: How Good are LLMs at Playing Games?",
         "authors": "Lanxiang Hu*, Mingjia Huo*, Yuxuan Zhang, Haoyang Yu, Eric P Xing, Ion Stoica, Tajana Rosing, Haojian Jin, Hao Zhang",
-        "venue": "Preprint 2025",
+        "venue": "ICLR 2026",
         "pdf": "https://arxiv.org/pdf/2505.15146?",
         "code": "",
         "presentation": "",
         "award": "",
         "project": "https://github.com/lmgame-org/GamingAgent/tree/main/lmgame-bench",
-        "tag": "Selected, Large Language Models",
+        "tag": "Selected, Large Language Models, Evals",
         "date": "05/2025"
     },
     {
@@ -92,7 +176,7 @@
         "presentation": "",
         "award": "",
         "project": "https://github.com/hao-ai-lab/FastVideo",
-        "tag": "Selected, ML Systems, Scalable ML",
+        "tag": "Selected, ML Systems, Diffusion Models",
         "date": "01/2025"
     },
    {
@@ -116,7 +200,7 @@
         "presentation": "",
         "award": "",
         "project": "https://github.com/hao-ai-lab/FastVideo",
-        "tag": "Selected, ML Systems, Scalable ML",
+        "tag": "Selected, ML Systems, Diffusion Models",
         "date": "01/2025"
     },
     {
@@ -152,7 +236,7 @@
         "presentation": "",
         "award": "",
         "project": "https://lmgame.org/#/blog/ai_space_escape",
-        "tag": "Selected, Large Language Models",
+        "tag": "Selected, Large Language Models, Evals",
         "date": "09/2024"
     },
     {
@@ -470,7 +554,7 @@
     {
         "title": "Neural Eigenfunctions Are Structured Representation Learners",
         "authors": "Zhijie Deng, Jiaxin Shi, Hao Zhang, Peng Cui, Cewu Lu, Jun Zhu",
-        "venue": "Preprint 2022",
+        "venue": "PAMI",
         "pdf": "https://arxiv.org/pdf/2210.12637",
         "code": "",
         "presentation": "",

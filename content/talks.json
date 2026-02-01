@@ -1,12 +1,34 @@
 [
-
+    {
+        "type": "Tutorial",
+        "venue": "Nvidia Research Radar Talk Series",
+        "date": "02/2026",
+        "link": ""
+    },    
+    {
+        "type": "Talk",
+        "venue": "Nvidia Dynamo Day",
+        "date": "01/2026",
+        "link": "https://www.nvidia.com/en-us/on-demand/session/other25-dynamoday09/?playlistId=playList-e42aee58-4db9-4ce4-8a6f-c41d8e272d72"
+    },
+    {
+        "type": "Talk",
+        "venue": "Workshop on Next Practices in Video Generation and Evaluation @ NeurIPS 2025 ",
+        "date": "12/2025",
+        "link": "https://neurips.cc/virtual/2025/loc/san-diego/131807"
+    },
+    {
+        "type": "Talk",
+        "venue": "The First Workshop on Efficient Reasoning @ NeurIPS 2025 ",
+        "date": "12/2025",
+        "link": "https://neurips.cc/virtual/2025/loc/san-diego/136403"
+    },
     {
         "type": "Talk",
         "venue": "MBZUAI IFM Launching Event",
         "date": "05/2025",
         "link": ""
     },
-
     {
         "type": "Talk",
         "venue": "Rugters Efficient AI Seminar",
