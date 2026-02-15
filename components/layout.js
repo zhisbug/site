@@ -27,6 +27,17 @@ function Layout({ children }) {
 
         <link rel="icon" href="https://datascience.ucsd.edu/wp-content/uploads/fbrfg/favicon-32x32.png" />
 
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4N7DTXEEJH" />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4N7DTXEEJH');
+          `
+        }} />
+
         {/* Structured Data for Google */}
         <script
           type="application/ld+json"
