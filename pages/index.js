@@ -53,12 +53,16 @@ export default function Home() {
                     Data Science Institute</a> and <a href="https://cse.ucsd.edu/" target="_blank">Department of
                     Computer Science and Engineering</a> (affiliate) at <a href="https://ucsd.edu/" target="_blank">UC
                     San Diego</a>.
-                    I lead the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD. I
-                    cofounded <a href="https://lmnet.ai/" target="_blank">LMNet.ai</a> (2023), and we have joined force
-                    with <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> since November 2023.
-                    During 2016 - 2021, I worked for the ML platform startup <a href="https://www.petuum.com/"
-                                                                                target="_blank">Petuum Inc</a>.
-                    Here is <Link href="/bio"> a short Bio.</Link>
+                    I lead the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD.
+                    I cofounded <a href="https://lmnet.ai/" target="_blank">LMNet.ai</a> (2023), acquired
+                    by <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a>,
+                    and the nonprofit <a href="https://lmsys.org/" target="_blank">LMSYS Org (2023)</a>.
+                    I am a <a href="https://sloan.org/fellowships/2026-Fellows" target="_blank">Sloan Research Fellow</a> (2026),
+                    nominated as <a href="https://www.innovatorsunder35.com/the-list/hao-zhang/" target="_blank">MIT TR35</a> (China) (2024),
+                    and a recipient of the <a href="https://research.google/programs-and-events/ml-and-systems-award-recipients/" target="_blank">Google ML and Systems Award</a> (2025) and <a href="https://www.usenix.org/conference/osdi21/presentation/qiao" target="_blank">OSDI Best Paper Award</a> (2021).
+                    My work on <a href="https://github.com/hao-ai-lab/FastVideo" target="_blank">FastVideo</a>, <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a>, and <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a> has
+                    reached millions of users.
+                    Here is <Link href="/bio"> an extended Bio.</Link>
                 </p>
                 <p>
                     <b>Prospective students and postdocs</b>: I am recruiting new PhD students and postdocs. We also

@@ -33,10 +33,11 @@ export default function Bio() {
                     <L href="https://poseidon-release.readthedocs.io/">Poseidon</L>, and{' '}
                     <L href="https://www.petuum.com/">Petuum</L>.
                     {' '}Hao{"'"}s research has been recognized with a{' '}
-                    <L href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ml-systems-junior-faculty-awards/">Google ML and Systems junior faculty award</L>,
+                    <L href="https://sloan.org/fellowships">Sloan Research Fellowship</L> (2026),
+                    {' '}a <L href="https://research.google/programs-and-events/ml-and-systems-award-recipients/">Google ML and Systems junior faculty award</L> (2025),
                     {' '}the <L href="https://www.usenix.org/conference/osdi21/presentation/qiao">Jay Lepreau Best Paper Award at OSDI{"'"}21</L>,
                     {' '}and an NVIDIA Pioneer Research Award at NeurIPS{"'"}17.
-                    {' '}Hao was nominated for <L href="https://www.innovatorsunder35.com/the-list/hao-zhang/">MIT TR35</L> (China) 2025.
+                    {' '}Hao was nominated for <L href="https://www.innovatorsunder35.com/the-list/hao-zhang/">MIT TR35</L> (China) 2024.
                     {' '}Hao also cofounded the company LMNet.ai (2023)
                     {' '}which was acquired by <L href="https://www.snowflake.com/">Snowflake</L>,
                     {' '}and the nonprofit <L href="https://lmsys.org/">LMSYS Org</L> (2023) which maintains many popular open models, evaluation, and systems.
