@@ -55,7 +55,7 @@ export default function Home() {
                     San Diego</a>.
                     I lead the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD.
                     I am a <a href="https://sloan.org/fellowships/2026-Fellows" target="_blank">Sloan Research Fellow</a> (2026),
-                    nominated as <a href="https://www.innovatorsunder35.com/the-list/hao-zhang/" target="_blank">MIT TR35</a> (China) (2024),
+                    nominated as <a href="https://www.innovatorsunder35.com/the-list/hao-zhang/" target="_blank">MIT TR35</a> (China) (2025),
                     and a recipient of the <a href="https://research.google/programs-and-events/ml-and-systems-award-recipients/" target="_blank">Google ML and Systems Award</a> (2025) and <a href="https://www.usenix.org/conference/osdi21/presentation/qiao" target="_blank">OSDI Best Paper Award</a> (2021).
                     My work on <a href="https://github.com/hao-ai-lab/FastVideo" target="_blank">FastVideo</a>, <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a>, <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>, and <a href="https://arena.ai/" target="_blank">LMArena</a> has
                     reached millions of users. I cofounded LMNet.ai, acquired by <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> (2023),
