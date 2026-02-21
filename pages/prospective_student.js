@@ -10,7 +10,7 @@ export default function prospective_student() {
             <p>Thank you for your interest in my research and my group at UC San Diego.
                 I am actively looking for self-motivated students and postdocs.
             I normally recruit 2-3 new PhD students every admission cycle. I actively take MS and undergrad research interns (UCSD or external) with
-                strong or relevant research background throughout the academic year.
+                strong motivation, commitment, and building ability.
             </p>
 
             <p>
@@ -41,7 +41,7 @@ export default function prospective_student() {
                     <li>Please express your interest in working with me in your personal statement.</li>
                 </ul>
                 <p>
-                    I am happy to receive emails from prospective PhD students, but I am unable to respond to them all due to the high volume.
+                    I am happy to receive emails, but I am unable to respond to them all due to the high volume.
                     It's better to <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> than dropping me an email,
                     so I can get to know you better and see if we are a good match. Thank you!
                 </p>
@@ -49,22 +49,15 @@ export default function prospective_student() {
 
             <h2>Current or admitted UCSD undergrad/MS students</h2>
             <p>
-                If you are a UCSD MS/undergrad student, the best way to work with me is to start with some open-source projects in my lab.
-                I only take students who:
-            </p>
-                <ul className="list-bullet">
-                    <li>
-                        have a clear research objective and some initial ideas, and
-                    </li>
-                    <li>
-                        are interested and have experience in contributing to our open-source projects, and
-                    </li>
-                    <li>
-                        can devote significant time (at least 20 hours per week) on the projects.
-                    </li>
-                </ul>
+                The best way to work with my lab is to <b>*start now*</b>: pick up issues and tickets in our lab{"'"}s open-source projects and engage with the community.
+                For example, join the <a href="https://fastvideo.slack.com/join/shared_invite/zt-3f4lao1uq-u~Ipx6Lt4J27AlD2y~IdLQ#/shared-invite/email" target="_blank">FastVideo</a> Slack and talk with core contributors, find tickets, submit pull requests, and join the weekly community meeting.
+            </p>    
             <p>
-                If you think you are a good match, please get in touch with me by <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*filling out this form*</b></a> and sending me an email *highlighting your project and commitment plan*.
+                This is also a great way for you to explore whether this type of work excites you, and for us to get to know each other.
+                Active contributors who make meaningful contributions will naturally stand out, and we will reach out.
+            </p>
+            <p>
+                If you think this is something you are interested, you can also <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> — <b>no need to send me an email or come to my office</b>. I review submissions on a biweekly basis.
             </p>
 
 

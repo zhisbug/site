@@ -7,9 +7,9 @@ const L = ({ href, children }) => (
 export default function Bio() {
     return (
         <Layout>
-            <div className="mt-8 max-w-3xl mx-auto">
-                <h1 className="mb-4">Bio</h1>
-                <p className="text-lg leading-relaxed">
+            <div className="mt-4 text-lg sm:text-xl space-y-2">
+                <h1>Bio</h1>
+                <p>
                     Hao Zhang is an Assistant Professor in{' '}
                     <L href="https://datascience.ucsd.edu/">Halıcıoğlu Data Science Institute</L> and the{' '}
                     <L href="https://cse.ucsd.edu/">Department of Computer Science and Engineering</L> at{' '}
