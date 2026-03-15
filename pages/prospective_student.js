@@ -49,7 +49,7 @@ export default function prospective_student() {
 
             <h2>Current or admitted UCSD undergrad/MS students</h2>
             <p>
-                The best way to work with my lab is to <b>*start now*</b>: pick up issues and tickets in our lab{"'"}s open-source projects and engage with the community.
+                The best way to work with my lab is to <b>*START NOW*</b>: pick up issues and tickets in our lab{"'"}s open-source projects and engage with the community.
                 For example, join the <a href="https://fastvideo.slack.com/join/shared_invite/zt-3f4lao1uq-u~Ipx6Lt4J27AlD2y~IdLQ#/shared-invite/email" target="_blank">FastVideo</a> Slack and talk with core contributors, find tickets, submit pull requests, and join the weekly community meeting.
             </p>    
             <p>
@@ -57,7 +57,7 @@ export default function prospective_student() {
                 Active contributors who make meaningful contributions will naturally stand out, and we will reach out.
             </p>
             <p>
-                If you think this is something you are interested, you can also <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> — <b>no need to send me an email or come to my office</b>. I review submissions on a biweekly basis.
+                If you think this is something you are interested, instead of sending inquiry emails, just <b>*START NOW*</b>! If you are able to make meaningful contributions or you have an idea of how to meaningfully contribute, you can also <a href="https://forms.cloud.microsoft/r/RYpEJHqJgs" target="_blank"><b>*fill out this form*</b></a> — <b>no need to send me an email or come to my office</b>. I review submissions on a biweekly basis.
             </p>
 
 
