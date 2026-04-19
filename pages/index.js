@@ -19,7 +19,7 @@ export default function Home() {
                     src="/hao-2026-2.jpg"
                     alt="Hao Zhang"
                     className="w-64 h-64 md:w-[20.5rem] md:h-72 object-cover rounded-sm"
-                    style={{ objectPosition: '64% 18%' }}
+                    style={{ objectPosition: '74% 18%' }}
                 />
             </div>
             <div className="leading-snug sm:ml-12 lg:ml-24">
