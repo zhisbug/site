@@ -15,7 +15,12 @@ export default function Home() {
         <Layout>
         <div className="max-w-6xl mx-auto px-2 sm:px-4 mt-4 flex flex-col sm:flex-row justify-center items-center">
             <div className="mb-6 sm:mb-6 sm:mr-12 lg:mr-24">
-                <img src="/hao-2022.png" alt="Hao Zhang" className="w-64 md:w-72"/>
+                <img
+                    src="/hao-2026.jpeg"
+                    alt="Hao Zhang"
+                    className="w-64 h-64 md:w-72 md:h-72 object-cover rounded-sm"
+                    style={{ objectPosition: '44% 18%' }}
+                />
             </div>
             <div className="leading-snug sm:ml-12 lg:ml-24">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-4">Hao Zhang</h1>
@@ -58,9 +63,7 @@ export default function Home() {
                     nominated as <a href="https://www.innovatorsunder35.com/the-list/hao-zhang/" target="_blank">MIT TR35</a> (China) (2025),
                     and a recipient of the <a href="https://research.google/programs-and-events/ml-and-systems-award-recipients/" target="_blank">Google ML and Systems Award</a> (2025) and <a href="https://www.usenix.org/conference/osdi21/presentation/qiao" target="_blank">OSDI Best Paper Award</a> (2021).
                     My work on <a href="https://github.com/hao-ai-lab/FastVideo" target="_blank">FastVideo</a>, <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a>, <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>, and <a href="https://arena.ai/" target="_blank">LMArena</a> has
-                    reached millions of users. I cofounded LMNet.ai, acquired by <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> (2023),
-                    and the nonprofit <a href="https://lmsys.org/" target="_blank">LMSYS Org (2023)</a>.
-                    Here is <Link href="/bio"> an extended Bio.</Link>
+                    reached millions of users. Here is <Link href="/bio"> an extended Bio.</Link>
                 </p>
                 <p>
                     <b>Prospective students and postdocs</b>: I am recruiting new PhD students and postdocs. We also
@@ -193,6 +196,14 @@ function Talks() {
 }
 
 function Students() {
+    const getYear = (dateString) => {
+      if (!dateString || dateString.toLowerCase() === 'present') {
+        return "";
+      }
+      const parts = dateString.split('/');
+      return parts[1] || "";
+    };
+
     const sortByLastName = (a, b) => {
       const lastNameA = a.name.split(' ').pop().toLowerCase();
       const lastNameB = b.name.split(' ').pop().toLowerCase();
@@ -255,7 +266,7 @@ function Students() {
                             `${student.name}`
                         )}, {student.category}{" "}
                         {student.rotation && " (Rotation)"}
-                         ({student.start.split('/')[1]}) {"->"} {student.placement}
+                         ({getYear(student.start)}) {"->"} {student.placement}{student.placement && getYear(student.end) ? ` (${getYear(student.end)})` : ""}
                     </li>
                 ))}
             </ul>

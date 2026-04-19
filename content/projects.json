@@ -1,5 +1,11 @@
 [
     {
+      "name": "Dreamverse",
+      "description": "Vibe-directing 1080p/30s videos in real time",
+      "link": "https://dreamverse.fastvideo.org/",
+      "active": true
+  },
+    {
         "name": "FastVideo",
         "description": "A lightweight framework for accelerating large video diffusion models",
         "link": "https://github.com/hao-ai-lab/FastVideo",

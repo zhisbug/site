@@ -1,4 +1,78 @@
 [
+
+    {
+      "name": "Yixin Huang",
+      "url": "https://github.com/yixin-huang1",
+      "category": "Master Intern",
+      "start": "09/2025",
+      "end": "present",
+      "placement": ""
+    },
+
+    {
+      "name": "Shao Duan",
+      "url": "https://github.com/shaoxiongduan",
+      "category": "Undergrad Intern",
+      "start": "01/2026",
+      "end": "present",
+      "placement": ""
+    },
+
+
+    {
+      "name": "Zihang Min",
+      "url": "https://github.com/minzh23",
+      "category": "Undergrad Intern",
+      "start": "03/2026",
+      "end": "present",
+      "placement": ""
+    },
+
+    {
+      "name": "Loay Rashid",
+      "url": "https://github.com/loaydatrain",
+      "category": "Master Intern",
+      "start": "01/2026",
+      "end": "present",
+      "placement": ""
+    },
+
+    {
+      "name": "Kaiqin Kong",
+      "url": "https://github.com/H1yori233",
+      "category": "Master Intern",
+      "start": "01/2026",
+      "end": "present",
+      "placement": ""
+    },
+
+
+    {
+      "name": "Alex Zhang",
+      "url": "https://github.com/alexzms",
+      "category": "Master Intern",
+      "start": "01/2026",
+      "end": "present",
+      "placement": ""
+    },
+
+    {
+      "name": "Jinzhe Pan",
+      "url": "https://github.com/Eigensystem",
+      "category": "Undergrad Intern",
+      "start": "07/2025",
+      "end": "present",
+      "placement": ""
+    },
+
+    {
+      "name": "Wenxuan Tan",
+      "url": "https://github.com/Edenzzzz",
+      "category": "Undergrad Intern",
+      "start": "08/2025",
+      "end": "03/2026",
+      "placement": "Bytedance"
+    },
     {
       "name": "Yu-Yang Qian",
       "url": "https://www.lamda.nju.edu.cn/qianyy/",
@@ -12,8 +86,8 @@
       "url": "https://motigrez.github.io/",
       "category": "Undergrad Intern",
       "start": "08/2025",
-      "end": "present",
-      "placement": ""
+      "end": "01/2026",
+      "placement": "UT Austin"
     },
     {
       "name": "Junli Wang",
@@ -28,8 +102,8 @@
       "url": "",
       "category": "Undergrad Intern",
       "start": "04/2025",
-      "end": "present",
-      "placement": ""
+      "end": "01/2026",
+      "placement": "NUS"
     },
     {
       "name": "Yiming Zhao",
@@ -44,16 +118,16 @@
       "url": "https://www.linkedin.com/in/notomatthew/",
       "category": "Undergrad Intern",
       "start": "07/2025",
-      "end": "present",
-      "placement": ""
+      "end": "04/2026",
+      "placement": "xAI"
     },
     {
       "name": "Abhilash Shankarampeta",
       "url": "https://www.linkedin.com/in/abhilashreddys/",
       "category": "Master",
       "start": "02/2025",
-      "end": "present",
-      "placement": ""
+      "end": "02/2026",
+      "placement": "Cisco"
     },
     {
       "name": "David Su",
@@ -76,8 +150,8 @@
       "url": "https://www.linkedin.com/in/wei-zhou3/",
       "category": "Master",
       "start": "02/2025",
-      "end": "present",
-      "placement": ""
+      "end": "05/2026",
+      "placement": "Luma AI"
     },
     {
       "name": "Lanxiang Hu",
@@ -178,18 +252,18 @@
     {
       "name": "Peiyuan Zhang",
       "url": "https://veiled-texture-20c.notion.site/Peiyuan-Zhang-ab24b48621c9491db767a76df860873a",
-      "category": "PhD",
+      "category": "PhD (Master out)",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "01/2026",
+      "placement": "Bytedance"
     },
     {
       "name": "Haoyang Yu",
       "url": "https://www.linkedin.com/in/haoyang-yu-8b1997257/",
       "category": "Undergrad Intern",
       "start": "09/2024",
-      "end": "present",
-      "placement": ""
+      "end": "01/2026",
+      "placement": "Harvard University"
     },
     {
       "name": "Yuxuan Zhang",

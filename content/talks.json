@@ -1,4 +1,11 @@
 [
+
+    {
+        "type": "Talk",
+        "venue": "Cerebras",
+        "date": "03/2026",
+        "link": ""
+    },    
     {
         "type": "Tutorial",
         "venue": "Nvidia Research Radar Talk Series",
