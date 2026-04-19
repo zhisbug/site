@@ -16,10 +16,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-2 sm:px-4 mt-4 flex flex-col sm:flex-row justify-center items-center">
             <div className="mb-6 sm:mb-6 sm:mr-12 lg:mr-24">
                 <img
-                    src="/hao-2026.jpeg"
+                    src="/hao-2026-2.jpg"
                     alt="Hao Zhang"
-                    className="w-64 h-64 md:w-72 md:h-72 object-cover rounded-sm"
-                    style={{ objectPosition: '44% 18%' }}
+                    className="w-64 h-64 md:w-[20.5rem] md:h-72 object-cover rounded-sm"
+                    style={{ objectPosition: '54% 18%' }}
                 />
             </div>
             <div className="leading-snug sm:ml-12 lg:ml-24">
