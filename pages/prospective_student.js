@@ -51,10 +51,10 @@ export default function prospective_student() {
             </p>    
             <p>
                 This is the main way I evaluate potential student researchers. In this area, your work speaks for itself.
-                Students who make strong, visible contributions will naturally stand out, and we will reach out.
+                Students who show strong building ability through meaningful projects or visible open-source contributions will naturally stand out, and we will reach out.
             </p>
             <p>
-                If you are interested in working with my lab, please <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a> after you have started contributing or if you already have a concrete idea for how you can contribute. <b>There is no need to send me an email or come to my office.</b> I do not review interest emails as part of the selection process, and I am usually not able to take students without relevant experience or demonstrated building ability.
+                If you are interested in working with my lab, please <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a> if you have demonstrated building ability, for example through your own projects or meaningful contributions to open-source projects, including but not limited to our lab{"'"}s projects. <b>There is no need to send me an email or come to my office.</b> I do not review interest emails as part of the selection process.
             </p>
 
 
