@@ -9,23 +9,21 @@ export default function prospective_student() {
             <h1>Prospective Students</h1>
             <p>Thank you for your interest in my research and my group at UC San Diego.
                 I am actively looking for self-motivated students and postdocs.
-            I normally recruit 2-3 new PhD students every admission cycle. I actively take MS and undergrad research interns (UCSD or external) with
-                strong motivation, commitment, and building ability.
+            I normally recruit 2-3 new PhD students every admission cycle.
             </p>
 
             <p>
-                👉If you are interested in joining my group, I'd recommend that you first <a
+                👉If you are interested in joining my group, please first <a
                     href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a>.
             </p>
             <p>
-                Please read the following instructions on how to apply to the related PhD programs at UCSD and how to
-                get in touch with me.
+                <span className="font-semibold text-red-700">There is no need to send me an email to inquire about your application.</span> Please read the following instructions on how to apply to the related PhD programs at UCSD.
             </p>
 
 
             <h2>Prospective postdocs</h2>
             <p>
-                I am seeking 1-2 postdocs in the 2025-2026 cycle. Applicants are expected to have a prior publication record in top-tier venues
+                I am actively seeking for 1 postdoc. Applicants are expected to have a prior publication record in top-tier venues
                 in machine learning (NeurIPS, ICML, ICLR, etc.) or systems (OSDI, SOSP, NSDI, ATC, MLSys, etc.), or have
                 strong engineering experiences in developing machine learning system software.
                 If you are interested in working with me, please <a
@@ -41,23 +39,22 @@ export default function prospective_student() {
                     <li>Please express your interest in working with me in your personal statement.</li>
                 </ul>
                 <p>
-                    I am happy to receive emails, but I am unable to respond to them all due to the high volume.
-                    It's better to <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a> than dropping me an email,
-                    so I can get to know you better and see if we are a good match. Thank you!
+                    There is no need to send me an email. Just <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a>,
+                    and I will note your interest and make sure you submit your application through UCSD admissions.
                 </p>
 
 
             <h2>Current or admitted UCSD undergrad/MS students</h2>
             <p>
-                The best way to work with my lab is to <b>*START NOW*</b>: pick up issues and tickets in our lab{"'"}s open-source projects and engage with the community.
-                For example, join the <a href="https://fastvideo.slack.com/join/shared_invite/zt-3f4lao1uq-u~Ipx6Lt4J27AlD2y~IdLQ#/shared-invite/email" target="_blank">FastVideo</a> Slack and talk with core contributors, find tickets, submit pull requests, and join the weekly community meeting.
+                The best way to work with my lab is to <b>*START NOW*</b>: contribute to our open-source projects and engage with the community.
+                For example, join the <a href="https://fastvideo.slack.com/join/shared_invite/zt-3f4lao1uq-u~Ipx6Lt4J27AlD2y~IdLQ#/shared-invite/email" target="_blank">FastVideo</a> Slack, find tickets, submit pull requests, and join the weekly community meeting.
             </p>    
             <p>
-                This is also a great way for you to explore whether this type of work excites you, and for us to get to know each other.
-                Active contributors who make meaningful contributions will naturally stand out, and we will reach out.
+                This is the main way I evaluate potential student researchers. In this area, your work speaks for itself.
+                Students who make strong, visible contributions will naturally stand out, and we will reach out.
             </p>
             <p>
-                If you think this is something you are interested, just <b>*START NOW*</b>! If you are able to make meaningful contributions or you have an idea of how to meaningfully contribute, you can also <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a> — <b> there is no need to send me an email or come to my office</b>. We review submissions on a biweekly basis.
+                If you are interested in working with my lab, please <a href="https://forms.gle/aFR5wguTJTM5WE9BA" target="_blank"><b>*fill out this form*</b></a> after you have started contributing or if you already have a concrete idea for how you can contribute. <b>There is no need to send me an email or come to my office.</b> I do not review interest emails as part of the selection process, and I am usually not able to take students without relevant experience or demonstrated building ability.
             </p>
 
 

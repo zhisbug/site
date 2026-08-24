@@ -67,7 +67,7 @@ export default function Home() {
                 </p>
                 <p>
                     <b>Prospective students and postdocs</b>: I am recruiting new PhD students and postdocs. We also
-                    have openings for MS/undergrad research interns.
+                    have openings for research interns.
                     Please check out <Link href="/prospective_student">this page to see how to get involved</Link>.
                 </p>
             </div>
