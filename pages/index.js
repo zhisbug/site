@@ -69,7 +69,9 @@ export default function Home() {
                 </p>
                 <p>
                     <b>Prospective students and postdocs</b>:{' '}
-                    I am taking academic leave for the 2026–2027 academic year and will not be teaching any courses during this time.
+                    <mark className="box-decoration-clone rounded-sm bg-yellow-100 px-1 text-inherit">
+                        I am taking academic leave for the 2026–2027 academic year and will not be teaching any courses during this time.
+                    </mark>{' '}
                     I am still recruiting strong PhD students, postdocs, and research interns.
                     There is no need to send me a separate email; please check the{' '}
                     <Link href="/prospective_student" className="underline">prospective students page</Link> for how to get involved.
