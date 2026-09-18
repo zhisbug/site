@@ -20,21 +20,13 @@
 
 
     {
-      "name": "Zihang Min",
-      "url": "https://github.com/minzh23",
-      "category": "Undergrad Intern",
-      "start": "03/2026",
-      "end": "present",
-      "placement": ""
-    },
-
-    {
       "name": "Loay Rashid",
       "url": "https://github.com/loaydatrain",
       "category": "Master Intern",
       "start": "01/2026",
-      "end": "present",
-      "placement": ""
+      "end": "",
+      "status": "former",
+      "placement": "Qualcomm"
     },
 
     {
@@ -57,15 +49,6 @@
     },
 
     {
-      "name": "Jinzhe Pan",
-      "url": "https://github.com/Eigensystem",
-      "category": "Undergrad Intern",
-      "start": "07/2025",
-      "end": "present",
-      "placement": ""
-    },
-
-    {
       "name": "Wenxuan Tan",
       "url": "https://github.com/Edenzzzz",
       "category": "Undergrad Intern",
@@ -78,7 +61,8 @@
       "url": "https://www.lamda.nju.edu.cn/qianyy/",
       "category": "Visiting PhD",
       "start": "09/2025",
-      "end": "present",
+      "end": "",
+      "status": "former",
       "placement": ""
     },
     {
@@ -92,10 +76,11 @@
     {
       "name": "Junli Wang",
       "url": "https://junliwang.tech/",
-      "category": "PhD (w/ Prithviraj Ammanabrolu)",
+      "category": "PhD (dropout)",
       "start": "01/2026",
-      "end": "present",
-      "placement": ""
+      "end": "",
+      "status": "former",
+      "placement": "Meta Superintelligence Lab"
     },
     {
       "name": "Susan Li",
@@ -110,8 +95,9 @@
       "url": "https://www.linkedin.com/in/yiming-zhao-zym2002/",
       "category": "Master",
       "start": "07/2025",
-      "end": "present",
-      "placement": ""
+      "end": "",
+      "status": "former",
+      "placement": "NVIDIA"
     },
     {
       "name": "Matthew Noto",
@@ -268,7 +254,7 @@
     {
       "name": "Yuxuan Zhang",
       "url": "https://www.linkedin.com/in/yuxuan-zhang-dexter/",
-      "category": "Master",
+      "category": "PhD",
       "start": "07/2024",
       "end": "present",
       "placement": ""
@@ -314,5 +300,3 @@
       "placement": "MBZUAI IFM Lab"
     }
 ]
-
-

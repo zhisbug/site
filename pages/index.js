@@ -61,14 +61,20 @@ export default function Home() {
                     I lead the <a href="https://hao-ai-lab.github.io/home/" target="_blank">Hao AI Lab</a> at UCSD.
                     I am a <a href="https://sloan.org/fellowships/2026-Fellows" target="_blank">Sloan Research Fellow</a> (2026),
                     nominated as <a href="https://www.innovatorsunder35.com/the-list/hao-zhang/" target="_blank">MIT TR35</a> (China) (2025),
-                    and a recipient of the <a href="https://research.google/programs-and-events/ml-and-systems-award-recipients/" target="_blank">Google ML and Systems Award</a> (2025) and <a href="https://www.usenix.org/conference/osdi21/presentation/qiao" target="_blank">OSDI Best Paper Award</a> (2021).
+                    and a recipient of the NSF CAREER Award (2026),{' '}
+                    <a href="https://www.eurosys.org/awards/test-of-time-award" target="_blank" rel="noopener noreferrer">EuroSys Test-of-Time Award</a> (2026),{' '}
+                    <a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ml-systems-junior-faculty-awards/" target="_blank" rel="noopener noreferrer">Google ML and Systems Award</a> (2025), and <a href="https://www.usenix.org/conference/osdi21/presentation/qiao" target="_blank">OSDI Best Paper Award</a> (2021).
                     My work on <a href="https://github.com/hao-ai-lab/FastVideo" target="_blank">FastVideo</a>, <a href="https://github.com/LLMServe/DistServe" target="_blank">DistServe</a>, <a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>, and <a href="https://arena.ai/" target="_blank">LMArena</a> has
                     reached millions of users. Here is <Link href="/bio"> an extended Bio.</Link>
                 </p>
                 <p>
-                    <b>Prospective students and postdocs</b>: I am recruiting new PhD students and postdocs. We also
-                    have openings for research interns.
-                    Please check out <Link href="/prospective_student">this page to see how to get involved</Link>.
+                    <b>Prospective students and postdocs</b>:{' '}
+                    <span className="text-red-700">
+                        I am taking academic leave for the 2026–2027 academic year and will not be teaching any courses during this time.
+                        I am still recruiting strong PhD students, postdocs, and research interns.
+                        There is no need to send me a separate email; please check the{' '}
+                        <Link href="/prospective_student" className="text-red-700 underline">prospective students page</Link> for how to get involved.
+                    </span>
                 </p>
             </div>
 
@@ -153,7 +159,7 @@ function Experience() {
             <ul className="list-no-bullet">
             {experiences.map((experience) => (
                 <li key={experience.job}>
-                    {experience.job}, {experience.institute}, {experience.start} - {experience.end}
+                    {experience.job}, {experience.institute}, {experience.start}{experience.end && ` - ${experience.end}`}
                 </li>
             ))}
             </ul>
@@ -210,6 +216,10 @@ function Students() {
       return lastNameA < lastNameB ? -1 : lastNameA > lastNameB ? 1 : 0;
     };
     const sortByEndDate = (a, b) => {
+      // Departures without a supplied date appear first, without inventing a date.
+      if (!a.end && !b.end) return sortByLastName(a, b);
+      if (!a.end) return -1;
+      if (!b.end) return 1;
       const endDateA = new Date(a.end.split('/').reverse().join('-'));
       const endDateB = new Date(b.end.split('/').reverse().join('-'));
       return endDateB - endDateA; // Sort in descending order (latest first)
@@ -224,6 +234,7 @@ function Students() {
     today.setHours(0, 0, 0, 0);
     // Filtering former students
     const former_students = students.filter(student => {
+      if (student.status === 'former') return true;
       if (student.end.toLowerCase() === 'present') {
         return false; // Exclude students who are currently active
       }
@@ -266,7 +277,8 @@ function Students() {
                             `${student.name}`
                         )}, {student.category}{" "}
                         {student.rotation && " (Rotation)"}
-                         ({getYear(student.start)}) {"->"} {student.placement}{student.placement && getYear(student.end) ? ` (${getYear(student.end)})` : ""}
+                         ({getYear(student.start)})
+                         {student.placement && <> {"->"} {student.placement}{getYear(student.end) ? ` (${getYear(student.end)})` : ""}</>}
                     </li>
                 ))}
             </ul>

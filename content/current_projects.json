@@ -2,7 +2,12 @@
   {
     "category": "LLM inference and serving systems",
     "projects": [
-
+      {
+        "name": "FastAFD",
+        "project_url": "https://github.com/hao-ai-lab/FastAFD",
+        "papers": [],
+        "visible": true
+      },
       {
         "name": "DeepConf",
         "project_url": "https://github.com/facebookresearch/deepconf",
@@ -24,7 +29,7 @@
             "venue": "NeurIPS'25"
           }
         ],
-        "visible": true
+        "visible": false
       },
       {
         "name": "LLM-LTR",
@@ -64,7 +69,17 @@
   {
     "category": "Efficient ML architectures/algorithms",
     "projects": [
-
+      {
+        "name": "JetSpec",
+        "project_url": "https://github.com/hao-ai-lab/JetSpec",
+        "papers": [
+          {
+            "paper_url": "https://arxiv.org/abs/2606.18394",
+            "venue": "Preprint'26"
+          }
+        ],
+        "visible": true
+      },
       {
         "name": "d3LLM",
         "project_url": "https://github.com/hao-ai-lab/d3LLM",
@@ -86,7 +101,7 @@
             "venue": "Preprint'25"
           }
         ],
-        "visible": true
+        "visible": false
       },
 
 

@@ -28,7 +28,9 @@ export default function Bio() {
                     <L href="https://poseidon-release.readthedocs.io/">Poseidon</L>, and{' '}
                     <L href="https://www.petuum.com/">Petuum</L>. His research has been recognized with a{' '}
                     <L href="https://sloan.org/fellowships">Sloan Research Fellowship</L> (2026),
-                    {' '}a <L href="https://research.google/programs-and-events/ml-and-systems-award-recipients/">Google ML and Systems junior faculty award</L> (2025),
+                    {' '}an NSF CAREER Award (2026),
+                    {' '}the <L href="https://www.eurosys.org/awards/test-of-time-award">EuroSys Test-of-Time Award</L> (2026),
+                    {' '}a <L href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ml-systems-junior-faculty-awards/">Google ML and Systems junior faculty award</L> (2025),
                     {' '}the <L href="https://www.usenix.org/conference/osdi21/presentation/qiao">Jay Lepreau Best Paper Award at OSDI{"'"}21</L>,
                     {' '}and an NVIDIA Pioneer Research Award at NeurIPS{"'"}17. He was nominated for{' '}
                     <L href="https://www.innovatorsunder35.com/the-list/hao-zhang/">MIT TR35</L> (China) in 2024. He joined{' '}
